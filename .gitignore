@@ -2,7 +2,41 @@
 .index
 tmp/*
 todo/*
+
+text/markdown-guide/_site/
+text/markdown-guide/.sass-cache/
+text/markdown-guide/.bundle/
+text/markdown-guide/.git-metadata/
+text/markdown-guide/.jekyll-cache/
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # vim files
 .*.sw[a-z]
