@@ -100,15 +100,15 @@ docker run --rm -it --log-driver loki --log-opt loki-url="https://x:x@loki.domai
 
 ## LogCLI
 
-View the [logcli](logcli/logcli.md) cheatsheet to use the terminal to view your logs
+View the [logcli](logcli.md) cheatsheet to use the terminal to view your logs
 
 ## LogQL
 
-[LogQL](logql/logql.md)
+[LogQL](logql.md)
 
 ## Promtail
 
-[Promtail](promtail/promtail.md)
+[Promtail](promtail.md)
 
 ## Nginx reverse proxy
 
