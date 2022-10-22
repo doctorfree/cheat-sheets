@@ -77,4 +77,3 @@ Logseq provides a very promising feature set: back links, note graphs (inspired 
 
 ![Logseq application](../assets/images/tools/logseq.png)
 
-{% include tool-syntax-table.html %}

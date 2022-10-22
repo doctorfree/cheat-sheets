@@ -72,4 +72,3 @@ Like so many projects, GitBook started as an open source toolchain with a commer
 
 The advantage of GitBook over a tool like [Docusaurus](docusaurus.md) is that GitBook takes care of building and hosting the site, and the WYSIWYG controls are intuitive enough to be used by Markdown novices. On the GitBook website, the live editor hides the Markdown formatting syntax after you type it. The editor is a bit flaky, but weird little bugs aside, the website generally works for both Markdown experts and people who don't have any experience with Markdown. You can also simply copy and paste Markdown-formatted text into the GitBook interface.
 
-{% include tool-syntax-table.html %}

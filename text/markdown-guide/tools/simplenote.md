@@ -83,8 +83,6 @@ To enable Markdown support in Simplenote, create a note, click the Info icon, an
 
 The currently selected note and any new notes you create in the future will have this setting enabled automatically.
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Simplenote provides support for several obscure elements.

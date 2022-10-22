@@ -78,8 +78,6 @@ One of the biggest benefits of Supernotes is the community. The  co-founders are
 
 ![Supernotes Markdown application](../assets/images/tools/supernotes.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Supernotes provides support for several obscure elements.

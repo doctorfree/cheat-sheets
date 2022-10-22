@@ -83,8 +83,6 @@ kramdown:
   toc_levels:     1..3
 ```
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Jekyll provides support for several obscure elements.

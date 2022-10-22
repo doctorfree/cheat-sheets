@@ -73,4 +73,3 @@ NotesHub is a progressive web application you can use on any device. You can ins
 
 ![NotesHub](../assets/images/tools/noteshub.png)
 
-{% include tool-syntax-table.html %}

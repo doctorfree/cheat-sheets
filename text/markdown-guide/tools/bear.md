@@ -90,8 +90,6 @@ To enable Markdown support in Bear, open the Preferences window. On the **Genera
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If you're using Bear on more than one device, you'll need to enable the Markdown compatibility mode setting on all of your devices.
 </div>
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Bear provides support for several obscure elements.

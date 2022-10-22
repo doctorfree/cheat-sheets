@@ -74,8 +74,6 @@ see-also:
 
 ![Example of Discord Markdown](../assets/images/tools/Discord.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Discord provides support for several obscure elements.

@@ -72,5 +72,3 @@ see-also:
 Trello has excellent support for basic Markdown syntax. You can use Markdown in the card descriptions, checklists, and comments. You can also use Markdown for your Trello bio. Not all formatting is properly displayed when viewed in the iOS and Andriod applications.
 
 ![Trello board with Markdown](../assets/images/tools/trello.jpeg)
-
-{% include tool-syntax-table.html %}

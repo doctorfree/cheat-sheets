@@ -76,8 +76,6 @@ StackEdit's Markdown support is excellent. Features include the ability to sync 
 
 StackEdit is limited by a lack of documentation. Users are left to discover and toy around with many of the application's features on their own. That's a shame, because the undocumented features are essentially unusable by all but the most advanced users. For example, you can create your own templates for exported files, but there's no information about what templating language is used, and no guidance on how to create your own templates. There is a [community support forum](https://community.stackedit.io/), but users shouldn't have to read through questions and answers to figure out how to do something simple.
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, StackEdit provides support for several obscure elements.

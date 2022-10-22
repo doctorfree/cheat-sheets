@@ -81,8 +81,6 @@ By default, Reddit disables Markdown support for new posts and comments. You can
 
 To permanently save this setting, you can enable the **Default to Markdown** setting in **User Settings** > **Feed Settings**. Enabling that setting will automatically enable Markdown for new posts or comments.
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Reddit provides support for several obscure elements.

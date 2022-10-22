@@ -84,8 +84,6 @@ See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference
 
 ![Typora editor interface](../assets/images/tools/typora-editor.png)
 
-{% include tool-syntax-table.html %}
-
 ### Themes
 
 Typora [provides a variety of themes](https://theme.typora.io/) for when you export your documents. If you know CSS, you can customize these themes. Open the Preferences window and see the settings under **Appearance** > **Themes**.

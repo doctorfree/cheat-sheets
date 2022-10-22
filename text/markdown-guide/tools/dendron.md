@@ -77,8 +77,6 @@ Dendron is clearly intended for a developer audience. The tool requires prerequi
 
 ![Dendron Markdown application](../assets/images/tools/dendron.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Dendron provides support for several obscure elements.

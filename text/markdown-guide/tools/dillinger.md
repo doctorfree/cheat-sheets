@@ -78,8 +78,6 @@ The application uses the [markdown-it](https://github.com/markdown-it/markdown-i
 
 ![Dillinger Markdown editor](../assets/images/dillinger.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Dillinger provides support for several obscure elements.

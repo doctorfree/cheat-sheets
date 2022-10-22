@@ -77,4 +77,3 @@ see-also:
 
 There are a couple minor compatibility issues noted below but, generally speaking, Ghost has solid Markdown support. The live editor is fairly intuitive and seems like a good choice for bloggers. Copying and pasting Markdown-formatted text into the editor works the way you'd expect it to.
 
-{% include tool-syntax-table.html %}

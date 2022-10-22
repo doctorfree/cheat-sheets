@@ -82,4 +82,3 @@ Unfortunately, using Ulysses to write in Markdown is an exercise in frustration.
 
 ![Ulysses application with a Markdown file](../assets/images/tools/ulysses.png)
 
-{% include tool-syntax-table.html %}

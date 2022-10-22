@@ -70,4 +70,3 @@ Markdown items can be previewed, and the preview has a bookmarkable URL. [Python
 1. Create an item in Markdown syntax (e.g., <https://dpaste.com/DJYAN964N>).
 2. When viewing the item, click the "Preview" button above the content to see the rendered version (e.g., <https://dpaste.com/DJYAN964N-preview>).
 
-{% include tool-syntax-table.html %}

@@ -78,8 +78,6 @@ GitHub Pages uses the [Jekyll](jekyll.md) static site generator to create your w
 
 Confusingly, GitHub Pages renders Markdown differently than GitHub does. GitHub uses its own Markdown processor; GitHub Pages uses [jekyll-commonmark](https://github.com/github/jekyll-commonmark-ghpages). This means your `README.md` file will look different on GitHub's website than on your GitHub Pages website. For example, emoji are rendered on GitHub's website, but not on websites generated using GitHub Pages.
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, GitHub Pages provides support for several obscure elements.

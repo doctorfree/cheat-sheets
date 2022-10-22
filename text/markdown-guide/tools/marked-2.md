@@ -77,8 +77,6 @@ It's clear the author of this utility has invested a lot of time and effort to g
 
 ![The Marked 2 processor selection](../assets/images/tools/marked2-1.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Marked 2 provides support for several obscure elements when using MultiMarkdown.

@@ -68,5 +68,3 @@ syntax:
 
 ![Resumey.Pro Screenshot](../assets/images/tools/resumey-pro.png)
 
-{% include tool-syntax-table.html %}
-

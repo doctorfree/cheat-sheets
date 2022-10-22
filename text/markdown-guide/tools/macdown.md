@@ -81,8 +81,6 @@ MacDown sports two panes — you type on the left and preview the formatted text
 
 ![The MacDown application with open Markdown file](../assets/images/tools/macdown.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, MacDown provides support for several obscure elements. These are disabled by default, but you can enable them in **Preferences** > **Markdown**.

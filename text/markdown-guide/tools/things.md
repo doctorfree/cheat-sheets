@@ -78,4 +78,3 @@ Things doesn't support all Markdown syntax elements, but the elements it does su
 
 Things maps Markdown formatting to keyboard shortcuts so you don't have to actually type the characters required to add Markdown formatting. For example, you don't have to type `**` to make your word bold (although you can). Instead, you can just press Command-B and Things will wrap your word in double asterisks. 
 
-{% include tool-syntax-table.html %}

@@ -72,4 +72,3 @@ The application's stated goal is simple: "Enabling researchers of arts and human
 
 See the [Zettlr Documentation](https://docs.zettlr.com/en/) for the official documentation. Zettlr itself implements a mixture of different dialects. The editor itself highlights only GitHub Flavored Markdown plus some extra elements which extends Markdown syntax with Zettelkasten elements. You can also add LaTeX-commands.
 
-{% include tool-syntax-table.html %}

@@ -66,8 +66,6 @@ By using Markdown, users can format the notes the way they want. You can add ele
 
 ![BatNoter Markdown application](../assets/images/tools/batnoter.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, BatNoter provides support for several obscure elements.

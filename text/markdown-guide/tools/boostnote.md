@@ -70,4 +70,3 @@ see-also:
 
 ![Boostnote Markdown application](../assets/images/tools/boostnote.png)
 
-{% include tool-syntax-table.html %}

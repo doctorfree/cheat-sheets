@@ -72,4 +72,3 @@ see-also:
 
 ![Editing Wiki using Markdown in AirSend](../assets/images/tools/airsend.png)
 
-{% include tool-syntax-table.html %}

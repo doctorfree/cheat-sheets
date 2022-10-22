@@ -78,4 +78,3 @@ Beyond Markdown, Outline supports a range of features such as structured organiz
 Outline is offered as a hosted service, and is also available for self hosting as a docker container. The [source code is 
 publicly available](https://github.com/outline/outline) on GitHub.
 
-{% include tool-syntax-table.html %}

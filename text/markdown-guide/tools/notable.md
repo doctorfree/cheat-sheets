@@ -78,4 +78,3 @@ But without a doubt, Notable's best feature is that it doesn't manipulate your M
 
 The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
 
-{% include tool-syntax-table.html %}

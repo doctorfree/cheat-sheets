@@ -78,8 +78,6 @@ Deepdwn also supports some additional block elements:
 * AsciiMath, Katex, and mhchem for math and chemistry rendering
 * Sheet music, guitar tabs, and songbooks
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Deepdwn provides support for several obscure elements.

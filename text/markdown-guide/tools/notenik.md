@@ -85,4 +85,3 @@ All Notenik documentation is stored in the Notenik Knowledge Base, which is itse
 
 ![The Notenik Knowledge Base opened in Notenik](../assets/images/tools/notenik.png)
 
-{% include tool-syntax-table.html %}

@@ -74,4 +74,3 @@ Docusaurus uses the [remarkable](https://github.com/jonschlinkert/remarkable) Ma
 
 ![Example of Docusaurus website](../assets/images/tools/Docusaurus.png)
 
-{% include tool-syntax-table.html %}

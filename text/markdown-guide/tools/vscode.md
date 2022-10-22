@@ -99,5 +99,3 @@ Markdown extensions available in the Visual Studio marketplace extend it with th
 
 ![Visual Studio Code, with Markdown Preview Enhanced, Markdownlint, and One Dark Pro](../assets/images/tools/vscode-extended.png)
 
-
-{% include tool-syntax-table.html %}

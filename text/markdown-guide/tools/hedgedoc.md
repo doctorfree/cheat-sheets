@@ -71,8 +71,6 @@ see-also:
 
 ![The HedgeDoc Markdown editor](../assets/images/tools/hedgedoc.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, HedgeDoc provides support for several obscure elements.

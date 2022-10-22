@@ -74,8 +74,6 @@ see-also:
 
 ![Joplin Markdown application](../assets/images/tools/joplin.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Joplin provides support for several obscure elements.

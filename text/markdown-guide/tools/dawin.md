@@ -78,4 +78,3 @@ The application uses the [markdown-it](https://github.com/markdown-it/markdown-i
 
 ![Dawin RTL Markdown editor](../assets/images/dawin.png)
 
-{% include tool-syntax-table.html %}

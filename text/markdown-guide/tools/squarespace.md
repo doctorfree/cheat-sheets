@@ -75,4 +75,3 @@ see-also:
 
 Squarespace supports most basic Markdown syntax elements, but support for a number of extended syntax elements is lacking. One disadvantage is that the editor for the Markdown block is a tiny box and the text is displayed in a minuscule (and non-adjustable) font size. You're probably better off copying and pasting the text in from another application.
 
-{% include tool-syntax-table.html %}

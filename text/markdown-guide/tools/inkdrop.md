@@ -75,4 +75,3 @@ One of the best parts of Inkdrop is that it's extensible. A variety of plugins a
 
 ![Inkdrop Markdown application](../assets/images/tools/inkdrop.png)
 
-{% include tool-syntax-table.html %}

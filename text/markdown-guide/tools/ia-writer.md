@@ -79,8 +79,6 @@ There are a couple of quirks you should be aware of. iA Writer doesn't save new 
 
 The Preview button is the little triangle button in the top-right corner of the window. You can click that to preview the output, and then click it again to return to the source.
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, iA Writer provides support for several obscure elements.

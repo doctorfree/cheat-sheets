@@ -83,4 +83,3 @@ Notion has desktop and mobile apps available, as well as a web-based interface. 
 
 Notion's Markdown support is hit or miss. Copying and pasting Markdown-formatted text into Notion generally works the way you'd expect, but using Notion's live editor to write using Markdown doesn't always work. You can, for instance, use asterisks to make text bold, but trying to use brackets to create a link or pipes to create a table doesn't work — which is strange considering that those syntax elements *do* work when you copy and paste them in. It's also difficult to edit Markdown-formatted text that you've copied and pasted in Notion.
 
-{% include tool-syntax-table.html %}

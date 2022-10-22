@@ -73,4 +73,3 @@ syntax:
 
 Carrd supports a limited subset of basic Markdown syntax for text. Carrd's Markdown support is fairly limited, but it works for this particular use case. The supported syntax elements are mostly limited to text formatting — bold, italic, and lists. 
 
-{% include tool-syntax-table.html %}

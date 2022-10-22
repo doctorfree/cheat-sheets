@@ -78,8 +78,6 @@ HackMD supports CommonMark and other markup syntax, such as:
 
 HackMD is the commercial version of [CodiMD](codimd.md).
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, HackMD provides support for several obscure elements.

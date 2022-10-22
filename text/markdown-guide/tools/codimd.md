@@ -74,4 +74,3 @@ see-also:
 
 CodiMD is the open-source version of [HackMD](hackmd.md).
 
-{% include tool-syntax-table.html %}

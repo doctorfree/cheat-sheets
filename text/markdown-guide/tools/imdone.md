@@ -67,4 +67,3 @@ syntax:
 
 ![Imdone kanban application](../assets/images/tools/imdone.png)
 
-{% include tool-syntax-table.html %}

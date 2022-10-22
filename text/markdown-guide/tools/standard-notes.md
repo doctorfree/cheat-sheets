@@ -74,4 +74,3 @@ see-also:
 
 Admittedly, the category for Markdown note taking applications is a crowded one. Standard Notes stands out by offering a great user experience, outstanding privacy and synchronization features, and a strong commitment to open source software. The application and the overall experience feels professional-grade. Standard Notes works on every platform.
 
-{% include tool-syntax-table.html %}

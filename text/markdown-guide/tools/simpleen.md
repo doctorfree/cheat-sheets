@@ -77,4 +77,3 @@ It supports CommonMark and GitHub Flavored Markdown (GFM) as well as your indivi
 
 ![Simpleen Markdown translation tool](../assets/images/tools/simpleen.png)
 
-{% include tool-syntax-table.html %}

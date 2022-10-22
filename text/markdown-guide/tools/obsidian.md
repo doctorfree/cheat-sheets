@@ -79,4 +79,3 @@ Obsidian sports virtually all of the standard fare common to the other applicati
 
 Two other features are worth mentioning. Obsidian provides a simple way to publish notes to the internet, and it stores all of your files in plaintext Markdown files containing only the text you enter.
 
-{% include tool-syntax-table.html %}

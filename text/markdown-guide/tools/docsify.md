@@ -75,4 +75,3 @@ See the [Quick start](https://docsify.js.org/#/quickstart) guide for more detail
 
 ![Docsify](../assets/images/tools/docsify.png)
 
-{% include tool-syntax-table.html %}

@@ -83,4 +83,3 @@ theme = "ananke"
 taskLists = false
 ```
 
-{% include tool-syntax-table.html %}

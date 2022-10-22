@@ -67,4 +67,3 @@ syntax:
 
 ![Markdown Articles Tool](../assets/images/tools/markdown-tool.png)
 
-{% include tool-syntax-table.html %}

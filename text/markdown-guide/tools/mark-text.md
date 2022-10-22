@@ -73,4 +73,3 @@ see-also:
 
 There are some minor annoyances. In several instances (noted below in the table), the appearance of the text in the application didn't match the rendered output of the exported HTML and PDF. And as with [Notion](notion.md), it can be difficult to edit Markdown-formatted text after the live editor has converted it.
 
-{% include tool-syntax-table.html %}

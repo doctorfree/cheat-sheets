@@ -76,4 +76,3 @@ see-also:
 
 [Todoist](https://todoist.com/) is a to-do list application that helps you record and track tasks to completion. Todoist provides surprisingly good Markdown support for an application of this type. You can use Markdown syntax to format the task names and comments you create in the Todoist website and mobile applications (unfortunately, you can't use Markdown in the names for projects, labels, or filters).
 
-{% include tool-syntax-table.html %}

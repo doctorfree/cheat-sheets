@@ -67,4 +67,3 @@ syntax:
 
 ![Znote Markdown application](../assets/images/tools/znote.png)
 
-{% include tool-syntax-table.html %}

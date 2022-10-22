@@ -74,8 +74,6 @@ The application uses the [Python-Markdown](https://python-markdown.github.io/) M
 
 ![A newly deployed MkDocs site](../assets/images/tools/mkdocs.png)
 
-{% include tool-syntax-table.html %}
-
 ### Using Admonitions
 
 Here's a handy feature: You can enable an extension to use [admonitions](https://python-markdown.github.io/extensions/admonition/) in MkDocs. This is a quick and easy way to start using notes, warnings, and tips on your MkDocs site. See this [GitHub issue](https://github.com/mkdocs/mkdocs/issues/1659) for more information and examples.

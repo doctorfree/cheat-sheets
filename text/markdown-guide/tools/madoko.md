@@ -80,4 +80,3 @@ Madoko implements extensions like Github Flavored Markdown, [pandoc](https://pan
 
 In Madoko, tabs are considered to be equivalent to 4 spaces. It's best to configure your editor to view tabs as 4 spaces wide or documents may look off.
 
-{% include tool-syntax-table.html %}

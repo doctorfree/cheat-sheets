@@ -77,8 +77,6 @@ This is a web-based application that requires a database, so installation could 
 
 ![Wiki.js Markdown application](../assets/images/tools/wikijs.png)
 
-{% include tool-syntax-table.html %}
-
 ### Support for Additional Syntax Elements
 
 As an added bonus, Wiki.js provides support for several obscure elements.

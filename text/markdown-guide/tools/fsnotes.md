@@ -74,4 +74,3 @@ see-also:
 
 FSNotes' Markdown support is excellent. The application sports a number of features that will appeal to power users. For example, the security features allow you to encrypt notes automatically when your computer goes to sleep. There are also auto-save and archive features for git, iCloud, and Dropbox. The tagging and search features work flawlessly. Overall, FSNotes is a great option for people looking for a notes application designed for Apple devices.
 
-{% include tool-syntax-table.html %}
