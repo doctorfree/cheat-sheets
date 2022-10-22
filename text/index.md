@@ -1,0 +1,27 @@
+# text
+
+Index of text category
+
+- [CSS](css.md)
+- [Emacs](emacs.md)
+- [HTML characters](html-char.md)
+- [HTML](html.md)
+- [Jq](jq.md)
+- [Json](json.md)
+- [Markdown](markdown.md)
+- [Nb](nb.md)
+- [Obsidian](obsidian.md)
+- [Pandoc](pandoc.md)
+- [Toml](toml.md)
+- [Vim](vim.md)
+- [Yaml](yaml.md)
+- [Markdown-guide/about](markdown-guide/about.md)
+- [Markdown-guide/basic-syntax](markdown-guide/basic-syntax.md)
+- [Markdown-guide/book](markdown-guide/book.md)
+- [Markdown-guide/cheat-sheet](markdown-guide/cheat-sheet.md)
+- [Markdown-guide/contact](markdown-guide/contact.md)
+- [Markdown-guide/extended-syntax](markdown-guide/extended-syntax.md)
+- [Markdown-guide/getting-started](markdown-guide/getting-started.md)
+- [Markdown-guide/hacks](markdown-guide/hacks.md)
+- [Markdown-guide/markdown-guide](markdown-guide/markdown-guide.md)
+- [Markdown-guide/tools](markdown-guide/tools.md)

@@ -10,6 +10,7 @@ This knowledge base has been developed through the efforts of several individual
 
 1. [Authors](#authors)
 1. [Why](#why)
+1. [Category index](#category-index)
 1. [Usage](#usage)
     1. [Markdown viewers](#markdown-viewers)
     1. [Clone and view locally](#clone-and-view-locally)
@@ -96,6 +97,18 @@ Displays as:
 | Number of files in a folder | <code>ls -l &#124; wc -l</code> |
 
 Our cheatsheets have been meticulously groomed to avoid these kinds of errors through the appropriate use of HTML character entities.
+
+## Category index
+
+These cheat sheets are roughly organized within categories. Browse the index of categories here:
+
+|    |    |    |    |
+|----|----|----|----|
+| [Apps](apps/index.md) | [Audio](audio/index.md) | [Cloud](cloud/index.md) | [Databases](databases/index.md) |
+| [Docker](docker/index.md) | [Kubernetes](kubernetes/index.md) | [Linux](linux/index.md) | [Mac OS](macos/index.md) |
+| [Messaging](messaging/index.md) | [Misc](misc/index.md) | [Networking](networking/index.md) | [Projects](projects/index.md) |
+| [Security](security/index.md) | [Shells](shells/index.md) | [Terminal](terminal/index.md) | [Text](text/index.md) |
+| [Tools](tools/index.md) | [Windows](windows/index.md) | [WWW](www/index.md) | [Markdown](text/markdown-guide/markdown-guide.md) |
 
 ## Usage
 
@@ -216,9 +229,10 @@ curl cheat.sh/ls
 
 Support our mission to create free, high-quality content for tech enthusiasts and IT professionals:
 
-- [Sponsor the projects of Doctorfree](https://github.com/sponsors/doctorfree)
+- [Sponsor the Projects of Doctorfree](https://github.com/sponsors/doctorfree)
 - [Become a Patreon of Christian](https://www.patreon.com/christianlempa)
-- [Buy Randy a cup of coffee](https://buymeacoffee.com/randy8080)
+- [Buy Randy a Cup of Coffee](https://buymeacoffee.com/randy8080)
+- [Buy Matt's Markdown Guide](https://mattcone.gumroad.com/l/markdownguide)
 
 ***Help us to create something that matters to people!***
 

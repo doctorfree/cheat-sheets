@@ -4,17 +4,11 @@
 
 ## Table of Contents
 
-- [Markdown cheat sheet](cheat-sheet.md)
-- [Basic markdown syntax](basic-syntax.md)
-- [Extended markdown syntax](extended-syntax.md)
-- [Getting started](getting-started.md)
-- [Hacks](hacks.md)
-- [Markdown tools](tools.md)
-- [About](about.md)
-- [API](api/v1/index.md)
-- [Markdown book](book.md)
-- [Privacy policy](privacy-policy.md)
-- [Terms and conditions](terms-and-conditions.md)
+|    |    |    |
+|----|----|----|
+| [Cheat sheet](cheat-sheet.md) | [Basic syntax](basic-syntax.md) | [Extended syntax](extended-syntax.md) |
+| [Getting started](getting-started.md) | [Hacks](hacks.md) | [Markdown tools](tools.md) |
+| [About](about.md) | [API](api/v1/index.md) | [Markdown book](book.md) |
 
 ## Contributing
 
