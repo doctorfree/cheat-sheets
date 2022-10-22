@@ -67,6 +67,6 @@ see-also:
     link: https://www.mattermost.org/open-source-slack-alternative-adopts-markdown/
 ---
 
-[Mattermost](https://mattermost.com) is an open source enterprise messaging and team collaboration application. It's like [Slack](/tools/slack/), but with excellent Markdown support. In fact, Mattermost provides exactly the type of Markdown support you want to see in a messaging application. You can type messages in Markdown or copy and paste Markdown-formatted text into the message field — it works exactly the way you'd expect it to. The application uses [a fork of the marked Markdown processor](https://github.com/mattermost/marked).
+[Mattermost](https://mattermost.com) is an open source enterprise messaging and team collaboration application. It's like [Slack](slack.md), but with excellent Markdown support. In fact, Mattermost provides exactly the type of Markdown support you want to see in a messaging application. You can type messages in Markdown or copy and paste Markdown-formatted text into the message field — it works exactly the way you'd expect it to. The application uses [a fork of the marked Markdown processor](https://github.com/mattermost/marked).
 
 {% include tool-syntax-table.html %}

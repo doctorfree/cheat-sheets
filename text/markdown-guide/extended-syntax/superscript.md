@@ -13,7 +13,7 @@ The rendered output looks like this:
 
 X<sup>2</sup>
 
-Alternatively, if your Markdown application supports [HTML](/basic-syntax/#html), you can use the `sup` HTML tag.
+Alternatively, if your Markdown application supports [HTML](../basic-syntax/html.md), you can use the `sup` HTML tag.
 
 ```html
 X<sup>2</sup>

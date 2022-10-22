@@ -7,7 +7,7 @@ website: https://bear.app
 syntax:
   - id: headings
     available: p
-    notes: "[Alternative syntax](/basic-syntax/#alternate-syntax) is not supported."
+    notes: "[Alternative syntax](../basic-syntax/headings.md) is not supported."
   - id: paragraphs
     available: y
   - id: line-breaks
@@ -19,7 +19,7 @@ syntax:
     available: y
   - id: blockquotes
     available: p
-    notes: "[Nested blockquotes](/basic-syntax/#nested-blockquotes) are not supported."
+    notes: "[Nested blockquotes](../basic-syntax/blockquotes.md) are not supported."
   - id: ordered-lists
     available: y
   - id: unordered-lists

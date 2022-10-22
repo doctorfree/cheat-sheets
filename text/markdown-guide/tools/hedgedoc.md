@@ -67,7 +67,7 @@ see-also:
     link: https://docs.hedgedoc.org/references/hfm/
 ---
 
-[HedgeDoc](https://hedgedoc.org/) is an open-source real-time collaborative Markdown editor. This project was forked from — and is similar to — [CodiMD](/tools/codimd/) (see the HedgeDoc website for a summary of the [history of the project](https://hedgedoc.org/history/)). As of November 2021, HedgeDoc version 2 isn't yet publicly available — this page documents Markdown support in HedgeDoc version 1.
+[HedgeDoc](https://hedgedoc.org/) is an open-source real-time collaborative Markdown editor. This project was forked from — and is similar to — [CodiMD](codimd.md) (see the HedgeDoc website for a summary of the [history of the project](https://hedgedoc.org/history/)). As of November 2021, HedgeDoc version 2 isn't yet publicly available — this page documents Markdown support in HedgeDoc version 1.
 
 ![The HedgeDoc Markdown editor](../assets/images/tools/hedgedoc.png)
 

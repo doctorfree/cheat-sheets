@@ -27,7 +27,7 @@ syntax:
     available: y
   - id: links
     available: p
-    notes: "Using [angle brackets](/basic-syntax/#urls-and-email-addresses) for URLs and email addresses is not supported."
+    notes: "Using [angle brackets](../basic-syntax/links.md) for URLs and email addresses is not supported."
   - id: images
     available: y
   - id: tables

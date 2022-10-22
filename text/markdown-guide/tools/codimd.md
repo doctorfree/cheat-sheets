@@ -72,6 +72,6 @@ see-also:
 - Mermaid and Graphviz for UML diagrams
 - Vega-lite for data visualizations
 
-CodiMD is the open-source version of [HackMD](/tools/hackmd/).
+CodiMD is the open-source version of [HackMD](hackmd.md).
 
 {% include tool-syntax-table.html %}

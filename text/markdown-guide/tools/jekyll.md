@@ -71,7 +71,7 @@ see-also:
     link: https://kramdown.gettalong.org/
 ---
 
-[Jekyll](https://jekyllrb.com) is a static site generator that takes Markdown files and converts them to a website. Jekyll is a free and open-source application written in the Ruby programming language. Thousands of websites, including the *Markdown Guide*, rely on Jekyll to convert Markdown source files to HTML output. [GitHub Pages](/tools/github-pages/) uses Jekyll as the backend for its free website creation service.
+[Jekyll](https://jekyllrb.com) is a static site generator that takes Markdown files and converts them to a website. Jekyll is a free and open-source application written in the Ruby programming language. Thousands of websites, including the *Markdown Guide*, rely on Jekyll to convert Markdown source files to HTML output. [GitHub Pages](github-pages.md) uses Jekyll as the backend for its free website creation service.
 
 By default, Jekyll uses the [kramdown](https://kramdown.gettalong.org/) Markdown processor with stock settings, but you can enable other kramdown options or even switch Jekyll to another Markdown processor. See the [Jekyll Markdown configuration options](https://jekyllrb.com/docs/configuration/markdown/) documentation for more information. You can change Jekyll's kramdown settings in the `_config.yml` file. The settings for the *Markdown Guide* are shown below.
 

@@ -70,7 +70,7 @@ see-also:
     link: https://github.com/joemccann/dillinger
 ---
 
-[Dillinger](https://dillinger.io) is an online Markdown editor. Like [StackEdit](/tools/stackedit/), it loads right in your web browser, so there's no need to download and install an application on your computer. Dillinger has two panes: the editor on the left, and the live preview on the right. The split panes make it easy to see what Markdown-formatted text looks like.
+[Dillinger](https://dillinger.io) is an online Markdown editor. Like [StackEdit](stackedit.md), it loads right in your web browser, so there's no need to download and install an application on your computer. Dillinger has two panes: the editor on the left, and the live preview on the right. The split panes make it easy to see what Markdown-formatted text looks like.
 
 Dillinger provides excellent Markdown support. Unfortunately, the export options are not customizable and the file saving features are a bit flaky. And since Dillinger loads in your web browser, it's entirely dependent on a consistent internet connection. If your internet connection goes down or your web browser crashes, you could lose your work. For those reasons, Dillinger is best used for experimentation and quick note taking.
 

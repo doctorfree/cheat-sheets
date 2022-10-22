@@ -55,10 +55,10 @@ syntax:
     available: y
   - id: subscript
     available: n
-    notes: "The [`sub` HTML tag](/extended-syntax/#subscript) is supported."
+    notes: "The [`sub` HTML tag](../extended-syntax/subscript.md) is supported."
   - id: superscript
     available: n
-    notes: "The [`sup` HTML tag](/extended-syntax/#superscript) is supported."
+    notes: "The [`sup` HTML tag](../extended-syntax/superscript.md) is supported."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

@@ -70,7 +70,7 @@ see-also:
     link: https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-
 ---
 
-[Discord](https://discord.com/) is one of the most popular messaging and collaboration applications available. Popular among gamers and teenagers, Discord provides a snappy and well-designed interface that works well for communicating with friends. Similar to [Slack](/tools/slack/), Discord provides limited Markdown support which is comparable to other applications in this category.
+[Discord](https://discord.com/) is one of the most popular messaging and collaboration applications available. Popular among gamers and teenagers, Discord provides a snappy and well-designed interface that works well for communicating with friends. Similar to [Slack](slack.md), Discord provides limited Markdown support which is comparable to other applications in this category.
 
 ![Example of Discord Markdown](../assets/images/tools/Discord.png)
 

@@ -28,7 +28,7 @@ syntax:
     available: y
   - id: links
     available: y
-    notes: "For some reason, [angle brackets](/basic-syntax/#urls-and-email-addresses) for URLs and email addresses are rendered literally in the MarkText editor. It's a minor issue since the links are rendered correctly in the exported HTML and PDF."
+    notes: "For some reason, [angle brackets](../basic-syntax/links.md) for URLs and email addresses are rendered literally in the MarkText editor. It's a minor issue since the links are rendered correctly in the exported HTML and PDF."
   - id: images
     available: y
   - id: tables
@@ -69,8 +69,8 @@ see-also:
     link: https://github.com/marktext/marktext
 ---
 
-[MarkText](https://github.com/marktext/marktext) is a popular free and open-source document editor designed exclusively for writing in Markdown. Like [Typora](/tools/typora/), MarkText has a polished interface and a live editor that hides the Markdown formatting after you type it. The PDF and HTML export options are handy, as is the feature that allows you to copy text out of the editor as Markdown, HTML, or plaintext.
+[MarkText](https://github.com/marktext/marktext) is a popular free and open-source document editor designed exclusively for writing in Markdown. Like [Typora](typora.md), MarkText has a polished interface and a live editor that hides the Markdown formatting after you type it. The PDF and HTML export options are handy, as is the feature that allows you to copy text out of the editor as Markdown, HTML, or plaintext.
 
-There are some minor annoyances. In several instances (noted below in the table), the appearance of the text in the application didn't match the rendered output of the exported HTML and PDF. And as with [Notion](/tools/notion/), it can be difficult to edit Markdown-formatted text after the live editor has converted it.
+There are some minor annoyances. In several instances (noted below in the table), the appearance of the text in the application didn't match the rendered output of the exported HTML and PDF. And as with [Notion](notion.md), it can be difficult to edit Markdown-formatted text after the live editor has converted it.
 
 {% include tool-syntax-table.html %}

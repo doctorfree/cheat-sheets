@@ -5,30 +5,22 @@ description: Advanced features that build on the basic Markdown syntax.
 last_modified_at: 2022-01-03
 ---
 
-{% include syntax.html type="extended" syntax-id="overview" %}
+# Extended markdown syntax
 
-{% include syntax.html type="extended" syntax-id="availability" %}
+Advanced features that build on the basic Markdown syntax.
 
-{% include syntax.html type="extended" syntax-id="tables" %}
 
-{% include syntax.html type="extended" syntax-id="fenced-code-blocks" %}
-
-{% include syntax.html type="extended" syntax-id="footnotes" %}
-
-{% include syntax.html type="extended" syntax-id="heading-ids" %}
-
-{% include syntax.html type="extended" syntax-id="definition-lists" %}
-
-{% include syntax.html type="extended" syntax-id="strikethrough" %}
-
-{% include syntax.html type="extended" syntax-id="task-lists" %}
-
-{% include syntax.html type="extended" syntax-id="emoji" %}
-
-{% include syntax.html type="extended" syntax-id="highlight" %}
-
-{% include syntax.html type="extended" syntax-id="subscript" %}
-
-{% include syntax.html type="extended" syntax-id="superscript" %}
-
-{% include syntax.html type="extended" syntax-id="automatic-url-linking" %}
+- [Overview](extended-syntax/overview.md)
+- [Availability](extended-syntax/availability.md)
+- [Tables](extended-syntax/tables.md)
+- [Fenced code blocks](extended-syntax/fenced-code-blocks.md)
+- [Footnotes](extended-syntax/footnotes.md)
+- [Heading ids](extended-syntax/heading-ids.md)
+- [Definition lists](extended-syntax/definition-lists.md)
+- [Strike through](extended-syntax/strikethrough.md)
+- [Task lists](extended-syntax/task-lists.md)
+- [Emoji](extended-syntax/emoji.md)
+- [Highlight](extended-syntax/highlight.md)
+- [Subscript](extended-syntax/subscript.md)
+- [Superscript](extended-syntax/superscript.md)
+- [Automatic URL linking](extended-syntax/automatic-url-linking.md)

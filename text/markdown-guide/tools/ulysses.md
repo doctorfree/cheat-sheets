@@ -7,7 +7,7 @@ website: https://ulysses.app
 syntax:
   - id: headings
     available: y
-    notes: "[Alternative syntax](/basic-syntax/#alternate-syntax) is not supported."
+    notes: "[Alternative syntax](../basic-syntax/headings.md) is not supported."
   - id: paragraphs
     available: y
   - id: line-breaks
@@ -25,7 +25,7 @@ syntax:
     available: y
   - id: code
     available: p
-    notes: "[Code blocks](/basic-syntax/#code-blocks) are not supported."
+    notes: "[Code blocks](../basic-syntax/code.md) are not supported."
   - id: horizontal-rules
     available: p
     notes: "Must use four dashes (`----`)."

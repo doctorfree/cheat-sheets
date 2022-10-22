@@ -42,4 +42,4 @@ Any claim relating to the Markdown Guide’s website shall be governed by the la
 
 ## Contact Us
 
-If you have any questions about these Terms and Conditions of Use, please [contact us](/contact/).
+If you have any questions about these Terms and Conditions of Use, please [contact us](contact.md).

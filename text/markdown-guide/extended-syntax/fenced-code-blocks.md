@@ -11,7 +11,7 @@ syntax-summary: |
   ```
 ---
 
-The basic Markdown syntax allows you to create [code blocks](/basic-syntax#code-blocks) by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you'll use three backticks (<code>```</code>) or three tildes (`~~~`) on the lines before and after the code block. The best part? You don't have to indent any lines!
+The basic Markdown syntax allows you to create [code blocks](../basic-syntax/code-blocks.md) by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you'll use three backticks (<code>```</code>) or three tildes (`~~~`) on the lines before and after the code block. The best part? You don't have to indent any lines!
 
 ~~~~~~~~~
 ```
@@ -33,8 +33,7 @@ The rendered output looks like this:
 }
 ```
 
-<div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Need to display backticks inside a code block? See <a href="/basic-syntax/#escaping-backticks">this section</a> to learn how to escape them.
+**Tip:** Need to display backticks inside a code block? See [escaping characters](../basic-syntax/escaping-characters.md) to learn how to escape them.
 </div>
 
 ### Syntax Highlighting

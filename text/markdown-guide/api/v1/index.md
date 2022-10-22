@@ -19,11 +19,11 @@ We'd love to see the *Markdown Guide* become the central documentation repositor
 
 ### Limitations
 
-The Markdown Guide API is designed to provide only essential Markdown documentation. As a result, the API doesn't include all of the documentation available on the *Markdown Guide* website. For example, the [Adding Elements in Lists](/basic-syntax/#adding-elements-in-lists) section is not available through the basic syntax endpoint.
+The Markdown Guide API is designed to provide only essential Markdown documentation. As a result, the API doesn't include all of the documentation available on the *Markdown Guide* website. For example, the [Adding Elements in Lists](../../basic-syntax/lists.md) section is not available through the basic syntax endpoint.
 
 ## Basic Syntax Endpoint
 
-The basic syntax endpoint contains documentation about the Markdown elements outlined in John Gruber's design document and described on the [Basic Syntax page](/basic-syntax/).
+The basic syntax endpoint contains documentation about the Markdown elements outlined in John Gruber's design document and described on the [Basic Syntax page](../../basic-syntax.md).
 
 <div class="card">
   <h6 class="card-header no-anchor" data-toc-skip>API Endpoint</h6>

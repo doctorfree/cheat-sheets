@@ -76,7 +76,7 @@ HackMD supports CommonMark and other markup syntax, such as:
 - Mermaid and Graphviz for UML diagrams
 - Vega-lite for data visualizations
 
-HackMD is the commercial version of [CodiMD](/tools/codimd/).
+HackMD is the commercial version of [CodiMD](codimd.md).
 
 {% include tool-syntax-table.html %}
 

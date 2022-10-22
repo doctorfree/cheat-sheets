@@ -7,7 +7,7 @@ website: https://culturedcode.com/things/
 syntax:
   - id: headings
     available: p
-    notes: "[Alternative syntax](/basic-syntax/#alternate-syntax) is not supported."
+    notes: "[Alternative syntax](../basic-syntax/headings.md) is not supported."
   - id: paragraphs
     available: y
   - id: line-breaks

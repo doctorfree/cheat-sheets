@@ -24,7 +24,7 @@ syntax:
     available: y
   - id: code
     available: p
-    notes: "[Code blocks](/basic-syntax/#code-blocks) are not supported — use [fenced code blocks](/extended-syntax/#fenced-code-blocks) instead."
+    notes: "[Code blocks](../basic-syntax/code.md) are not supported — use [fenced code blocks](../extended-syntax/fenced-code-blocks.md) instead."
   - id: horizontal-rules
     available: y
   - id: links

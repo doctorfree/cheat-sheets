@@ -72,7 +72,7 @@ see-also:
 
 [GitHub Pages](https://pages.github.com) is a service that turns Markdown files into a website and hosts them for free on the internet. If you know how to use GitHub and you need to create a simple webpage, you can't do better than GitHub Pages. Just create a new repository on GitHub, commit the Markdown files, and enable the GitHub Pages feature.
 
-GitHub Pages uses the [Jekyll](/tools/jekyll/) static site generator to create your website, and the Markdown support is excellent. You can pick one of GitHub's pre-made themes for your website, use a [Jekyll theme](http://jekyllthemes.org/), or use your own custom CSS. Shown below is a sample webpage using one of GitHub's pre-made themes.
+GitHub Pages uses the [Jekyll](jekyll.md) static site generator to create your website, and the Markdown support is excellent. You can pick one of GitHub's pre-made themes for your website, use a [Jekyll theme](http://jekyllthemes.org/), or use your own custom CSS. Shown below is a sample webpage using one of GitHub's pre-made themes.
 
 ![Example of GitHub Pages websites](../assets/images/tools/github-pages.png)
 

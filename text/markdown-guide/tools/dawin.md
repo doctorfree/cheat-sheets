@@ -70,7 +70,7 @@ see-also:
     link: https://guide.dawin.io/
 ---
 
-[Dawin](https://www.dawin.io/) (aka *Writer in Arabic Language*) is an online right to left (RTL) Markdown editor (for Arabic, Persian, etc.). Like [StackEdit](/tools/stackedit/), it loads right in your web browser without having to install anything. Dawin has two panes: The editor on the right, and the live preview on the left. The split panes make it easy to see what Markdown-formatted text looks like.
+[Dawin](https://www.dawin.io/) (aka *Writer in Arabic Language*) is an online right to left (RTL) Markdown editor (for Arabic, Persian, etc.). Like [StackEdit](stackedit.md), it loads right in your web browser without having to install anything. Dawin has two panes: The editor on the right, and the live preview on the left. The split panes make it easy to see what Markdown-formatted text looks like.
 
 Dawin provides excellent Markdown support and has export options for HTML and Markdown files. And since Dawin loads in your web browser, you can preview it on your browser or your phone and install it wherever you want — it also works offline (PWA). For those reasons, Dawin is best used for experimentation and quick note taking.
 

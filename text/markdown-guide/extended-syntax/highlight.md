@@ -13,7 +13,7 @@ The rendered output looks like this:
 
 I need to highlight these <mark>very important words</mark>.
 
-Alternatively, if your Markdown application supports [HTML](/basic-syntax/#html), you can use the `mark` HTML tag.
+Alternatively, if your Markdown application supports [HTML](../basic-syntax/html.md), you can use the `mark` HTML tag.
 
 ```html
 I need to highlight these <mark>very important words</mark>.

@@ -10,7 +10,7 @@ website: https://slack.com
 
 ### Messages
 
-Slack's message interface is the one people use most. Support for some [basic syntax](/basic-syntax/) is provided, although support for many elements is notably absent.
+Slack's message interface is the one people use most. Support for some [basic syntax](../basic-syntax.md) is provided, although support for many elements is notably absent.
 
 In November 2019, Slack introduced a new WYSIWYG interface, as shown below. This feature is enabled for all users by default. The most obvious change is the addition of formatting buttons in the interface controls, but there's also a live editor that hides the Markdown formatting after you type it. You don't have to use the interface controls to format your text — you can still use the Markdown syntax elements described in the next section.
 

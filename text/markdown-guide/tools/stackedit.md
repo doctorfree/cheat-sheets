@@ -68,7 +68,7 @@ see-also:
     link: https://github.com/benweet/stackedit/
 ---
 
-[StackEdit](https://stackedit.io) is a powerful online Markdown editor. Like [Dillinger](/tools/dillinger/), it loads right in your web browser, so there's no need to download and install an application on your computer. StackEdit has a wide variety of features and configurable options for power users, making it in many ways a better all-around option than comparable desktop applications.
+[StackEdit](https://stackedit.io) is a powerful online Markdown editor. Like [Dillinger](dillinger.md), it loads right in your web browser, so there's no need to download and install an application on your computer. StackEdit has a wide variety of features and configurable options for power users, making it in many ways a better all-around option than comparable desktop applications.
 
 ![StackEdit Markdown editor](../assets/images/tools/stackedit.png)
 
