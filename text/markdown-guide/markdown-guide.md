@@ -1,8 +1,20 @@
 # Markdown Guide
 
-[![Build Status](https://github.com/mattcone/markdown-guide/workflows/tests/badge.svg?branch=master)](https://github.com/mattcone/markdown-guide/actions)
-
 *[The Markdown Guide](https://www.markdownguide.org)* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete and inadequate.
+
+## Table of Contents
+
+- [Markdown cheat sheet](cheat-sheet.md)
+- [Basic markdown syntax](basic-syntax.md)
+- [Extended markdown syntax](extended-syntax.md)
+- [Getting started](getting-started.md)
+- [Hacks](hacks.md)
+- [Markdown tools](tools.md)
+- [About](about.md)
+- [API](api/v1/index.md)
+- [Markdown book](book.md)
+- [Privacy policy](privacy-policy.md)
+- [Terms and conditions](terms-and-conditions.md)
 
 ## Contributing
 

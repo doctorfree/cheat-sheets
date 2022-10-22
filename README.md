@@ -27,6 +27,8 @@ This knowledge base has been developed through the efforts of several individual
 
 Several of the cheat sheets included here are adapted from the excellent library of cheat sheets created and maintained by Randy at [QuickRef.ME](https://quickref.me) (also released under the MIT license). Randy doesn't even know he contributed to this repository but his use of an open source license enabled effortless collaboration.
 
+The [Markdown Guide](text/markdown-guide/markdown-guide.md) is a modified version of Matt Cone's excellent *Markdown Guide* at https://github.com/mattcone/markdown-guide. Matt Cone is a technical writer at [Fastly](https://www.fastly.com). He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services.
+
 ## Why
 
 You may ask yourself, "Why does this repository even exist? What good is it?". Yes, there are many "cheat-sheet" repositories, some of them quite mature. What is the purpose of yet another cheatsheet repo? We believe this repository provides additional value in several ways detailed below.
