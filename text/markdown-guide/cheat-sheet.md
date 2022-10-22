@@ -167,4 +167,4 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ## Downloads
 
-You can <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.
+You can <a href="assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.
