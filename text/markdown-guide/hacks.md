@@ -155,13 +155,6 @@ Markdown doesn't natively support image captions, but there are two possible wor
 </figure>
 ```
 
-The rendered output looks like this:
-
-<figure>
-    {% include image.html file="assets/images/albuquerque.jpg" alt="Albuquerque, New Mexico" lazy="yes" %}
-    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
-</figure>
-
 <div class="alert alert-success">
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If your Markdown application supports CSS, you can use CSS to style the appearance of the caption.
 </div>
@@ -175,7 +168,7 @@ If your Markdown application doesn't support HTML, you could try placing the cap
 
 The rendered output looks like this:
 
-{% include image.html file="assets/images/albuquerque.jpg" alt="Albuquerque, New Mexico" lazy="yes" %}
+![Albuquerque, New Mexico](assets/images/albuquerque.jpg)
 *A single track trail outside of Albuquerque, New Mexico.*
 
 ## Link Targets

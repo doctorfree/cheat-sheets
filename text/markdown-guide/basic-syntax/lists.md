@@ -4,13 +4,14 @@ syntax-id: lists
 api: "no"
 ---
 
-You can organize items into ordered and unordered lists.
+# Lists
 
-{% include syntax.html type="basic-sub" syntax-id="ordered-lists" %}
+You can organize items into ordered and unordered lists:
 
-{% include syntax.html type="basic-sub" syntax-id="unordered-lists" %}
+- [Ordered lists](ordered-lists.md)
+- [Unordered lists](unordered-lists.md)
 
-### Adding Elements in Lists
+## Adding Elements in Lists
 
 To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.
 
@@ -18,7 +19,7 @@ To add another element in a list while preserving the continuity of the list, in
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If things don't appear the way you expect, double check that you've indented the elements in the list four spaces or one tab.
 </div>
 
-#### Paragraphs
+### Paragraphs
 
 ```
 * This is the first list item.
@@ -38,7 +39,7 @@ The rendered output looks like this:
 
 * And here's the third list item.
 
-#### Blockquotes
+### Blockquotes
 
 ```
 * This is the first list item.
@@ -58,7 +59,7 @@ The rendered output looks like this:
 
 * And here's the third list item.
 
-#### Code Blocks {#code-blocks-1}
+### Code Blocks {#code-blocks-1}
 
 [Code blocks](#code-blocks) are normally indented four spaces or one tab.  When they're in a list, indent them eight spaces or two tabs.
 
@@ -88,7 +89,7 @@ The rendered output looks like this:
 
 3. Update the title to match the name of your website.
 
-#### Images
+### Images
 
 ```
 1. Open the file containing the Linux mascot.
@@ -110,7 +111,7 @@ The rendered output looks like this:
 
 3. Close the file.
 
-#### Lists
+### Lists
 
 You can nest an unordered list in an ordered list, or vice versa.
 

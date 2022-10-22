@@ -22,7 +22,7 @@ You can disable the WYSIWYG interface in **Preferences** > **Advanced**. Select 
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If you have multiple workplaces open in Slack, you'll need to enable this setting for each workplace.
 </div>
 
-{% include image.html file="/assets/images/tools/slack-enable-markdown.png" alt="Enable Markdown in the Slack message interface" width="80" %}
+![Enable Markdown in the Slack message interface](../assets/images/tools/slack-enable-markdown.png)
 
 #### Slack Markdown Support in Messages
 

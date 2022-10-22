@@ -4,13 +4,14 @@ syntax-id: emphasis
 api: "no"
 ---
 
-You can add emphasis by making text bold or italic.
+# Emphasis
 
-{% include syntax.html type="basic-sub" syntax-id="bold" %}
+You can add emphasis by making text bold or italic:
 
-{% include syntax.html type="basic-sub" syntax-id="italic" %}
+- [Bold](bold.md)
+- [Italic](italic.md)
 
-### Bold and Italic
+## Bold and Italic
 
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
 
@@ -55,7 +56,7 @@ To emphasize text with bold and italics at the same time, add three asterisks or
   <i class="fas fa-info-circle"></i> <strong>Note:</strong> The order of the <code>em</code> and <code>strong</code> tags might be reversed depending on the Markdown processor you're using.
 </div>
 
-#### Bold and Italic Best Practices
+### Bold and Italic Best Practices
 
 Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold and italicize the middle of a word for emphasis.
 

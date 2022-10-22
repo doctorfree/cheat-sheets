@@ -5,16 +5,12 @@ description: An overview of Markdown, how it works, and what you can do with it.
 last_modified_at: 2022-09-26
 ---
 
-{% include_relative getting-started/what-is-markdown.md %}
+# Getting started
 
-{% include_relative getting-started/why-use-markdown.md %}
-
-{% include_relative getting-started/kicking-the-tires.md %}
-
-{% include_relative getting-started/how-does-it-work.md %}
-
-{% include_relative getting-started/whats-markdown-good-for.md %}
-
-{% include_relative getting-started/flavors-of-markdown.md %}
-
-{% include_relative getting-started/additional-resources.md %}
+- [What is markdown](getting-started/what-is-markdown.md)
+- [Why use markdown](getting-started/why-use-markdown.md)
+- [Kicking the tires](getting-started/kicking-the-tires.md)
+- [How does it work](getting-started/how-does-it-work.md)
+- [What is markdown good for](getting-started/whats-markdown-good-for.md)
+- [Flavors of markdown](getting-started/flavors-of-markdown.md)
+- [Additional resources](getting-started/additional-resources.md)
