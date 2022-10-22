@@ -88,7 +88,7 @@ The rendered output looks like this:
 
 ### Formatting Text in Tables
 
-You can format the text within tables. For example, you can add [links](..basic-syntax/links.md), [code](../basic-syntax/code.md) (words or phrases in backticks (`` ` ``) only, not [code blocks](../basic-syntax/code.md)), and [emphasis](../basic-syntax/emphasis.md).
+You can format the text within tables. For example, you can add [links](../basic-syntax/links.md), [code](../basic-syntax/code.md) (words or phrases in backticks (`` ` ``) only, not [code blocks](../basic-syntax/code.md)), and [emphasis](../basic-syntax/emphasis.md).
 
 You can't use headings, blockquotes, lists, horizontal rules, images, or most HTML tags.
 

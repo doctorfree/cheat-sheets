@@ -61,10 +61,10 @@ Thanks to the following people for their contributions to this project.
 
 # TUIR Contributors
 
--   [John Helmert III](jchelmertt3@gmail.com)
--   [capnhawkbill](captain@stoarmfugel.localdomain)
--   [armandg](armandg@gmail.com)
--   [OKelt](oakelton@gmail.com)
--   [Francesco Turco](fturco@fastmail.fm)
--   [John Helmert](jchelmertt3@gmail.com)
--   [geeseven](2251985-geeseven@users.noreply.gitlab.com)
+-   John Helmert III <jchelmertt3@gmail.com>
+-   capnhawkbill <captain@stoarmfugel.localdomain>
+-   armandg <armandg@gmail.com>
+-   OKelt <oakelton@gmail.com>
+-   Francesco Turco <fturco@fastmail.fm>
+-   John Helmert <jchelmertt3@gmail.com>
+-   geeseven <2251985-geeseven@users.noreply.gitlab.com>

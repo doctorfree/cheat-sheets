@@ -1,6 +1,6 @@
 # LogCLI
 
-Go [here](../README.md) to setup Loki
+Go [here](loki.md) to setup Loki
 
 ## Install
 
