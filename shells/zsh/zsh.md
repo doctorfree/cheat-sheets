@@ -12,7 +12,7 @@ categories:
 
 # Zsh
 
-The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of [Bash](../bash.md), [ksh](../ksh/ksh.md), and [tcsh](../tcsh.md).
+The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of [Bash](../bash.md), [ksh](../ksh/ksh.md), and [tcsh](../csh.md).
 
 Zsh is mostly compatible with Bash, so most everything in [Bash's cheatsheet](../bash.md) also applies.
 
@@ -244,4 +244,6 @@ noglob command
 - [Oh My Zsh](ohmyzsh/OhMyZsh.md).
 - [Powerlevel10k Zsh theme](powerlevel10k.md)
 - [Bash](../bash.md)
+- [Csh](../csh.md)
+- [Korn shell](../ksh/ksh.md)
 - [Regular expressions](../../linux/regex.md)

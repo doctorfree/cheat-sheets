@@ -4,6 +4,10 @@
 
 KornShell, i.e. ksh2020, a "major release for several reasons" (such as removal of EBCDIC support, dropped support for binary plugins written for ksh93u+ and removal of some broken math functions), was released by AT&T, but has never been maintained or supported by them (not even on its initial release date).
 
+Repository: https://github.com/att/ast
+
+Website: http://www.kornshell.org/
+
 ## Documentation
 
 [See the docs folder](docs/index.md)
