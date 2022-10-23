@@ -28,45 +28,10 @@ See the [Obsidian Help](https://help.obsidian.md/Obsidian/Index) website for ful
 
 ---
 ## Markdown Cheat Sheet 💻
-<details>
-  <summary><em><strong>Mini Cheat Sheet (click to expand) ✨</em></strong></summary>
+
+---
   
-  ``` 
 # Heading 1
-
-## Heading 2
-
--- Spacer  
-
-- Bullet Points
-
-- [x] Checklist
-
-**Bold**
-
-*Italic*
-
-***Italic Bold***
-
-==Highlights==
-
-```Coding Blocks```
-
-[Links](Sources)
-
-> Quotes/ Blockquotes
-
-Table Cell A  |  Table Cell B
-----          |          ----
-
-```
-</details>
-
-
-<details>
-  <summary><em><strong>Detailed Cheat Sheet (click to expand) 🔥</em></strong></summary>
-
- # Heading 1
  
 ```# Heading 1 ```
 
@@ -75,6 +40,42 @@ Table Cell A  |  Table Cell B
 ## Heading 2
 
 ```## Heading 2 ```
+
+-- Spacer  
+
+```-- Spacer```
+
+- Bullet Points
+
+```- Bullet Points```
+
+- [x] Checklist
+
+```- [x] Checklist```
+
+**Bold**
+
+```**Bold**```
+
+*Italic*
+
+```*Italic*```
+
+***Italic Bold***
+
+```***Italic Bold***```
+
+==Highlights==
+
+```==Highlights==```
+
+[Links](markdown-guide/basic-syntax/links.md)
+
+```[Links](markdown-guide/basic-syntax/links.md)```
+
+> Quotes/ Blockquotes
+
+```> Quotes/ Blockquotes```
 
 ---
 
@@ -126,28 +127,23 @@ Table Cell A  |  Table Cell B
 
 ---
 
-**[Links]**
-
-``` [link](sources)  ```
-
----
-
 > Quotes/ Blockquotes
 
 ``` > this is a quote.  ```
 
 ---
 
-Table Cell A  |  Table Cell B
-----          |          ----
-
+|               |               |
+|---------------|---------------|
+| Table Cell A  |  Table Cell B |
+| ----          |          ---- |
 
 ```
-Table Cell A  |  Table Cell B
-----          |          ----
+|               |               |
+|---------------|---------------|
+| Table Cell A  |  Table Cell B |
+| ----          |          ---- |
 ```
-</details>
-
 
 ---
 ## Shortcuts ⌨️
