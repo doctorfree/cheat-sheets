@@ -246,7 +246,7 @@ Options:
 The mpcplus MPD client has a customized set of key bindings that allow
 quick and easy control of MPD, searches, lyrics display, client navigation,
 and much more via the keyboard. View the
-**[mpcpluskeys man page](mpcpluskeys.1.md)**
+**[mpcpluskeys man page](../projects/man/mpcpluskeys.1.md)**
 with the command `man mpcpluskeys`.
 
 ## Removal
@@ -558,7 +558,11 @@ script in the mpcplus source directory:
 
 ## See also
 
-- [mpcinit.1](mpcinit.1.md)
-- [mpcplus.1](mpcplus.1.md)
-- [mpcpluskeys.1](mpcpluskeys.1.md)
+- [Beets](beets.md)
+- [Mopidy](mopidy.md)
+- [Navidrome](navidrome.md)
+- [Ncmpcpp](ncmpcpp.md)
+- [mpcinit.1](../projects/man/mpcinit.1.md)
+- [mpcplus.1](../projects/man/mpcplus.1.md)
+- [mpcpluskeys.1](../projects/man/mpcpluskeys.1.md)
 - [MusicPlayerPlus](../projects/MusicPlayerPlus.md)
