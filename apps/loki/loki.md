@@ -96,7 +96,7 @@ docker run --rm -it --log-driver loki --log-opt loki-url="https://x:x@loki.domai
 
 ## Loki configuration
 
-[AWS yaml configuration](loki-config/loki-config_aws.yml)
+[AWS yaml configuration](loki-config_aws.yml)
 
 ## LogCLI
 
