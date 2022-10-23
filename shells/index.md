@@ -3,6 +3,8 @@
 Index of shells category
 
 - [Bash](bash.md)
-- [Ksh/ksh](ksh/ksh.md)
-- [Zsh/powerlevel10k](zsh/powerlevel10k.md)
-- [Zsh/zsh](zsh/zsh.md)
+- [Csh](csh.md)
+- [Ksh](ksh/ksh.md)
+- [Zsh](zsh/zsh.md)
+- [OhMyZsh](zsh/OhMyZsh.md)
+- [Powerlevel10k](zsh/powerlevel10k.md)

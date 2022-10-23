@@ -2,11 +2,14 @@
 
 Index of apps category
 
-- [Loki](loki/loki.md)
 - [Argocd](argocd.md)
 - [Cert-manager](cert-manager.md)
 - [Grafana](grafana.md)
 - [Kasm](kasm.md)
+- [Loki](loki/loki.md)
+- [Loki/logcli](loki/logcli.md)
+- [Loki/logql](loki/logql.md)
+- [Loki/promtail](loki/promtail.md)
 - [Longhorn](longhorn.md)
 - [Nginx](nginx.md)
 - [Portainer](portainer.md)

@@ -25,3 +25,4 @@ Index of text category
 - [Markdown-guide/hacks](markdown-guide/hacks.md)
 - [Markdown-guide/markdown-guide](markdown-guide/markdown-guide.md)
 - [Markdown-guide/tools](markdown-guide/tools.md)
+- [Markdown-guide/api](markdown-guide/api.md)
