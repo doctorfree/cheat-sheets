@@ -6,7 +6,7 @@ syntax-summary: "### My Great Heading {#custom-id}"
 
 Many Markdown processors support custom IDs for [headings](../basic-syntax/headings.md) — some Markdown processors automatically add them. Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.
 
-```text
+```markdown
 ### My Great Heading {#custom-id}
 ```
 
@@ -37,4 +37,8 @@ You can link to headings with custom IDs in the file by creating a [standard lin
   </tbody>
 </table>
 
-Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, `[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)`).
+Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage:
+
+```markdown
+[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)
+```
