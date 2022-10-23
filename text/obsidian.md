@@ -18,12 +18,16 @@ categories:
 
 See the [Obsidian Help](https://help.obsidian.md/Obsidian/Index) website for full documentation on Obsidian usage.
 
-Word Formatting & Coding Blocks            |  Links, Quotes & Tables
-:-------------------------:|:-------------------------:
-![](assets/obs1.png)  |  ![](assets/obs2.png)
+## Word Formatting & Coding Blocks
+
+![](assets/obs1.png)
+
+## Links, Quotes & Tables
+
+![](assets/obs2.png)
 
 ---
-# Markdown Cheat Sheet 💻
+## Markdown Cheat Sheet 💻
 <details>
   <summary><em><strong>Mini Cheat Sheet (click to expand) ✨</em></strong></summary>
   
@@ -146,7 +150,7 @@ Table Cell A  |  Table Cell B
 
 
 ---
-# Shortcuts ⌨️
+## Shortcuts ⌨️
 
 ### General Shortcuts 🕹️
 Shortcut Key		|		Functions
