@@ -12,7 +12,7 @@ categories:
     - plugins
 ---
 
-<p align="center"><img src="https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png" alt="Oh My Zsh"></p>
+![Oh My Zsh](assets/oh-my-zsh-logo.png)
 
 # Welcome to Oh My Zsh!
 
@@ -25,7 +25,7 @@ Oh My Zsh is an open source, community-driven framework for managing your [zsh](
   zsh 5.8 (x86_64-ubuntu-linux-gnu)
   ```
 
-- If you see `command not found` you don't have zsh installed. See [Installing Zsh](Installing-ZSH.md) for instructions.
+- If you see `command not found` you don't have zsh installed. See [Installing Zsh](ohmyzsh/Installing-ZSH.md) for instructions.
 - Once you have zsh, you can install Oh My Zsh by simply running one of these commands:
 
   | Method    | Command                                                                                           |
@@ -40,16 +40,16 @@ Oh My Zsh is an open source, community-driven framework for managing your [zsh](
 
 Once Oh My Zsh is installed:
 
-- Get a quick summary of the built-in plugins: [Plugins Overview](Plugins-Overview.md)
-- Take a look at our [Themes](Themes.md) and [Plugins](Plugins.md) (read the READMEs first!)
-- If you need more, you can look at [External themes](External-themes.md) and [External plugins](External-plugins.md)
-- Have a look at the [Cheatsheet](Cheatsheet.md) for other Oh My Zsh tricks
+- Get a quick summary of the built-in plugins: [Plugins Overview](ohmyzsh/Plugins-Overview.md)
+- Take a look at our [Themes](ohmyzsh/Themes.md) and [Plugins](ohmyzsh/Plugins.md) (read the READMEs first!)
+- If you need more, you can look at [External themes](ohmyzsh/External-themes.md) and [External plugins](ohmyzsh/External-plugins.md)
+- Have a look at the [Cheatsheet](ohmyzsh/Cheatsheet.md) for other Oh My Zsh tricks
 
 ## Advanced topics
 
-- Having problems? Check out the [FAQ](FAQ.md) for common problems, or the [Troubleshooting](Troubleshooting.md) page for instructions on how to diagnose the issue.
-- Want to change stuff about Oh My Zsh? Learn about [Customization](Customization.md).
-- If you want to learn more, check out the [Resources](Resources.md) page for more information.
+- Having problems? Check out the [FAQ](ohmyzsh/FAQ.md) for common problems, or the [Troubleshooting](ohmyzsh/Troubleshooting.md) page for instructions on how to diagnose the issue.
+- Want to change stuff about Oh My Zsh? Learn about [Customization](ohmyzsh/Customization.md).
+- If you want to learn more, check out the [Resources](ohmyzsh/Resources.md) page for more information.
 
 ## Community
 
@@ -71,20 +71,20 @@ Once Oh My Zsh is installed:
     />
 </a>
 
-- Read our user [Testimonials](Testimonials.md).
-- [Articles](Articles.md) Have you written a blog post/article that mentions Oh My Zsh?
+- Read our user [Testimonials](ohmyzsh/Testimonials.md).
+- [Articles](ohmyzsh/Articles.md) Have you written a blog post/article that mentions Oh My Zsh?
 - And don't forget to [follow us on twitter](https://twitter.com/ohmyzsh)!
 
 ## Help out!
 
 Want to contribute?
 
-We are looking for [Volunteers](Volunteers.md) of all skill levels.
+We are looking for [Volunteers](ohmyzsh/Volunteers.md) of all skill levels.
 
-Check out our [Code Style Guide](Code-Style-Guide.md) and [Design](Design.md) guidelines and start hacking away!
+Check out our [Code Style Guide](ohmyzsh/Code-Style-Guide.md) and [Design](ohmyzsh/Design.md) guidelines and start hacking away!
 
 ## See also
 
 - [Oh My Zsh Github](https://github.com/ohmyzsh/ohmyzsh)
-- [Powerlevel10k Zsh theme](../powerlevel10k.md)
-- [Zsh](../zsh.md)
+- [Powerlevel10k Zsh theme](powerlevel10k.md)
+- [Zsh](zsh.md)
