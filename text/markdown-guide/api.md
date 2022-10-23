@@ -19,16 +19,15 @@ We'd love to see the *Markdown Guide* become the central documentation repositor
 
 ### Limitations
 
-The Markdown Guide API is designed to provide only essential Markdown documentation. As a result, the API doesn't include all of the documentation available on the *Markdown Guide* website. For example, the [Adding Elements in Lists](../../basic-syntax/lists.md) section is not available through the basic syntax endpoint.
+The Markdown Guide API is designed to provide only essential Markdown documentation. As a result, the API doesn't include all of the documentation available on the *Markdown Guide* website. For example, the [Adding Elements in Lists](basic-syntax/lists.md) section is not available through the basic syntax endpoint.
 
 ## Basic Syntax Endpoint
 
-The basic syntax endpoint contains documentation about the Markdown elements outlined in John Gruber's design document and described on the [Basic Syntax page](../../basic-syntax.md).
+The basic syntax endpoint contains documentation about the Markdown elements outlined in John Gruber's design document and described on the [Basic Syntax page](basic-syntax.md).
 
-<div class="card">
-  <h6 class="card-header no-anchor" data-toc-skip>API Endpoint</h6>
-  <div class="card-body"><a href="/api/v1/basic-syntax.json">/api/v1/basic-syntax.json</a></div>
-</div>
+### API Endpoint
+
+[/api/v1/basic-syntax.json](assets/basic-syntax.json)
 
 ### Request
 
@@ -40,12 +39,11 @@ The basic syntax endpoint contains documentation about the Markdown elements out
 
 ## Cheat Sheet Endpoint
 
-The cheat sheet endpoint provides an overview of the most popular basic and extended Markdown syntax elements, as described on the [Cheat Sheet page](/cheat-sheet/).
+The cheat sheet endpoint provides an overview of the most popular basic and extended Markdown syntax elements, as described on the [Cheat Sheet page](cheat-sheet.md).
 
-<div class="card">
-  <h6 class="card-header no-anchor" data-toc-skip>API Endpoint</h6>
-  <div class="card-body"><a href="/api/v1/cheat-sheet.json">/api/v1/cheat-sheet.json</a></div>
-</div>
+### API Endpoint
+
+[/api/v1/cheat-sheet.json](assets/cheat-sheet.json)
 
 ### Request
 

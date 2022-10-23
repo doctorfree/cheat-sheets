@@ -8,7 +8,7 @@
 |----|----|----|
 | [Cheat sheet](cheat-sheet.md) | [Basic syntax](basic-syntax.md) | [Extended syntax](extended-syntax.md) |
 | [Getting started](getting-started.md) | [Hacks](hacks.md) | [Markdown tools](tools.md) |
-| [About](about.md) | [API](api/v1/index.md) | [Markdown book](book.md) |
+| [About](about.md) | [API](api.md) | [Markdown book](book.md) |
 
 ## Contributing
 
