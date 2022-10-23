@@ -190,7 +190,7 @@ The Slack post interface is editor that allows you to create a document for shar
 
 To create a post, click the shortcuts icon and select **Create a Post** as shown below.
 
-<img src="/assets/images/tools/slack-posts.png" class="img-fluid" style="width:50%" alt="Slack markdown in the post interface">
+![Slack markdown in the post interface](../assets/images/tools/slack-posts.png)
 
 #### Slack Markdown Support in Posts
 
