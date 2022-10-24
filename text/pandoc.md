@@ -76,27 +76,49 @@ pandoc -s -f html https://opensource.com -o FILE.markdown
 
 ## KEY COMMAND LINE OPTIONS
 
-```
---standalone (-s): In most formats, Pandoc generates a document fragment, rather than a self-contained single document. Use this flag to ensure appropriate headers and footers are included.
---from=FORMAT (-f): Usually Pandoc can infer the file format from context or its file extension. Use this flag to remove any guesswork. See the section below for the formats Pandoc supports.
---to=FORMAT (-t): Just like with the -f flag, this option allows you to explicitly specify the output format coming from Pandoc.
---output=FILE (-o): If you want your output to go to a file instead of standard out, make sure to include this option
---template=FILE: You can specify a template file for your output document using this flag if you want to control the look and appearance of the converted file.
---toc: Enable this option to automatically generate a table of contents in your output document.
---highlight-style=STYLE|FILE: If your converted output incorporates code that should be syntax-highlighted, use this option to use a predefined style (e.g. pygments, breezeDark, espresso, haddock, kate, monochrome, tango, and zenburn – the default is pygments) or a style theme that you define in a particular file.
-```
+**--standalone (-s)**
+: In most formats, Pandoc generates a document fragment, rather than a self-contained single document. Use this flag to ensure appropriate headers and footers are included.
+
+**--from=FORMAT (-f)**
+: Usually Pandoc can infer the file format from context or its file extension. Use this flag to remove any guesswork. See the section below for the formats Pandoc supports.
+
+**--to=FORMAT (-t)**
+: Just like with the -f flag, this option allows you to explicitly specify the output format coming from Pandoc.
+
+**--output=FILE (-o)**
+: If you want your output to go to a file instead of standard out, make sure to include this option
+
+**--template=FILE**
+: You can specify a template file for your output document using this flag if you want to control the look and appearance of the converted file.
+
+**--toc**
+: Enable this option to automatically generate a table of contents in your output document.
+
+**--highlight-style=STYLE|FILE**
+: If your converted output incorporates code that should be syntax-highlighted, use this option to use a predefined style (e.g. pygments, breezeDark, espresso, haddock, kate, monochrome, tango, and zenburn – the default is pygments) or a style theme that you define in a particular file.
 
 ## OPTIONS FOR SPECIFIC OUTPUT FORMATS
 
-```
---self-contained: Add this option if you’re generating an HTML document or HTML-based slides and you want to have no external file dependencies.
---number-sections (-N): If you’re working on a document (like an academic paper) that requires numbered sections, make use of this flag
---css=URL (-c): This option allows you to link to a specific CSS file for styling your output document. Pandoc tries to use sensible defaults, but if you want to give your EPUB or HTML output a custom look, this is the way to go.
---epub-cover-image=FILE: Use this flag to specify a cover image for your EPUB book. If your input format is Markdown, you can define this in a metadata block instead of using the command line option.
---epub-metadata=FILE: If you don’t have metadata specified in your input document, you can use this flag to let Pandoc know of a file where that metadata is located.
---pdf-engine: Use this option to stipulate which backend software you’d like to use to generate your output PDF. The default option is pdflatex, but other options include context, lualatex, pdfroff, prince, weasyprint, wkhtmltopdf, and xelatex, assuming you have those backends installed.
---mathjax: Pandoc defaults to using pretty simple styling for mathematical equations. Enable this option to make use of MathJax Javascript to render your equations and formulas.
-```
+**--self-contained**
+: Add this option if you’re generating an HTML document or HTML-based slides and you want to have no external file dependencies.
+
+**--number-sections (-N)**
+: If you’re working on a document (like an academic paper) that requires numbered sections, make use of this flag
+
+**--css=URL (-c)**
+: This option allows you to link to a specific CSS file for styling your output document. Pandoc tries to use sensible defaults, but if you want to give your EPUB or HTML output a custom look, this is the way to go.
+
+**--epub-cover-image=FILE**
+: Use this flag to specify a cover image for your EPUB book. If your input format is Markdown, you can define this in a metadata block instead of using the command line option.
+
+**--epub-metadata=FILE**
+: If you don’t have metadata specified in your input document, you can use this flag to let Pandoc know of a file where that metadata is located.
+
+**--pdf-engine**
+: Use this option to stipulate which backend software you’d like to use to generate your output PDF. The default option is pdflatex, but other options include context, lualatex, pdfroff, prince, weasyprint, wkhtmltopdf, and xelatex, assuming you have those backends installed.
+
+**--mathjax**
+: Pandoc defaults to using pretty simple styling for mathematical equations. Enable this option to make use of MathJax Javascript to render your equations and formulas.
 
 ## INPUT/OUTPUT FORMAT OPTIONS
 

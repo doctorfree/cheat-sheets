@@ -26,16 +26,13 @@ See the [Obsidian Help](https://help.obsidian.md/Obsidian/Index) website for ful
 
 ![](assets/obs2.png)
 
----
 ## Markdown Cheat Sheet 💻
 
----
-  
+See the [Markdown Guide cheat sheet](markdown-guide/cheat-sheet.md) for a more extensive list of Markdown syntax.
+
 # Heading 1
  
 ```# Heading 1 ```
-
----
 
 ## Heading 2
 
@@ -67,7 +64,7 @@ See the [Obsidian Help](https://help.obsidian.md/Obsidian/Index) website for ful
 
 ==Highlights==
 
-```==Highlights==```
+```==this text is highlighted==```
 
 [Links](markdown-guide/basic-syntax/links.md)
 
@@ -76,8 +73,6 @@ See the [Obsidian Help](https://help.obsidian.md/Obsidian/Index) website for ful
 > Quotes/ Blockquotes
 
 ```> Quotes/ Blockquotes```
-
----
 
 **Line Break**
 
@@ -89,49 +84,33 @@ See the [Obsidian Help](https://help.obsidian.md/Obsidian/Index) website for ful
 
 ``` - Bullet  ```
 
----
-
 - [X] Checklist
 
 ``` - [x] list  ```
-
----
 
 **Bold**
 
 ``` **text**  ```
 
----
-
 *Italic*
 
-```  *text* ```
-
----
+```*text*```
 
 ***Italic Bold***
 
-``` ***text***  ```
+```***text***```
 
----
-
-**==Highlights==**
-
-``` ==this text is highlighted==```
-
----
-
-**```Coding Blocks```**
+### Code Blocks
 
 ``` By putting 3 (`) signs before and after the code.  ```
 
----
+### Blockquotes
 
-> Quotes/ Blockquotes
+> Quotes / Blockquotes
 
 ``` > this is a quote.  ```
 
----
+### Tables
 
 |               |               |
 |---------------|---------------|
@@ -145,7 +124,6 @@ See the [Obsidian Help](https://help.obsidian.md/Obsidian/Index) website for ful
 | ----          |          ---- |
 ```
 
----
 ## Shortcuts ⌨️
 
 ### General Shortcuts 🕹️
@@ -168,8 +146,6 @@ Alt + Tab | Next App
 Alt + Shift + Tab | Previous App
 Win + Tab | Task View
 Win + Shift + Tab |  Next Window
-
-
 
 ### Editing Shortcuts 🕹️
 Shortcut Key		|		Functions
