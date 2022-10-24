@@ -4,6 +4,8 @@ syntax-id: escaping-characters
 api: "no"
 ---
 
+# Escaping characters
+
 To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (`\`) in front of the character.
 
 ```

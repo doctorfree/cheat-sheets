@@ -9,6 +9,8 @@ examples:
     html: "<p>This is the first line.  <br>And this is the second line.</p>"
 ---
 
+# Line breaks
+
 To create a line break or new line (`<br>`), end a line with two or more spaces, and then type return.
 
 <table class="table table-bordered">

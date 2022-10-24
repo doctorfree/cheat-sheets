@@ -17,6 +17,8 @@ additional-examples:
     html: I love supporting <strong><a href=\"https://eff.org\">EFF</a></strong>. This is the <em><a href=\"https://www.markdownguide.org\">Markdown Guide</a></em>.
 ---
 
+# Links
+
 To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
 
 ```
@@ -153,9 +155,7 @@ Markdown applications don't agree on how to handle spaces in the middle of a URL
     <tr>
       <td>
         <code class="highlighter-rouge">
-        [link](https://www.example.com/my%20great%20page)<br><br>
-
-        &lt;a href="https://www.example.com/my great page"&gt;link&lt;/a&gt;
+        [link](https://www.example.com/my%20great%20page)<br>
         </code>
       </td>
       <td>

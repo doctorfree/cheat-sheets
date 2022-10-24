@@ -21,6 +21,8 @@ additional-examples:
     html: <pre><code><html><head></head></html></code></pre>
 ---
 
+# Code
+
 To denote a word or phrase as code, enclose it in backticks (`` ` ``).
 
 <table class="table table-bordered">

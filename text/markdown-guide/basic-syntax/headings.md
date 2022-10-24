@@ -34,6 +34,8 @@ additional-examples:
     html: "<h2>Heading level 2</h2>"
 ---
 
+# Headings
+
 To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`).
 
 <table class="table table-bordered">

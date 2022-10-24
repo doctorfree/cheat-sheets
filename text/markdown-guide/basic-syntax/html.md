@@ -4,6 +4,8 @@ syntax-id: html
 api: "no"
 ---
 
+# HTML
+
 Many Markdown applications allow you to use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the [color of text](../hacks.md) or changing the width of an image.
 
 To use HTML, place the tags in the text of your Markdown-formatted file.

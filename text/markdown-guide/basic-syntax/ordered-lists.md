@@ -35,6 +35,8 @@ examples:
     html: <ol><li>First item</li><li>Second item</li><li>Third item<ol><li>Indented item</li><li>Indented item</li></ol></li><li>Fourth item</li></ol>
 ---
 
+# Ordered lists
+
 To create an ordered list, add line items with numbers followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one.
 
 <table class="table table-bordered">

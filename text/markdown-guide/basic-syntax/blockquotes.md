@@ -33,6 +33,8 @@ additional-examples:
     html: "<blockquote><h3>The quarterly results look great!</h3><ul><li>Revenue was off the chart.</li><li>Profits were higher than ever.</li></ul><p><em>Everything</em> is going according to <strong>plan</strong>.</p></blockquote>"
 ---
 
+# Blockquotes
+
 To create a blockquote, add a `>` in front of a paragraph.
 
 ```
