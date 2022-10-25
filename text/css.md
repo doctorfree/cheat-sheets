@@ -1029,3 +1029,4 @@ html {
 - [CSS Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Browser support](https://caniuse.com/#feat=css-grid)
 - [HTML](html.md)
+- [Doctorfree Obsidian Theme](obsidian/doctorfree-theme.md)

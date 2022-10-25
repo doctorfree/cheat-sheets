@@ -167,3 +167,9 @@ See the [Markdown Guide cheat sheet](markdown-guide/cheat-sheet.md) for a more e
 | ----          |          ---- |
 ```
 
+## See also
+
+- [Doctorfree Obsidian Theme](doctorfree-theme.md)
+- [NB](../nb.md)
+- [Markdown Guide](../markdown-guide/markdown-guide.md)
+- [CSS cheat sheet](../css.md)
