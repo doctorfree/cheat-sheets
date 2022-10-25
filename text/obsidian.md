@@ -18,6 +18,49 @@ categories:
 
 See the [Obsidian Help](https://help.obsidian.md/Obsidian/Index) website for full documentation on Obsidian usage.
 
+## Shortcuts ⌨️
+
+On Mac OS, visit `Obsidian -> Preferences -> Hotkeys` to view and customize the keyboard shortcuts. On Linux, visit `Settings -> Hotkeys`.
+
+**[Note:]** Keyboard shortcuts vary between Windows, [Linux](../linux/linux.md), and [Mac OS](../macos/macos.md). On Mac OS, replace `Ctrl` with `Cmd` and `Alt` with `Opt`.
+
+### General Shortcuts 🕹️
+
+| **Shortcut Keys**    | **Function**               |
+|----------------------|----------------------------|
+| `Ctrl + S`           | Editor: Saves the file     |
+| `Ctrl + N`           | Creates a new note         |
+| `Ctrl + P`           | Open command pallete       |
+| `Ctrl + O`           | Opens Quick Switcher       |
+| `Ctrl + Shift + F`   | Search in all files        |
+| `Ctrl + G`           | Opens graph view           |
+| `Ctrl +  Alt + ←`    | Navigate Back              |
+| `Ctrl +  Alt + →`    | Navigate forth             |
+| `Ctrl + F`           | Searches current file      |
+| `Ctrl + E`           | Toggle edit/preview modes  |
+| `Ctrl + ,`           | Open Settings              |
+| `Ctrl + Tab`         | Next tab                   |
+| `Ctrl + Shift + Tab` | Previous tab               |
+| `Alt + Tab`          | Next App                   |
+| `Alt + Shift + Tab`  | Previous App               |
+| `Win + Tab`          | Task View                  |
+| `Win + Shift + Tab`  | Next Window                |
+| `Ctrl + Shift + I`   | Open the developer console |
+
+### Editing Shortcuts 🕹️
+
+| **Shortcut Keys**      | **Function**                          |
+|------------------------|---------------------------------------|
+| `Ctrl + B`             | Bold Selected Text                    |
+| `Ctrl + I`             | Italicize Selected Text               |
+| `Ctrl + K`             | Insert External Link to Selected Text |
+| `Ctrl + ]`             | Indent                                |
+| `Ctrl + [`             | Unindent                              |
+| `Ctrl + D`             | Delete current line                   |
+| `Ctrl + V`             | Duplicate current line                |
+| `Ctrl + Click`         | Open Note in Current Panel via Link   |
+| `Ctrl + Shift + Click` | Open Note in New Panel via Link       |
+
 ## Word Formatting & Coding Blocks
 
 ![](assets/obs1.png)
@@ -123,40 +166,4 @@ See the [Markdown Guide cheat sheet](markdown-guide/cheat-sheet.md) for a more e
 | Table Cell A  |  Table Cell B |
 | ----          |          ---- |
 ```
-
-## Shortcuts ⌨️
-
-### General Shortcuts 🕹️
-Shortcut Key		|		Functions
-:-----------------:|-----------------:
-Ctrl + S|Editor: Saves the file
-Ctrl + N| Creates a new note
-Ctrl + P| Open command pallete
-Ctrl + O | Opens Quick Switcher
-Ctrl + Shift + F  | Search in all files
-Ctrl + G   | Opens graph view
-Ctrl +  Alt + ← | Navigate Back
-Ctrl +  Alt + → | Navigate forth
-Ctrl + F | Searches current file
-Ctrl + E | Toggle edit/preview modes
-Ctrl + , | Open Settings
-Ctrl + Tab | Next tab
-Ctrl + Shift + Tab | Previous tab
-Alt + Tab | Next App
-Alt + Shift + Tab | Previous App
-Win + Tab | Task View
-Win + Shift + Tab |  Next Window
-
-### Editing Shortcuts 🕹️
-Shortcut Key		|		Functions
-:-----------------:|-----------------:
-Ctrl + B | Bold Selected Text
-Ctrl + I | Italicize Selected Text
-Ctrl + K | Insert External Link to Selected Text
-Ctrl + ] | Indent
-Ctrl + `[` | Unindent
-Ctrl + D |Delete current line
-Ctrl + V  | Duplicate current line
-Ctrl + Click | Open Note in Current Panel via Link	
-Ctrl + Shift + Click | Open Note in New Panel via Link	
 
