@@ -33,4 +33,4 @@ Pull requests merged to the master branch are automatically deployed to the prod
 
 ## License
 
-The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.txt).
+The content of the [Markdown Guide project](https://www.markdownguide.org/) itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/MIT).
