@@ -234,5 +234,7 @@ Support our mission to create free, high-quality content for tech enthusiasts an
 - [Buy Randy a Cup of Coffee](https://buymeacoffee.com/randy8080)
 - [Buy Matt's Markdown Guide](https://mattcone.gumroad.com/l/markdownguide)
 
+<a href="https://www.buymeacoffee.com/doctorfree"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=doctorfree&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a>
+
 ***Help us to create something that matters to people!***
 
