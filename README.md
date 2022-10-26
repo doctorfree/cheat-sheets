@@ -52,7 +52,7 @@ To overcome this problem, the CommonMark markdown specification was written and 
 
 ### Tags
 
-[Markdown](text/markdown.md) supports the inclusion of tags in a [YAML](text/yaml.md) prelude. Our cheat sheets utilize tags extensively in an attempt to enhance the inter-relationships and qualitative properties of each. Some markdown viewers, like Obsidian, can take advantage of tags to highlight aspects and relationships between elements in a collection.
+[Markdown](text/markdown.md) supports the inclusion of tags in a [YAML](text/yaml.md) prelude. Our cheat sheets utilize tags extensively in an attempt to enhance the inter-relationships and qualitative properties of each. Some markdown viewers, like [Obsidian](https://obsidian.md), can take advantage of tags to highlight aspects and relationships between elements in a collection.
 
 Tags are an important but often overlooked feature in note-taking and personal knowledge management systems. For example, the [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) method can be enhanced greatly through the use of tags. Too often knowledge management systems utilize categories rather than tags, ignoring the fact that many elements have cross-category relationships.
 
