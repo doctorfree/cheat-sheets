@@ -174,3 +174,4 @@ See the [Markdown Guide cheat sheet](markdown-guide/cheat-sheet.md) for a more e
 - [NB](../nb.md)
 - [Markdown Guide](../markdown-guide/markdown-guide.md)
 - [CSS cheat sheet](../css.md)
+- [Obsidian API](obsidian-api.md)

@@ -11,6 +11,7 @@ Index of text category
 - [Markdown](markdown.md)
 - [Nb](nb.md)
 - [Obsidian](obsidian/obsidian.md)
+    - [Obsidian API](obsidian/obsidian-api.md)
     - [Doctorfree Obsidian Theme](obsidian/doctorfree-theme.md)
 - [Pandoc](pandoc.md)
 - [Toml](toml.md)

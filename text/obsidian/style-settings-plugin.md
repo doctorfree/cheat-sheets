@@ -543,3 +543,4 @@ settings:
 - [NB](../nb.md)
 - [Markdown Guide](../markdown-guide/markdown-guide.md)
 - [CSS cheat sheet](../css.md)
+- [Obsidian API](obsidian-api.md)
