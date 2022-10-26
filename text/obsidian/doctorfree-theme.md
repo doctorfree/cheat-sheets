@@ -29,7 +29,7 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 
 ### Manual
 
-```
+```shell
 git clone https://github.com/doctorfree/Obsidian-Doctorfree.git
 cd Obsidian-Doctorfree
 mkdir -p /path/to/vault/.obsidian/themes/Doctorfree
@@ -153,3 +153,4 @@ Public License v3.0.
 ## See also
 
 - [Obsidian cheat sheet](obsidian.md)
+- [Obsidian style settings plugin](style-settings-plugin.md)
