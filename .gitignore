@@ -1,4 +1,11 @@
-.obsidian
+.obsidian/*
+!.obsidian/themes
+.obsidian/themes/*
+!.obsidian/themes/Doctorfree
+.obsidian/themes/Doctorfree/*
+!.obsidian/themes/Doctorfree/manifest.json
+!.obsidian/themes/Doctorfree/theme.css
+
 .index
 tmp/*
 todo/*
