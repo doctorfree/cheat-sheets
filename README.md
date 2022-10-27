@@ -112,7 +112,18 @@ These cheat sheets are roughly organized within categories. Browse the index of 
 
 ## Usage
 
-Any [markdown](https://en.wikipedia.org/wiki/Markdown) viewer can be used to view this knowledge base. You can simply browse the repository and click on the individual markdown files at https://github.com/doctorfree/cheat-sheets.git in any web browser. However, to view the inter-relationships between the many components, categories, and technologies documented here, we recommend using the [Obsidian](https://obsidian.md) knowledge base engine. Obsidian is free for personal non-commercial use but must be purchased in revenue generating operations (see the note on [Obsidian license restrictions](#obsidian-license-restriction) below).
+Any [markdown](https://en.wikipedia.org/wiki/Markdown) viewer can be used to view this knowledge base. You can simply browse the repository and click on the individual markdown files at https://github.com/doctorfree/cheat-sheets.git in any web browser. However, to view the inter-relationships between the many components, categories, and technologies documented here, we recommend using the [Obsidian](https://obsidian.md) knowledge base engine.
+
+The repository contains the Obsidian theme `Doctorfree`. To use this theme with Obsidian:
+
+- Clone or download the repository
+    - `git clone https://github.com/doctorfree/cheat-sheets-plus.git`
+- Create a new Obsidian vault from the folder created above
+- Select the `Doctorfree` Obsidian theme
+    - Go to `Settings -> Appearance -> Themes` in Obsidian
+    - Select `Doctorfree` from the drop down menu of available themes
+
+**[Note:]** Obsidian is free for personal non-commercial use but must be purchased in revenue generating operations (see the note on [Obsidian license restrictions](#obsidian-license-restriction) below).
 
 ### Markdown viewers
 
