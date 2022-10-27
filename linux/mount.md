@@ -4,12 +4,12 @@ In **[Linux](linux.md)**, mount is a command in various operating systems. Befor
 
 ---
 List mount-points
-```
+```shell
 findmnt (optional)<device/directory>
 ```
 
 Unmount
-```
+```shell
 umount <device/directory>
 ```
 

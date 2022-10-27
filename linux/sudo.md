@@ -8,12 +8,12 @@ Unlike the similar command *su*, users must, by default, supply their own passwo
 
 User to sudo without a password:
 
-```
+```shell
 echo "${USER} ALL=(ALL:ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/no-sudo-password-for-${USER}
 ```
 
 Run a command as a user:
 
-```
+```shell
 sudo -H -u ubuntu bash -c 'echo "I am: $USER"' 
 ```

@@ -34,7 +34,7 @@ This quick reference cheat sheet provides various for using SSH.
 
 Using your key for SSH to bastion and using your key to SSH to target host:
 
-```
+```shell
 Host *
     Port 22
     User ubuntu
@@ -57,7 +57,7 @@ Host target-a
 
 Using your key to SSH to bastion and using the remote key on B to SSH to the target host:
 
-```
+```shell
 Host *
     Port 22
     User ubuntu
@@ -80,7 +80,7 @@ Host target-b
 
 One liner:
 
-```
+```shell
 ssh -i ~/.ssh/target.pem -o ProxyCommand="ssh -W %h:%p -i ~/.ssh/id_rsa -q ubuntu@bastion.domain" ubuntu@target.domain
 ```
 
@@ -88,13 +88,13 @@ ssh -i ~/.ssh/target.pem -o ProxyCommand="ssh -W %h:%p -i ~/.ssh/id_rsa -q ubunt
 
 To run a socks5 ssh tunnel in the foreground:
 
-```
+```shell
 ssh -D 1337 -q -C -N jump-host
 ```
 
 To run a forked socks5 ssh tunnel in the background:
 
-```
+```shell
 ssh -D 1337 -q -C -N -f jump-host
 ```
 
@@ -106,7 +106,7 @@ Setup a local tunnel accessible on port 8080 which will traverse via the tunnel 
 
 First to setup our SSH Config (optional):
 
-```
+```shell
 $ cat ~/.ssh/config
 Host jump-host
     HostName jump-host.mydomain.com
@@ -125,7 +125,7 @@ Host target-a
 
 This ssh session will log you into the remote server, so the session will remain active as long as you are logged in:
 
-```
+```shell
 $ ssh -L 8080:localhost:9100 target-a
 ```
 
@@ -133,7 +133,7 @@ $ ssh -L 8080:localhost:9100 target-a
 
 Then we can do the same, but fork the ssh session to the background:
 
-```
+```shell
 $ ssh -fN -L 8080:localhost:9100 target-a
 ```
 
@@ -143,13 +143,13 @@ To kill the session, you can get the `pid` by running: `ps aux | grep '8080:loca
 
 Then we can do the same, but run the ssh session in the forground:
 
-```
+```shell
 $ ssh -fN -L 8080:localhost:9100 -CqN target-a
 ```
 
 Now when you try to access port 8080 locally, you will see that we can reach port 80 on the remote target:
 
-```
+```shell
 $ nc -vz localhost 8080
 Connection to localhost port 8080 [tcp/*] succeeded!
 ```

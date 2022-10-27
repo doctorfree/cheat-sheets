@@ -423,7 +423,7 @@ If alternatives overlap, order longer to shorter.
 ### If-then-else
 Match "Mr." or "Ms." if word "her" is later in string
 
-```
+```shell
 M(?(?=.*?\bher\b)s|r)\.
 ```
 requires lookaround for IF condition

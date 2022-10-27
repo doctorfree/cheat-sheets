@@ -17,7 +17,7 @@ sudo apt -y install nfs-kernel-server
 
 ### Client
 
-```
+```shell
 sudo apt -y update
 sudo apt -y install nfs-common
 ```
@@ -28,7 +28,7 @@ sudo apt -y install nfs-common
 
 On the server edit `/etc/exports` and add a line for each NFS export. For example:
 
-```
+```shell
 /u -mapall=501 -network 10.0.1.0 -mask 255.255.255.0
 /home/doctorwhen -rw -network 10.0.1.0 -mask 255.255.255.0
 ```
@@ -39,7 +39,7 @@ After editing `/etc/exports` run `exportfs -a`
 
 On the NFS server run `showmount -e` to list exports:
 
-```
+```shell
 showmount -e
 
 Exports list on localhost:
@@ -51,7 +51,7 @@ Exports list on localhost:
 
 On the NFS server run `showmount` to see mounting clients:
 
-```
+```shell
 showmount 
 
 Hosts on localhost:
@@ -62,7 +62,7 @@ ubuntu.hsd1.ca.comcast.net
 
 To list local services run:
 
-```
+```shell
 rpcinfo -p
 
        program vers proto   port  service
@@ -100,7 +100,7 @@ rpcinfo -p
 
 Above output is from an NFS server. You can also run it for remote servers by passing an IP. NFS clients usually just run status and portmapper:
 
-```
+```shell
 rpcinfo -p 10.1.0.15
 
        program vers proto   port  service
