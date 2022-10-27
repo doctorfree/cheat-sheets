@@ -10,7 +10,7 @@ Website: http://www.kornshell.org/
 
 ## Documentation
 
-[See the docs folder](docs/index.md)
+[See the docs folder](docs/ksh_doc_index.md)
 
 ## What is ksh93?
 
