@@ -10,16 +10,19 @@ categories:
 
 List of commands, configurations and tips for Raspberry Pi and Linux beginners. Also known as a quick start guide.
 
-![Raspberry Pi Commands](assets/Raspberry-Pi-Commands.pdf)
-
 ## Table of contents
 
+* [Raspberry Pi Commands](#raspberry-pi-commands) (PDF)
 * [Raspberry Pi OS / Linux](#raspberry-pi-os--linux)
 * [Pi-hole](#pi-hole)
 * [Git](#git)
 * [Node.js](#nodejs)
 * [Docker](#docker)
 * [Speedtest.net](#speedtestnet)
+
+## Raspberry Pi Commands
+
+![Raspberry Pi Commands](assets/Raspberry-Pi-Commands.pdf)
 
 ## Raspberry Pi OS / Linux
 ### Pi user default password
