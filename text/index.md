@@ -25,6 +25,7 @@ Index of text category
 - [Obsidian](obsidian/obsidian.md)
     - [Obsidian API](obsidian/obsidian-api.md)
     - [Obsidian API documentation](obsidian/obsidian.d.ts.md)
+    - [Dataview plugin](obsidian/dataview.md)
     - [Style settings plugin](obsidian/style-settings-plugin.md)
     - [Doctorfree Obsidian Theme](obsidian/doctorfree-theme.md)
 - [Pandoc](pandoc.md)

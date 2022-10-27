@@ -155,3 +155,4 @@ Public License v3.0.
 - [Obsidian cheat sheet](obsidian.md)
 - [Obsidian style settings plugin](style-settings-plugin.md)
 - [Obsidian API](obsidian-api.md)
+- [Dataview Obsidian Plugin](dataview.md)

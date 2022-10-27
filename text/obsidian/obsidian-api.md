@@ -73,3 +73,4 @@ this.registerInterval(setInterval(callback, 1000));
 - [Obsidian API documentation](obsidian.d.ts.md)
 - [Obsidian Doctorfree theme](doctorfree-theme.md)
 - [Style settings plugin](style-settings-plugin.md)
+- [Dataview Obsidian Plugin](dataview.md)

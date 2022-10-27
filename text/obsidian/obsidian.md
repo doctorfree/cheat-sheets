@@ -175,3 +175,4 @@ See the [Markdown Guide cheat sheet](markdown-guide/cheat-sheet.md) for a more e
 - [Markdown Guide](../markdown-guide/markdown-guide.md)
 - [CSS cheat sheet](../css.md)
 - [Obsidian API](obsidian-api.md)
+- [Dataview Obsidian Plugin](dataview.md)
