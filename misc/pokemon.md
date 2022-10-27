@@ -1,4 +1,4 @@
-# Pokedex
+# Pokémon
 
 ## Types Legend
 
@@ -8,11 +8,11 @@
 | **Grass** | **Ground** | **Ice** | **Normal** | **Poison** | **Psychic** | **Rock** | **Steel** | **Water** |
 | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif) | ![Ground](https://vignette.wikia.nocookie.net/pokemon/images/1/1d/Type_Ground.gif) | ![Ice](https://vignette.wikia.nocookie.net/pokemon/images/8/84/Type_Ice.gif) | ![Normal](https://vignette.wikia.nocookie.net/pokemon/images/6/61/Type_Normal.gif) | ![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Psychic](https://vignette.wikia.nocookie.net/pokemon/images/6/65/Type_Psychic.gif) | ![Rock](https://vignette.wikia.nocookie.net/pokemon/images/b/b3/Type_Rock.gif) | ![Steel](https://vignette.wikia.nocookie.net/pokemon/images/a/ab/Type_Steel.gif) | ![Water](https://vignette.wikia.nocookie.net/pokemon/images/e/ed/Type_Water.gif) |
 
-## Pokemon Pokedex
+## Pokémon Pokedex
 
-| Serial Number | Pokemon Name | Type | Image |
+| **Number** | **Name** | **Type** | **Image** |
 | --- |---| --- | --- |
-| 001 | Bulbasaur | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif) | ![Bulbasaur](https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png)|
+| 001 | Bulbasaur | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif)/![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Bulbasaur](https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png)|
 | 002 | Ivysaur | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif) | ![Ivysaur](https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png)|
 | 003 | Venusaur | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif) | ![Venusaur](https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png)|
 |004|Charmander|![Fire](https://vignette.wikia.nocookie.net/pokemon/images/4/4d/Type_Fire.gif)|![Charmander](https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png)|
@@ -24,9 +24,9 @@
 | 010 | Caterpie | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif) | ![Caterpie](https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png)|
 | 011 | Metapod | ![Bug](https://vignette.wikia.nocookie.net/pokemon/images/6/64/Type_Bug.gif) | ![Metapod](https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png)|
 | 012 | Butterfree | ![Bug](https://vignette.wikia.nocookie.net/pokemon/images/6/64/Type_Bug.gif) | ![Butterfree](https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png)|
-| 013 |Weedle|![Bug](https://vignette.wikia.nocookie.net/pokemon/images/6/64/Type_Bug.gif)/![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)|![Weedle](https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png)|
-| 014 |Kakuna|![Bug](https://vignette.wikia.nocookie.net/pokemon/images/6/64/Type_Bug.gif)/![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)|![Kakuna](https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png)|
-| 015 | Beedrill  | ![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)| ![Beedrill](https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png)| 
+| 013 |Weedle|![Bug](https://vignette.wikia.nocookie.net/pokemon/images/6/64/Type_Bug.gif)/![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)|![Weedle](https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png)|
+| 014 |Kakuna|![Bug](https://vignette.wikia.nocookie.net/pokemon/images/6/64/Type_Bug.gif)/![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)|![Kakuna](https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png)|
+| 015 | Beedrill  | ![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)| ![Beedrill](https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png)| 
 | 016 | Pidgey | ![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif) | ![Pidgey](https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png)|
 | 017 |Pidgeotto|![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif) |![Pidgeotto](https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png)|
 | 018 |Pidgeot|![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif)|![Pidgeot](https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png)|
@@ -34,28 +34,28 @@
 | 020 | Raticate | ![Normal](https://vignette.wikia.nocookie.net/pokemon/images/6/61/Type_Normal.gif) | ![Raticate](https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png)|
 | 021 | Spearow | ![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif) | ![Spearow](https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png)|
 | 022 | Fearow | ![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif) | ![Fearow](https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png)|
-| 023  | Ekans | ![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)| ![Ekans](https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png)|  
-| 024 |Arbok   |![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)|![Arbok](https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png)  |
+| 023  | Ekans | ![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)| ![Ekans](https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png)|  
+| 024 |Arbok   |![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)|![Arbok](https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png)  |
 | 025 | Pikachu | ![Electric](https://vignette.wikia.nocookie.net/pokemon/images/a/aa/Type_Electric.gif)| ![Pikachu](https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png)|
 | 026 | Raichu | ![Electric](https://vignette.wikia.nocookie.net/pokemon/images/a/aa/Type_Electric.gif)| ![Raichu](https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png)|
 | 027 | Sandshrew | ![Ground](https://vignette.wikia.nocookie.net/pokemon/images/1/1d/Type_Ground.gif)| ![Sandshrew](https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png)|
 | 028 | Sandslash | ![Ground](https://vignette.wikia.nocookie.net/pokemon/images/1/1d/Type_Ground.gif)| ![Sandslash](https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png)|
-| 029 | Nidoran | ![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Nidoran](https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png)|
-| 030 | Nidorina | ![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Nidorina](https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png)|
-| 031 | Nidoqueen | ![Ground](https://vignette.wikia.nocookie.net/pokemon/images/1/1d/Type_Ground.gif)/![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Nidoqueen](https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png) | 
-| 032 | Nidoran | ![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) |![Nidoran](https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png) |
-| 033 | Nidorino | ![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) |![Nidorino](https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png) | 
-| 034 | Nidoking | ![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)/![Ground](https://vignette.wikia.nocookie.net/pokemon/images/1/1d/Type_Ground.gif) |![Nidoking](https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png) |
+| 029 | Nidoran | ![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Nidoran](https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png)|
+| 030 | Nidorina | ![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Nidorina](https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png)|
+| 031 | Nidoqueen | ![Ground](https://vignette.wikia.nocookie.net/pokemon/images/1/1d/Type_Ground.gif)/![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Nidoqueen](https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png) | 
+| 032 | Nidoran | ![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) |![Nidoran](https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png) |
+| 033 | Nidorino | ![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) |![Nidorino](https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png) | 
+| 034 | Nidoking | ![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)/![Ground](https://vignette.wikia.nocookie.net/pokemon/images/1/1d/Type_Ground.gif) |![Nidoking](https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png) |
 | 035 | Clefairy | ![Fairy](https://vignette.wikia.nocookie.net/pokemon/images/7/74/Type_Fairy.gif) |![Clefairy](https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png) | 
 | 036 | Clefable | ![Fairy](https://vignette.wikia.nocookie.net/pokemon/images/7/74/Type_Fairy.gif) |![Clefable](https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png) | 
 | 037 | Vulpix | ![Fire](https://vignette.wikia.nocookie.net/pokemon/images/4/4d/Type_Fire.gif) |![Vulpix](https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png) | 
 | 038 | Ninetales | ![Fire](https://vignette.wikia.nocookie.net/pokemon/images/4/4d/Type_Fire.gif) |![Ninetales](https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png) |
 | 039 | Jigglypuff | ![Normal](https://vignette.wikia.nocookie.net/pokemon/images/6/61/Type_Normal.gif)/![Fairy](https://vignette.wikia.nocookie.net/pokemon/images/7/74/Type_Fairy.gif) |![Jigglypuff](https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png) | 
 | 040 | Wigglytuff |![Normal](https://vignette.wikia.nocookie.net/pokemon/images/6/61/Type_Normal.gif)/![Fairy](https://vignette.wikia.nocookie.net/pokemon/images/7/74/Type_Fairy.gif) |![Wigglytuff](https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png) |
-| 041 | Zubat |![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)/![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif) |![Zubat](https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png) |
-| 042 | Golbat |![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)/![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif) |![Golbat](https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png) |
-| 043 | Oddish |![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif)/![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) |![Oddish](https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png) |
-| 044 | Gloom |![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif)/![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) |![Gloom](https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png)  |
+| 041 | Zubat |![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)/![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif) |![Zubat](https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png) |
+| 042 | Golbat |![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif)/![Flying](https://vignette.wikia.nocookie.net/pokemon/images/4/4b/Type_Flying.gif) |![Golbat](https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png) |
+| 043 | Oddish |![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif)/![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) |![Oddish](https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png) |
+| 044 | Gloom |![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif)/![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) |![Gloom](https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png)  |
 |||||
 |||||
 |||||
@@ -82,7 +82,7 @@
 |||||
 |||||
 | 069 | Bellsprout | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif) | ![Bellsprout](https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png)|
-| 070 | Weepinbell | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif)/![Poisonl](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Weepinbell](https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png)|
+| 070 | Weepinbell | ![Grass](https://vignette.wikia.nocookie.net/pokemon/images/4/46/Type_Grass.gif)/![Poison](https://vignette.wikia.nocookie.net/pokemon/images/8/82/Type_Poison.gif) | ![Weepinbell](https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png)|
 |||||
 |||||
 |||||
