@@ -10,6 +10,8 @@ categories:
 
 List of commands, configurations and tips for Raspberry Pi and Linux beginners. Also known as a quick start guide.
 
+![Raspberry Pi Commands](assets/Raspberry-Pi-Commands.pdf)
+
 ## Table of contents
 
 * [Raspberry Pi OS / Linux](#raspberry-pi-os--linux)
