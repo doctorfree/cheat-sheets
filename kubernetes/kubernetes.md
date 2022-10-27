@@ -28,6 +28,7 @@ Github Repository: https://github.com/kubernetes/kubernetes
 - [k3s-install-ha-externaldb](k3s-install-ha-externaldb.md)
 - [k3s-install-single](k3s-install-single.md)
 - [k9s](k9s.md)
+- [kind](kind.md)
 - [kubernetes-automation](kubernetes-automation.md)
 - [kubernetes-dns](kubernetes-dns.md)
 - [docker](../docker/docker.md)

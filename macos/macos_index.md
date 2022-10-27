@@ -2,7 +2,8 @@
 
 Index of macos category
 
-- [Docker-on-macos-silicon](docker-on-macos-silicon.md)
-- [Macos](macos.md)
-- [Macos-shortcuts](macos-shortcuts.md)
-- [Vscode-macos-shortcuts](vscode-macos-shortcuts.md)
+- [Chrome on Mac OS](chrome-on-macos.md)
+- [Docker on Mac OS Silicon](docker-on-macos-silicon.md)
+- [Mac OS](macos.md)
+- [Macos Shortcuts](macos-shortcuts.md)
+- [Vscode Mac OS Shortcuts](vscode-macos-shortcuts.md)

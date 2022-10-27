@@ -9,6 +9,7 @@ Index of kubernetes category
 - [K3s-install-single](k3s-install-single.md)
 - [K3s](k3s.md)
 - [K9s](k9s.md)
+- [Kind](kind.md)
 - [Kubectl](kubectl.md)
 - [Kubernetes-automation](kubernetes-automation.md)
 - [Kubernetes-dns](kubernetes-dns.md)
