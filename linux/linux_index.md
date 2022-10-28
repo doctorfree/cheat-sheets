@@ -4,6 +4,7 @@ Index of linux category
 
 - [Awk](awk.md)
 - [Chmod](chmod.md)
+- [Du](du.md)
 - [Flatpak](flatpak.md)
 - [Grep](grep.md)
 - [Iptables](iptables.md)
