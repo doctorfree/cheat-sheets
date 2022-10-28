@@ -1,6 +1,7 @@
 ---
 tags:
     - articles
+    - ohmyzsh
     - shell
     - zsh
 categories:

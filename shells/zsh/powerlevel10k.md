@@ -1,6 +1,7 @@
 ---
 tags:
     - zsh
+    - powerlevel
     - themes
 categories:
     - themes

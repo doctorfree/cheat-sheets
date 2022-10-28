@@ -2,6 +2,7 @@
 tags:
     - shell
     - linux
+    - ohmyzsh
     - plugins
     - zsh
 categories:

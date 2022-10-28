@@ -3,6 +3,7 @@ tags:
     - customization
     - shell
     - linux
+    - ohmyzsh
     - themes
     - plugins
     - zsh

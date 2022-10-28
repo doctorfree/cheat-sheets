@@ -1,3 +1,14 @@
+---
+tags:
+    - shell
+    - csh
+    - echo
+    - script
+    - linux
+categories:
+    - shells
+---
+
 # CSH
 
 The ***C shell*** (***csh*** or the improved version, ***tcsh***) is a Unix shell created by Bill Joy while he was a graduate student at University of California, Berkeley in the late 1970s. It has been widely distributed, beginning with the 2BSD release of the Berkeley Software Distribution (BSD) which Joy first distributed in 1978. Other early contributors to the ideas or the code were Michael Ubell, Eric Allman, Mike O'Brien and Jim Kulp.

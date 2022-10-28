@@ -1,7 +1,7 @@
 ---
 tags:
     - shell
-    - bash
+    - ohmyzsh
     - sh
     - linux
     - plugins

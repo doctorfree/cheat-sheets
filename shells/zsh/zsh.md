@@ -1,8 +1,7 @@
 ---
 tags:
     - shell
-    - bash
-    - sh
+    - zsh
     - echo
     - script
     - linux

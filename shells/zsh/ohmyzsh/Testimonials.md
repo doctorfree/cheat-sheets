@@ -1,6 +1,7 @@
 ---
 tags:
     - shell
+    - ohmyzsh
     - zsh
 categories:
     - shells

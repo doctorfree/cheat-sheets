@@ -2,6 +2,7 @@
 tags:
     - shell
     - linux
+    - ohmyzsh
     - zsh
 categories:
     - shells
