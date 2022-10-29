@@ -21,6 +21,31 @@ Repository: https://git.savannah.gnu.org/cgit/bash.git
 
 Website: https://www.gnu.org/software/bash
 
+### Keyboard Shortcuts
+
+| Key        | Description                     |
+|------------|---------------------------------|
+| `CTRL + A` | Move to the beginning of the line |
+| `CTRL + E` | Move to the end of the line |
+| `CTRL + [left arrow]` | Move one word backward (on some systems this is ALT + B) |
+| `CTRL + [right arrow]` | Move one word forward (on some systems this is ALT + F) |
+| `CTRL + U` | Clear the characters on the line before the current cursor position |
+| `CTRL + K` | Clear the characters on the line after the current cursor position |
+| `ESC + [backspace]` | Delete the word in front of the cursor |
+| `CTRL + W` | Delete the word in front of the cursor |
+| `ALT + D` | Delete the word after the cursor |
+| `CTRL + R` | Search history |
+| `CTRL + G` | Escape from search mode |
+| `CTRL + -` | Undo the last change |
+| `CTRL + L` | Clear screen |
+| `CTRL + S` | Stop output to screen |
+| `CTRL + Q` | Re-enable screen output |
+| `CTRL + C` | Terminate/kill current foreground process |
+| `CTRL + Z` | Suspend/stop current foreground process |
+| `!!` | Execute last command in history |
+| `!abc` | Execute last command in history beginning with abc |
+| `!abc:p` | Print last command in history beginning with abc |
+
 ## Usage
 
 ### Hello world
