@@ -858,7 +858,7 @@ settings:
   --text-normal: #f8f8f2;
   --text-muted: #f8f8f2;
   --text-faint: #7fdbca;
-  --text-highlight-bg: hsla(61deg, 100%, 32%, 0.8);
+  --text-highlight-bg: hsla(101deg, 100%, 12%, 0.8);
   --text-selection: #6272a4;
   --interactive-accent: rgba(14, 210, 247, 0.5);
   --interactive-accent-hover: rgba(14, 210, 247, 0.8);
@@ -908,6 +908,15 @@ settings:
 /*    at a rule line before ul list    */
 /*  Hide Scrollbar (recommend for mac) */
 /*-------------------------------------*/
+
+/************************/
+/* YAML IN PREVIEW MODE */
+/************************/
+
+/* Hide the metadata box at top of note in preview mode */
+.frontmatter-container {
+    display: none;
+}
 
 /**************************/
 /* CUSTOMIZED TAG COLOURS */
