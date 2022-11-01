@@ -8,6 +8,7 @@ Index of tools category
 - [Certutil](certutil.md)
 - [Find](find.md)
 - [Git](git.md)
+- [Mkrelease](mkrelease.md)
 - [Openssh](openssh.md)
 - [Openssl](openssl.md)
 - [Rsync](rsync.md)
