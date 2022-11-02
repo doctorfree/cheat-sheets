@@ -4,9 +4,11 @@ Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you 
 
 This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
 
-Documentation: [Markdown Docs](https://daringfireball.net/projects/markdown/)
-RFC: [RFC 7763](https://www.rfc-editor.org/rfc/rfc7763)
-GitHub Documentation: [Writing Markdown on GitHub](https://docs.github.com/en/get-started/writing-on-github)
+- Documentation: [Markdown Docs](https://daringfireball.net/projects/markdown/)
+- RFC: [RFC 7763](https://www.rfc-editor.org/rfc/rfc7763)
+- GitHub:
+    - Documentation: [Writing Markdown on GitHub](https://docs.github.com/en/get-started/writing-on-github)
+    - PDF Cheat Sheet: [GitHub Flavor Markdown vs Markdown](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
 
 ## Basic Syntax
 
