@@ -894,7 +894,7 @@ settings:
 /*       Code block in Editor          */
 /*              Brackets               */
 /*             Blockquote              */
-/*               table                 */
+/*               Table                 */
 /*              Checkbox               */
 /*           html in editor            */
 /*              popover                */
@@ -1414,8 +1414,48 @@ pre[class$=json]:before {
   content: "Json";
 }
 
+pre[class$=yaml]:before {
+  content: "yaml";
+}
+
 pre[class$=python]:before {
   content: "python";
+}
+
+pre[class$=lua]:before {
+  content: "lua";
+}
+
+pre[class$=php]:before {
+  content: "php";
+}
+
+pre[class$=ruby]:before {
+  content: "ruby";
+}
+
+pre[class$=rust]:before {
+  content: "rust";
+}
+
+pre[class$=sql]:before {
+  content: "sql";
+}
+
+pre[class$=toml]:before {
+  content: "toml";
+}
+
+pre[class$=haskell]:before {
+  content: "haskell";
+}
+
+pre[class$=ini]:before {
+  content: "ini";
+}
+
+pre[class$=java]:before {
+  content: "java";
 }
 
 .theme-dark :not(pre) > code[class*=language-],
@@ -1592,8 +1632,41 @@ pre[class*=language-] {
   width: 25%;
   background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), #15131c);
 }
+
 /***************************************/
-/*             table                   */
+/*             Image                   */
+/***************************************/
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* experiment with values */
+  transition: transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+  -webkit-transform: scale(1.15); /* experiment with values */
+  transform: scale(2);
+}
+
+/***************************************/
+/*             Table                   */
+/*  Add the following to any documents */
+/*  in which tables should be centered */
+/*                                     */
+/*        ---                          */
+/*        cssclass: t-c                */
+/*        ---                          */
+/*                                     */
+/*  Add the following to any documents */
+/*  in which tables should be widened  */
+/*                                     */
+/*        ---                          */
+/*        cssclass: t-w                */
+/*        ---                          */
+/*                                     */
 /***************************************/
 th {
   font-weight: 800 !important;
@@ -1614,6 +1687,18 @@ thead {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
+
+/*Table Centered*/
+.t-c table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Table Widened*/
+.t-w table {
+  width: 100%;
+}
+
 /***************************************/
 /*              popover                */
 /***************************************/
@@ -1697,7 +1782,7 @@ thead {
 /* Line When Hover */
 .graph-view.color-circle,
 .graph-view.color-line-highlight {
-  color: var(--yellow) !important;
+  color: var(--cyan) !important;
   border: 0;
 }
 /* Circle When Hover */
@@ -1705,7 +1790,7 @@ thead {
   color:var(--green);
 }
 .graph-view.color-text {
-  color:var(--cyan);
+  color:var(--yellow);
 }
 .graph-view.color-line {
   color: #6272a4;
