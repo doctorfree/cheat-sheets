@@ -176,3 +176,6 @@ See the [Markdown Guide cheat sheet](markdown-guide/cheat-sheet.md) for a more e
 - [CSS cheat sheet](../css.md)
 - [Obsidian API](obsidian-api.md)
 - [Dataview Obsidian Plugin](dataview.md)
+- [Sync Obsidian and iCloud README](rsync-obsidian-to-icloud/README.md)
+    - [Sync iCloud to Obsidian](rsync-obsidian-to-icloud/rsync-icloud-to-obsidian.sh.md)
+    - [Sync Obsidian to iCloud](rsync-obsidian-to-icloud/rsync-obsidian-to-icloud.sh.md)
