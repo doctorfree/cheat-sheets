@@ -1,13 +1,6 @@
-# Github release creation (CLI)
-
-Convenience shell script to create a Github release from the command line.
-
-Configure the version and release, modify the annotation (`ANNO` variable), and execute this script from the root of your repository hierarchy.
-
-```shell
 #!/bin/bash
 
-VERSION="1.0.0"
+VERSION="1.0.1"
 RELEASE=1
 
 usage() {
@@ -43,16 +36,8 @@ shift $(( OPTIND - 1 ))
 
 ANNO="Cheat Sheets Plus, Version ${VERSION} Release ${RELEASE}"
 
-if [ -f Release_Notes.md ]
-then
-  gh release create v${VERSION}r${RELEASE} ${DRAFT} \
+gh release create v${VERSION}r${RELEASE} ${DRAFT} \
                   --title "${ANNO}" \
                   --notes-file Release_Notes.md
-else
-  gh release create v${VERSION}r${RELEASE} ${DRAFT} \
-                  --title "${ANNO}" \
-                  --generate-notes
-fi
 
 git fetch --tags origin
-```
