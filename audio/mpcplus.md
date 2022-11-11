@@ -221,6 +221,7 @@ Where:
 The `mpcplus` command is an MPD client and acts as the primary
 mpcplus music player:
 
+{% raw  %}
 ```
 Usage: mpcplus [options]...
 Options:
@@ -242,6 +243,7 @@ Options:
   -v [ --version ]                      display version information
   -q [ --quiet ]                        suppress logs and excess output
 ```
+{% endraw %}
 
 The mpcplus MPD client has a customized set of key bindings that allow
 quick and easy control of MPD, searches, lyrics display, client navigation,
