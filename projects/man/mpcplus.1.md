@@ -376,11 +376,13 @@ For song format you can use:
  %P - priority
  $R - begin right alignment
 
+{% raw  %}
 You can also put them in { } and then they will be displayed only if all requested values are available and/or define alternate value with { }|{ } e.g. {%a - %t}|{%f} will check if artist and title tags are available and if they are, display them. Otherwise it'll display filename.
 
 **Note**: If you want to set limit on maximal length of a tag, just put the appropriate number between % and character that defines tag type, e.g. to make album take max. 20 terminal cells, use '%20b'.
 
 **Note**: Format that is similar to "%a - %t" (i.e. without any additional braces) is equal to "{%a - %t}", so if one of the tags is missing, you'll get nothing.
+{% endraw %}
 
 Text can have different color than the main window, e.g. if you want length to be green, write $3%l$9.
 
