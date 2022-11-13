@@ -7,6 +7,7 @@
 !.obsidian/themes/Doctorfree/theme.css
 !.obsidian/plugins
 !.obsidian/plugins/*
+!.obsidian/Excalibrain.md
 
 .index
 tmp/*
