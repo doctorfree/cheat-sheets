@@ -1,5 +1,5 @@
 {
-  "excalibrainFilepath": ".obsidian/Excalibrain.md",
+  "excalibrainFilepath": "Excalibrain.md",
   "indexUpdateInterval": 5000,
   "hierarchy": {
     "exclusions": [
@@ -44,7 +44,7 @@
   "inverseInfer": false,
   "renderAlias": true,
   "nodeTitleScript": "",
-  "backgroundColor": "#061828ff",
+  "backgroundColor": "#071d31ff",
   "excludeFilepaths": [],
   "showInferredNodes": true,
   "showAttachments": true,
