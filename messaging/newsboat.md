@@ -1730,4 +1730,5 @@ unbind-key C feedlist
 - [Asciiville](../projects/Asciiville.md)
 - [Tuir](tuir/tuir.md)
 - [Irssi](irssi.md)
+- [Mastodon](mastodon.md)
 - [Neomutt](neomutt.md)

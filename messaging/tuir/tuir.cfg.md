@@ -1,6 +1,6 @@
 # Terminal UI for Reddit Configuration File
 
-```
+```ini
 ; https://gitlab.com/ajak/tuir
 ;
 ; This file should be placed in $XDG_CONFIG/tuir/tuir.cfg

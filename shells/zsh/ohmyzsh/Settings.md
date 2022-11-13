@@ -404,7 +404,7 @@ If this variable is set to `true`, the random theme will not show a startup mess
 ZSH_THEME_RANDOM_QUIET=true
 ```
 
-If this is set and you want to know which theme was chosen, you can `echo $RANDOM_THEME` to show the theme name.
+If this is set and you want to know which theme was chosen, you can display the value of the environment variable RANDOM_THEME to show the theme name.
 
 ## See also
 

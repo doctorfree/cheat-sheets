@@ -1,4 +1,83 @@
-# NeoMutt Key Bindings
+# NeoMutt
+
+NeoMutt is a versatile and highly configurable command line mail reader based on Mutt. NeoMutt is a small but very powerful text-based MIME mail client. NeoMutt is highly configurable, and is well suited to the mail power user with advanced features like key bindings, keyboard macros, mail threading, regular expression searches and a powerful pattern matching language for selecting groups of messages.
+
+The NeoMutt homepage can be found at [https://neomutt.org](https://neomutt.org).
+
+## NeoMutt cheat sheet
+
+- Mark as read: `Ctrl+R`
+- Mark to delete: `d`
+- Execute deletion: `$`
+- Tag a mail: `t`
+- Move a mail: `s` (for save, which is a copy + delete)
+- Save a mail: `c` (for copy)
+- Operation on tagged mails: `;[OP]` with OP being the key for that operation, like `;d` for deleting tagged emails or `;s` for moving them
+
+### Operations on attachments
+
+- Save to file: `s`
+- Pipe to view as html: `|` and then `w3m -T text/html`
+- Pipe to view as picture: `|` and then `feh -`
+
+### Delete mails based on date
+
+- use `T` to enter a date range, format `[before]-[after]` with before/after being a `DD/MM/YYYY` format (YYYY is optional)
+- `~d 24/04-` to mark mails after 24/04 of this year
+- `~d -24/04` to mark mails before 24/04 of this year
+- `~d 24/04-25/04` to mark mails between 24/04 and 25/04 (inclusive)
+- `;d` to tell neomutt we want to delete marked mails
+- `$` to make deletion happen
+
+### Simple config
+
+Here is a simple example NeoMutt configuration:
+
+```ini
+set realname = "Jane Doe"
+set from = "jane@doe.com"
+set smtp_url = "smtps://login@doe.com:465"
+alias me Jane Doe <login@doe.com>
+set folder = "imaps://login@doe.com:993"
+set imap_user = "login"
+set header_cache     = /home/solene/.cache/neomutt/jane/headers
+set message_cachedir = /home/solene/.cache/neomutt/jane/bodies
+set imap_pass = "xx"
+set smtp_pass = "xx"
+
+set imap_idle = yes       # IMAP push (supposed to work)
+set mbox_type = Maildir
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set postponed = "+Drafts"
+set trash = "+Trash"
+set imap_list_subscribed = yes
+set imap_check_subscribed
+
+#sidebar
+set sidebar_visible
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats
+bind index,pager \Cp sidebar-prev         # Ctrl-Shift-p - Previous Mailbox
+bind index,pager \Cn sidebar-next         # Ctrl-Shift-n - Next Mailbox
+bind index,pager \Ca sidebar-open         # Ctrl-Shift-a - Open Highlighted Mailbox
+bind index "," imap-fetch-mail            # ,            - Get new emails
+bind index,pager "N" next-unread-mailbox  # Jump to next unread email
+
+# regroup by threads
+set sort=threads
+
+# display only interesting headers
+ignore *
+unignore from date subject to cc
+unignore organization organisation x-mailer: x-newsreader: x-mailing-list:
+unignore posted-to:
+```
+
+## NeoMutt Key Bindings
 
 Primary differences between the [Asciiville](../projects/Asciiville.md) NeoMutt key bindings and the default:
 
@@ -7,7 +86,7 @@ Primary differences between the [Asciiville](../projects/Asciiville.md) NeoMutt 
 - `A` will attempt to create a new contact with khard
 - `F2`, `F3`, and `F4` are used to switch between three mailboxes
 
-## Index
+### Index
 
 <table>
 <thead>
@@ -17,7 +96,6 @@ Primary differences between the [Asciiville](../projects/Asciiville.md) NeoMutt 
 </tr>
 </thead>
 <tbody>
-
 <tr class="odd">
 <td>Go to last entry</td>
 <td><code>G</code></td>
@@ -113,7 +191,7 @@ Primary differences between the [Asciiville](../projects/Asciiville.md) NeoMutt 
 </tbody>
 </table>
 
-## Pager
+### Pager
 
 <table>
 <thead>
@@ -178,7 +256,7 @@ Primary differences between the [Asciiville](../projects/Asciiville.md) NeoMutt 
 </tbody>
 </table>
 
-## Sidebar
+### Sidebar
 
 <table>
 <thead>
@@ -220,4 +298,5 @@ Primary differences between the [Asciiville](../projects/Asciiville.md) NeoMutt 
 - [Asciiville](../projects/Asciiville.md)
 - [Tuir](tuir/tuir.md)
 - [Irssi](irssi.md)
+- [Mastodon](mastodon.md)
 - [Newsboat](newsboat.md)

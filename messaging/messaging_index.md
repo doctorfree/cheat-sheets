@@ -3,6 +3,7 @@
 Index of messaging category
 
 - [Irssi](irssi.md)
+- [Mastodon](mastodon.md)
 - [Neomutt](neomutt.md)
 - [Newsboat](newsboat.md)
 - [Tuir/authors](tuir/authors.md)

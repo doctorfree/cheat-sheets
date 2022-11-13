@@ -137,5 +137,6 @@ You can also contact the Irssi developers in [#irssi](https://irssi.org/support/
 
 - [Asciiville](../projects/Asciiville.md)
 - [Tuir](tuir/tuir.md)
+- [Mastodon](mastodon.md)
 - [Neomutt](neomutt.md)
 - [Newsboat](newsboat.md)
