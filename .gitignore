@@ -5,6 +5,8 @@
 .obsidian/themes/Doctorfree/*
 !.obsidian/themes/Doctorfree/manifest.json
 !.obsidian/themes/Doctorfree/theme.css
+!.obsidian/plugins
+!.obsidian/plugins/*
 
 .index
 tmp/*
