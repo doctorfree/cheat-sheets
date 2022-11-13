@@ -1,5 +1,7 @@
 # Mastodon
 
+![Mastodon](assets/mastodon-fediverse.png)
+
 Mastodon is free and open-source software for running self-hosted social networking services. It has microblogging features similar to the Twitter service, which are offered by a large number of independently run nodes, known as instances, each with its own code of conduct, terms of service, privacy options, and moderation policies.
 
 ## Guide to Mastodon
