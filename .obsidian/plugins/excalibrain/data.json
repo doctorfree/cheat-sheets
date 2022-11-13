@@ -49,8 +49,8 @@
   "showInferredNodes": true,
   "showAttachments": true,
   "showVirtualNodes": true,
-  "showFolderNodes": false,
-  "showTagNodes": false,
+  "showFolderNodes": true,
+  "showTagNodes": true,
   "showPageNodes": true,
   "showNeighborCount": true,
   "showFullTagName": false,
@@ -62,7 +62,7 @@
     "fillStyle": "solid",
     "textColor": "#ffffffff",
     "borderColor": "#00000000",
-    "fontSize": 20,
+    "fontSize": 30,
     "fontFamily": 3,
     "maxLabelLength": 30,
     "roughness": 0,
@@ -147,6 +147,7 @@
     "Jumps": {}
   },
   "navigationHistory": [
+    "Release_Notes.md",
     "README.md"
   ],
   "allowOntologySuggester": true,
