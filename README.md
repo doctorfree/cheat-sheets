@@ -119,11 +119,29 @@ The repository contains the Obsidian theme `Doctorfree`. To use this theme with 
 - Clone or download the repository
     - `git clone https://github.com/doctorfree/cheat-sheets-plus.git`
 - Create a new Obsidian vault from the folder created above
+- Trust us. :) 
+- When Obsidian opens the settings, verify that "Dataview", "Excalidraw", and "Excalibrain" are enabled
 - Select the `Doctorfree` Obsidian theme
     - Go to `Settings -> Appearance -> Themes` in Obsidian
     - Select `Doctorfree` from the drop down menu of available themes
 
 **[Note:]** Obsidian is free for personal non-commercial use but must be purchased in revenue generating operations (see the note on [Obsidian license restrictions](#obsidian-license-restriction) below).
+
+### Recommeded Obsidian Plugins
+
+Obsidian community plugins we have found useful and can recommend include the following:
+
+- [Contextual Typography](https://github.com/mgmeyers/obsidian-contextual-typography): Enables enhanced preview typography
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview): Treats an Obsidian Vault as a database from which you can query
+- [Excalibrain](https://github.com/zsviczian/excalibrain): An interactive structured mind-map of an Obsidian vault
+- [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin): Edit and view Excalidraw in Obsidian
+- [Hider](https://github.com/kepano/obsidian-hider): Hides various elements of the UI
+- [Hover-editor](https://github.com/nothingislost/obsidian-hover-editor): Turns the hover popover into a full featured editor
+- [Pandoc](https://github.com/OliverBalfour/obsidian-pandoc): Adds command palette options to export your notes to a variety of formats
+- [Quickadd](https://github.com/chhoumann/quickadd): Quickly add content to a vault
+- [Shellcommands](https://github.com/Taitava/obsidian-shellcommands): Define and run shell commands
+- [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Enables theme customization
+- [Templater](https://github.com/SilentVoid13/Templater): Defines a powerful templating language
 
 ### Markdown viewers
 

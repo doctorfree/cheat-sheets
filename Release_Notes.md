@@ -28,7 +28,7 @@ The Cheat Sheets Plus vault can be installed on Windows, Mac, or Linux. The foll
 1. [Download the vault](https://github.com/doctorfree/cheat-sheets-plus/releases/latest)
 3. Open the vault in Obsidian via "Open another vault -> Open folder as vault"
 4. Trust us. :) 
-5. When Obsidian opens the settings, hit the switch on "Dataview" to enable the plugin
+5. When Obsidian opens the settings, verify that "Dataview", "Excalidraw", and "Excalibrain" are enabled
 6. Done! The Cheat Sheets Plus vault is now available to you in its purest and most useful form!
 
 ### Download the release archive
