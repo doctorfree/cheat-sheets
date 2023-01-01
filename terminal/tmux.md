@@ -615,3 +615,5 @@ set-window-option -g monitor-activity off
 - [iTerm2](iterm2.md)
 - [Kitty](kitty/kitty.md)
 - [Screen](screen.md)
+- [Shortcuts](shortcuts.md)
+- [xvkbd](xvkbd.md)

@@ -109,4 +109,6 @@ ssh -t user@host screen -x <name/pid>
 
 - [Tmux](tmux.md)
 - [iTerm2](iterm2.md)
+- [Shortcuts](shortcuts.md)
+- [xvkbd](xvkbd.md)
 - [Kitty](kitty/kitty.md)

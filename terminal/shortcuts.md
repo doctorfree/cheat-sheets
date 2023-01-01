@@ -27,5 +27,6 @@
 
 - [iTerm2](iterm2.md)
 - [Screen](screen.md)
+- [xvkbd](xvkbd.md)
 - [Tmux](tmux.md)
 - [Kitty](kitty/kitty.md)

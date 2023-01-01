@@ -32,5 +32,7 @@ Shortcut | Description
 ## See also
 
 - [Screen](screen.md)
+- [Shortcuts](shortcuts.md)
+- [xvkbd](xvkbd.md)
 - [Tmux](tmux.md)
 - [Kitty](kitty/kitty.md)
