@@ -67,16 +67,16 @@ versions can be obtained [from here](http://galaxy4.net/repo/).
 
 For example to set up a repository and install on RHEL8:
 
-~~~~
+```shell
 sudo yum install http://galaxy4.net/repo/galaxy4-release-8-current.noarch.rpm
 sudo yum install tmux
-~~~~
+```
 
 Or to install an RPM directly on RHEL6:
 
-~~~~
+```shell
 sudo rpm -ivh http://galaxy4.net/repo/RHEL/6/x86_64/tmux-3.1b-2.el6.x86_64.rpm
-~~~~
+```
 
 The repository method is recommended to automatically receive future package
 updates. See [this page](https://anni.galaxy4.net/?page_id=39) for more
@@ -616,4 +616,5 @@ set-window-option -g monitor-activity off
 - [Kitty](kitty/kitty.md)
 - [Screen](screen.md)
 - [Shortcuts](shortcuts.md)
+- [xbindkeys](xbindkeys.md)
 - [xvkbd](xvkbd.md)

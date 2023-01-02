@@ -34,5 +34,6 @@ Shortcut | Description
 - [Screen](screen.md)
 - [Shortcuts](shortcuts.md)
 - [xvkbd](xvkbd.md)
+- [xbindkeys](xbindkeys.md)
 - [Tmux](tmux.md)
 - [Kitty](kitty/kitty.md)
