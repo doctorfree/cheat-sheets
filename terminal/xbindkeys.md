@@ -89,6 +89,7 @@ xdg-open ~/todo.txt
 
 ## See also
 
+- [xmodmap](xmodmap.md)
 - [xvkbd](xvkbd.md)
 - [iTerm2](iterm2.md)
 - [Screen](screen.md)

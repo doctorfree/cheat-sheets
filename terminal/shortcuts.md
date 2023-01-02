@@ -28,6 +28,7 @@
 - [iTerm2](iterm2.md)
 - [Screen](screen.md)
 - [xbindkeys](xbindkeys.md)
+- [xmodmap](xmodmap.md)
 - [xvkbd](xvkbd.md)
 - [Tmux](tmux.md)
 - [Kitty](kitty/kitty.md)

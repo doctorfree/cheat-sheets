@@ -617,4 +617,5 @@ set-window-option -g monitor-activity off
 - [Screen](screen.md)
 - [Shortcuts](shortcuts.md)
 - [xbindkeys](xbindkeys.md)
+- [xmodmap](xmodmap.md)
 - [xvkbd](xvkbd.md)

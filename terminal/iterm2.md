@@ -33,6 +33,7 @@ Shortcut | Description
 
 - [Screen](screen.md)
 - [Shortcuts](shortcuts.md)
+- [xmodmap](xmodmap.md)
 - [xvkbd](xvkbd.md)
 - [xbindkeys](xbindkeys.md)
 - [Tmux](tmux.md)

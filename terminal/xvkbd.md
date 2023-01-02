@@ -53,6 +53,7 @@ For example, make F2 do Ctrl+c.
 ## See also
 
 - [xbindkeys](xbindkeys.md)
+- [xmodmap](xmodmap.md)
 - [iTerm2](iterm2.md)
 - [Screen](screen.md)
 - [Shortcuts](shortcuts.md)
