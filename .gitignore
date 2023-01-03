@@ -8,6 +8,7 @@
 !.obsidian/plugins
 !.obsidian/plugins/*
 !.obsidian/Excalibrain.md
+.obsidian/plugins/obsidian-textgenerator-plugin/*
 
 .index
 tmp/*
