@@ -109,8 +109,8 @@ ssh -t user@host screen -x <name/pid>
 
 - [Tmux](tmux.md)
 - [iTerm2](iterm2.md)
-- [Shortcuts](shortcuts.md)
-- [xmodmap](xmodmap.md)
-- [xvkbd](xvkbd.md)
-- [xbindkeys](xbindkeys.md)
+- [Shortcuts](../keyboard/shortcuts.md)
+- [xmodmap](../keyboard/xmodmap.md)
+- [xvkbd](../keyboard/xvkbd.md)
+- [xbindkeys](../keyboard/xbindkeys.md)
 - [Kitty](kitty/kitty.md)

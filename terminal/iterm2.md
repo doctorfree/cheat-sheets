@@ -32,9 +32,9 @@ Shortcut | Description
 ## See also
 
 - [Screen](screen.md)
-- [Shortcuts](shortcuts.md)
-- [xmodmap](xmodmap.md)
-- [xvkbd](xvkbd.md)
-- [xbindkeys](xbindkeys.md)
+- [Shortcuts](../keyboard/shortcuts.md)
+- [xmodmap](../keyboard/xmodmap.md)
+- [xvkbd](../keyboard/xvkbd.md)
+- [xbindkeys](../keyboard/xbindkeys.md)
 - [Tmux](tmux.md)
 - [Kitty](kitty/kitty.md)

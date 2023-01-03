@@ -2,6 +2,8 @@
 
 `xbindkeys` is a tool to let you create keyboard shortcuts to run shell commands, globally.
 
+`xbindkeys` allows you to launch shell commands with your keyboard or your mouse under X Window. It links commands to keys or mouse buttons, using a configuration file. It's independant of the window manager and can capture all keyboard keys
+
 `xbindkeys` can bind almost any key or key combination. Example: `CapsLock`, `ScrLk`, `Pause`, `F2`, number pad keys, multimedia keys, and special app launch buttons, and also standard modifier key combinations such as `Menu`, `Ctrl+3`, `Super+3`, etc.
 
 ## Install xbindkeys
@@ -91,8 +93,8 @@ xdg-open ~/todo.txt
 
 - [xmodmap](xmodmap.md)
 - [xvkbd](xvkbd.md)
-- [iTerm2](iterm2.md)
-- [Screen](screen.md)
+- [iTerm2](../terminal/iterm2.md)
+- [Screen](../terminal/screen.md)
 - [Shortcuts](shortcuts.md)
-- [Tmux](tmux.md)
-- [Kitty](kitty/kitty.md)
+- [Tmux](../terminal/tmux.md)
+- [Kitty](../terminal/kitty/kitty.md)

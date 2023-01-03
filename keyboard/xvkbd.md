@@ -1,6 +1,8 @@
 # xvkbd tutorial
 
-xvkbd is command line tool that lets you send a keyboard key signal or mouse click.
+`xvkbd` is command line tool that lets you send a keyboard key signal or mouse click.
+
+`xvkbd` is a virtual (graphical) keyboard program for X Window System which provides a facility to enter characters onto other clients (software) by clicking on a keyboard displayed on the screen. This may be used for systems without a hardware keyboard such as kiosk terminals or handheld devices. This program also has a facility to send characters specified as the command line option to another client.
 
 ## Install xvkbd
 ```shell
@@ -54,8 +56,8 @@ For example, make F2 do Ctrl+c.
 
 - [xbindkeys](xbindkeys.md)
 - [xmodmap](xmodmap.md)
-- [iTerm2](iterm2.md)
-- [Screen](screen.md)
+- [iTerm2](../terminal/iterm2.md)
+- [Screen](../terminal/screen.md)
 - [Shortcuts](shortcuts.md)
-- [Tmux](tmux.md)
-- [Kitty](kitty/kitty.md)
+- [Tmux](../terminal/tmux.md)
+- [Kitty](../terminal/kitty/kitty.md)

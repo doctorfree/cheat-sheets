@@ -25,10 +25,10 @@
 
 ## See also
 
-- [iTerm2](iterm2.md)
-- [Screen](screen.md)
+- [iTerm2](../terminal/iterm2.md)
+- [Screen](../terminal/screen.md)
 - [xbindkeys](xbindkeys.md)
 - [xmodmap](xmodmap.md)
 - [xvkbd](xvkbd.md)
-- [Tmux](tmux.md)
-- [Kitty](kitty/kitty.md)
+- [Tmux](../terminal/tmux.md)
+- [Kitty](../terminal/kitty/kitty.md)

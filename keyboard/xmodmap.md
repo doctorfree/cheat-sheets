@@ -2,6 +2,18 @@
 
 Cheat sheet on X11's xmodmap tool.
 
+## Overview
+
+There are two types of keyboard values in X11: *keycodes* and *keysyms*.
+
+- **keycode**
+    - The *keycode* is the numeric representation received by the kernel when a key or a mouse button is pressed.
+
+- **keysym**
+    - The *keysym* is the value assigned to the keycode. For example, pressing `a` generates the `keycode 38`, which is mapped to the `keysym 0x61`, which matches `a` in the ASCII table.
+
+The *keysyms* are managed by X11 in a table of *keycodes* defining the *keycode-keysym* relations, which is called the *keymap table*. This can be shown by running `xmodmap`.
+
 ## What can xmodmap do?
 
 xmodmap is only for remapping keys, for apps running under X11. That's it.
@@ -104,8 +116,8 @@ Xmodmap only works in X11. It does not change keys in Virtual Console or Linux C
 
 - [xbindkeys](xbindkeys.md)
 - [xvkbd](xvkbd.md)
-- [iTerm2](iterm2.md)
-- [Screen](screen.md)
+- [iTerm2](../terminal/iterm2.md)
+- [Screen](../terminal/screen.md)
 - [Shortcuts](shortcuts.md)
-- [Tmux](tmux.md)
-- [Kitty](kitty/kitty.md)
+- [Tmux](../terminal/tmux.md)
+- [Kitty](../terminal/kitty/kitty.md)
