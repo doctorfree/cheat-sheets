@@ -4,7 +4,9 @@ Index of linux category
 
 - [Awk](awk.md)
 - [Chmod](chmod.md)
+- [Cron](cron.md)
 - [Du](du.md)
+- [Environment variables](environment-variables-in-linux.md)
 - [Flatpak](flatpak.md)
 - [Grep](grep.md)
 - [Iptables](iptables.md)

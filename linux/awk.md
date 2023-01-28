@@ -339,6 +339,8 @@ awk should recognize this abbreviation.
 
 ## See also
 
+- [Cron](cron.md)
+- [Environment variables](environment-variables-in-linux.md)
 - [Grep](grep.md)
 - [Regex](regex.md)
 - [Sed](sed.md)

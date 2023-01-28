@@ -3,7 +3,9 @@
 Index of apps category
 
 - [Argocd](argocd.md)
+- [Bind 9](bind9.md)
 - [Cert-manager](cert-manager.md)
+- [Cloudflare tunnels](cloudflare-tunnels.md)
 - [Grafana](grafana.md)
 - [Kasm](kasm.md)
 - [Loki](loki/loki.md)
@@ -12,6 +14,7 @@ Index of apps category
 - [Loki/promtail](loki/promtail.md)
 - [Longhorn](longhorn.md)
 - [Nginx](nginx.md)
+- [Passbolt](passbolt.md)
 - [Portainer](portainer.md)
 - [Prometheus](prometheus.md)
 - [Proxmox](proxmox.md)
