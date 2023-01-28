@@ -2,6 +2,7 @@
 
 Index of terminal category
 
+- [Escape Codes](escape_codes.md)
 - [Iterm2](iterm2.md)
 - [Screen](screen.md)
 - [Tmux](tmux.md)

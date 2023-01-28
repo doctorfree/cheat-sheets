@@ -612,6 +612,7 @@ set-window-option -g monitor-activity off
 
 ## See also
 
+- [Escape Codes](escape_codes.md)
 - [iTerm2](iterm2.md)
 - [Kitty](kitty/kitty.md)
 - [Screen](screen.md)
