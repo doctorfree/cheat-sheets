@@ -21,6 +21,7 @@ Website: https://tmux.github.io/
 
 1. [Installing](#installing)
 1. [Cheat sheet](#cheat-sheet)
+1. [Commands](#commands)
 1. [Tmux shortcuts](#tmux-shortcuts)
 1. [Tmux Command Mode](#tmux-command-mode)
 1. [Example tmux session](#example-tmux-session)
@@ -155,6 +156,67 @@ $ tmux show-options -g
 
 Mainly works like selecting text in [Vim](../text/vim.md#motions)
 
+## Commands
+
+### Session
+
+```shell
+# Start a new tmux session.
+tmux
+
+# Start a new tmux session with name.
+tmux new -s <session-name>
+
+# List all sessions.
+tmux ls
+
+# Attach to the last session.
+tmux attach
+
+# Attach to a session with name.
+tmux attach -t <session-name>
+
+# Kill a session.
+tmux kill-session -t <session-name>
+
+# Kill sessions other than the current one.
+tmux kill-session -a
+
+# Kill sessions other than the named one.
+tmux kill-session -a -t <session-name>
+```
+
+### Window
+
+```shell
+# Create a new window and switch to it.
+tmux new-window
+
+# Create a a new window with name, but do not swith to it.
+tmux new-window -t -n <window-name>
+
+# Kill the current window.
+tmux kill-window
+
+# Kill the target window.
+tmux kill-window -t <window-name>
+
+# Send keys to the target window. (End with C-j for enter)
+tmux send-keys -t <window-name> <command> C-j
+```
+
+### Info / Config
+
+```shell
+# Show tmux session information.
+tmux info
+
+# Reload config.
+tmux source-file ~/.tmux.conf
+
+# Show config.
+tmux show-options -g
+```
 
 ## Tmux shortcuts
 
