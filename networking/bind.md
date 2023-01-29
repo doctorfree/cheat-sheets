@@ -1,6 +1,10 @@
-# Bind9
+# BIND
 
-Bind9 is an open-source fully-featured DNS ([[dns]]) system. 
+**BIND** is a suite of software for interacting with the [Domain Name System (DNS)](dns.md). Its most prominent component, `named` (short for name daemon), performs both of the main DNS server roles, acting as an authoritative name server for DNS zones and as a recursive resolver in the network. It is the most widely used domain name server software, and is the de facto standard on Unix-like operating systems. Also contained in the suite are various administration tools such as `nsupdate` and `[dig](../security/dig.md)`, and a DNS resolver interface library.
+
+The software was originally designed at the University of California, Berkeley (UCB) in the early 1980s. The name originates as an acronym of Berkeley Internet Name Domain, reflecting the application's use within UCB. The latest version is BIND 9, first released in 2000 and still actively maintained by the Internet Systems Consortium (ISC) with new releases issued several times a year.
+
+BIND 9 is intended to be fully compliant with the IETF DNS standards and draft standards. Important features of BIND 9 include: TSIG, `nsupdate`, IPv6, RNDC (remote name daemon control), views, multiprocessor support, Response Rate Limiting (RRL), DNSSEC, and broad portability. RNDC enables remote configuration updates, using a shared secret to provide encryption for local and remote terminals during each session.
 
 Project Homepage: https://www.isc.org/bind/
 

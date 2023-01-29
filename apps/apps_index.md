@@ -3,7 +3,6 @@
 Index of apps category
 
 - [Argocd](argocd.md)
-- [Bind 9](bind9.md)
 - [Cert-manager](cert-manager.md)
 - [Cloudflare tunnels](cloudflare-tunnels.md)
 - [Grafana](grafana.md)

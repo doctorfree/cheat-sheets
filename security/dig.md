@@ -1,6 +1,12 @@
 ﻿# Dig
 
-`Dig` stands for **Domain Information Groper**. Dig is a network administration command-line tool for querying Domain Name System (DNS) name servers. It is useful for verifying and troubleshooting DNS problems and also to perform DNS lookups and displays the answers that are returned from the name server that were queried. Dig is part of the BIND domain name server software suite. The `dig` command replaces older tool such as `nslookup` and the host. The `dig` tool is available in all major Linux distributions.
+`Dig` stands for **Domain Information Groper**. Dig is a network administration command-line tool for querying [Domain Name System (DNS)](../networking/dns.md) name servers. It is useful for verifying and troubleshooting DNS problems and also to perform DNS lookups and displays the answers that are returned from the name server that were queried. Dig is part of the BIND domain name server software suite. The `dig` command replaces older tool such as `nslookup` and `host`. The `dig` tool is available in all major Linux distributions.
+
+When a specific name server is not specified in the command invocation, it uses the operating system's default resolver, usually configured in the file `resolv.conf`. Without any arguments it queries the DNS root zone.
+
+Dig supports Internationalized domain name (IDN) queries.
+
+Dig is a component of the domain name server software suite [BIND](../networking/bind.md).
 
 ## To run dig
 ```shell

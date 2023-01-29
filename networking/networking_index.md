@@ -2,6 +2,7 @@
 
 Index of networking category
 
+- [BIND](bind.md)
 - [Create dkim keypair](create-dkim-keypair.md)
 - [DNS](dns.md)
 - [DNS encryption](dns-encryption.md)
