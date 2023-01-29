@@ -2,6 +2,7 @@
 
 ## DNS Cheat Sheets
 
+- [BIND](bind.md)
 - [Dig utility](../security/dig.md)
 - [DNS encryption](dns-encryption.md)
 - [DNS over https](dns-over-https.md)

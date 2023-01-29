@@ -16,7 +16,7 @@ ISC provides executables for Windows and packages for Ubuntu ([[ubuntu]]) and Ce
 
 ### Ubuntu Linux
 
-BIND9 is available in the Main repository. No additional repository needs to be enabled for BIND9.
+BIND 9 is available in the Main repository. No additional repository needs to be enabled for BIND 9.
 
 ```sh 
 sudo apt install bind9
@@ -102,3 +102,12 @@ A start of authority record ([[soa-record]]) is a type of resource record in the
                                 )
 ```
 
+## See also
+
+- [DNS](dns.md)
+- [Dig utility](../security/dig.md)
+- [DNS encryption](dns-encryption.md)
+- [DNS over https](dns-over-https.md)
+- [DNS over tls](dns-over-tls.md)
+- [DNS record mailserver](dns-record-mailserver.md)
+- [DNS record types](dns-record-types.md)
