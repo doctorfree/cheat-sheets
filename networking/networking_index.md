@@ -3,7 +3,7 @@
 Index of networking category
 
 - [BIND](bind.md)
-- [Create dkim keypair](create-dkim-keypair.md)
+- [Create DKIM keypair](create-dkim-keypair.md)
 - [DNS](dns.md)
 - [DNS encryption](dns-encryption.md)
 - [DNS over https](dns-over-https.md)
@@ -16,9 +16,11 @@ Index of networking category
 - [Network](network.md)
 - [Nmap](nmap.md)
 - [Samba](samba.md)
-- [Smtp](smtp.md)
-- [Tcp vs udp](tcp-vs-udp.md)
+- [SMTP](smtp.md)
+- [TCP](tcp.md)
+- [TCP vs UDP](tcp-vs-udp.md)
 - [Tls handshake](tls-handshake.md)
 - [Tls](tls.md)
 - [Twisted pair cables](twisted-pair-cables.md)
-- [Vpn](vpn.md)
+- [UDP](udp.md)
+- [VPN](vpn.md)
