@@ -234,6 +234,10 @@ pveam remove <template-path>
 pveam update
 ```
 
+## Certificate Management
+
+See the [Proxmox Certificate Management](proxmox-certificate-management.md) cheat sheet.
+
 ## Container Management
 
 ### Basic

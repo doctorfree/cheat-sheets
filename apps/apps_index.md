@@ -17,6 +17,7 @@ Index of apps category
 - [Portainer](portainer.md)
 - [Prometheus](prometheus.md)
 - [Proxmox](proxmox.md)
+- [Proxmox Certificate Management](proxmox-certificate-management.md)
 - [Rancher](rancher.md)
 - [Tailscale](tailscale.md)
 - [Teleport](teleport.md)
