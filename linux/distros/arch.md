@@ -8,6 +8,12 @@ Arch Linux uses a rolling release model, meaning there are no "major releases" o
 
 Arch Linux has comprehensive documentation, consisting of a community-run wiki known as the ArchWiki.
 
+- [Installation guide](https://wiki.archlinux.org/title/Installation_guide)
+- [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)
+- [General recommendations](https://wiki.archlinux.org/title/General_recommendations)
+- [Arch compared to other distributions](https://wiki.archlinux.org/title/Arch_compared_to_other_distributions)
+- [List of applications](https://wiki.archlinux.org/title/List_of_applications)
+
 ArchWiki: https://wiki.archlinux.org/
 
 Repository: https://gitlab.archlinux.org/
