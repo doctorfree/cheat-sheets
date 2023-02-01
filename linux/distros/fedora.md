@@ -5,19 +5,20 @@ Fedora Linux is a Linux distribution developed by the Fedora Project. Fedora con
 Since the release of Fedora 35, six different editions are made available tailored to personal computer, server, cloud computing, container and Internet of Things installations. A new version of Fedora Linux is released every six months.
 
 Project Homepage: [Home - Fedora](https://getfedora.org/en/)
+
 Documentation: [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 
 ---
 ## Post Install Steps
 
 ### 1- Enable Caching in dnf Package Manager
-Caching is Enabled to increase dnf speed
+Caching is enabled to increase dnf speed
 
 Edit dnf configuration:
 ```shell
 sudo nano /etc/dnf/dnf.conf
 ```
-Add this lines add the end:
+Add these lines at the end:
 ```shell
 # Added for speed:
 fastestmirror=True
@@ -31,7 +32,7 @@ keepcache=True
 To clean dnf cache periodically:
 ```shell
 sudo dnf clean dbcache
-#or
+# or
 sudo dnf clean all
 ```
 for more configuration options: [DNF Configuration Reference](https://dnf.readthedocs.io/en/latest/conf_ref.html)
@@ -45,7 +46,7 @@ sudo dnf update
 
 ## 3- Enable RPM Fusion
 
-RPM Fusion **provides software that the Fedora Project or Red Hat doesn't want to ship**. That software is provided as precompiled RPMs for all current Fedora versions and current Red Hat Enterprise Linux or clones versions; you can use the RPM Fusion repositories with tools like yum and PackageKit.
+RPM Fusion **provides software that the Fedora Project or Red Hat doesn't want to ship**. That software is provided as precompiled RPMs for all current Fedora versions and current Red Hat Enterprise Linux or clones versions; you can use the RPM Fusion repositories with tools like `yum` and `PackageKit`.
 
 Installing both free and non-free RPM Fusion:
 ```shell
@@ -53,7 +54,7 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 ```
 
 ### AppStream metadata
-to enable users to install packages using Gnome Software/KDE Discover. Please note that these are a subset of all packages since the metadata are only generated for GUI packages.
+To enable users to install packages using Gnome Software/KDE Discover. Please note that these are a subset of all packages since the metadata are only generated for GUI packages.
 
 The following command will install the required packages:
 ```shell
