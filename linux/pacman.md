@@ -4,7 +4,19 @@ All Arch Linux packages are managed using the Pacman package manager. Pacman han
 
 For example, packages can be installed via `pacman -S package name`, while `pacman -Syu` can also be used to perform a full system upgrade.
 
-As well as Arch Linux, Pacman is also used for installing packages under MSYS2 (a fork of Cygwin) on Windows.
+Pacman is also used for installing packages under MSYS2 (a fork of Cygwin) on Windows.
+
+| **Command** | **Description** |
+| ----------- | --------------- |
+| `sudo pacman -Syy` | Update package list |
+| `sudo pacman -Syu` | Update and upgrade all |
+| `sudo pacman -S pkgname` | Install specific package |
+| `sudo pacman -Ss keyword` | Find available packages |
+| `sudo pacman -Qs keyword` | Find available local packages |
+| `sudo pacman -Ql pkgname` | List all files from a package |
+| `sudo pacman -Rsc pkgname` | Uninstall a package |
+| `sudo pacman -Qii pkgname` | List information on package |
+| `sudo pacman -Qdt` | List no longer required dependencies |
 
 ## Table of Contents
 
@@ -54,13 +66,13 @@ The Arch Build System (ABS) is a ports-like source packaging system that compile
 sudo pacman -Syy
 ```
 
-### Update and upgrade all	
+### Update and upgrade all
 
 ```shell
-sudo pacman -Syu	
+sudo pacman -Syu
 ```
 
-### Install specific package	
+### Install specific package
 
 ```shell
 sudo pacman -S pkgname
@@ -69,7 +81,7 @@ sudo pacman -S pkgname
 ### Find available packages
 
 ```shell
-sudo pacman -Ss keyword	
+sudo pacman -Ss keyword
 ```
 
 ### Find available local packages
@@ -78,7 +90,7 @@ sudo pacman -Ss keyword
 sudo pacman -Qs keyword
 ```
 
-### List all files from package	
+### List all files from package
 
 ```shell
 pacman -Ql pkgname
