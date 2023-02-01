@@ -5,6 +5,11 @@ Index of linux category
 - [Awk](awk.md)
 - [Chmod](chmod.md)
 - [Cron](cron.md)
+- Distributions
+  - [CentOS](distros/centos.md)
+  - [Debian](distros/debian.md)
+  - [Fedora](distros/fedora.md)
+  - [Ubuntu](distros/ubuntu.md)
 - [Du](du.md)
 - [Environment variables](environment-variables.md)
 - [Flatpak](flatpak.md)
