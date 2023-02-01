@@ -5,7 +5,8 @@ Index of linux category
 - [Awk](awk.md)
 - [Chmod](chmod.md)
 - [Cron](cron.md)
-- Distributions
+- Linux Distributions
+  - [Arch](distros/arch.md)
   - [CentOS](distros/centos.md)
   - [Debian](distros/debian.md)
   - [Fedora](distros/fedora.md)
