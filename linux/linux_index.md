@@ -20,6 +20,7 @@ Index of linux category
 - [Linux](linux.md)
 - [Mount](mount.md)
 - [Nfs](nfs.md)
+- [Pacman](pacman.md)
 - [Python](python.md)
 - [Raspberry-pi](raspberry-pi.md)
 - [Regex](regex.md)
