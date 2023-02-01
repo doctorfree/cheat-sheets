@@ -10,6 +10,7 @@ As well as Arch Linux, Pacman is also used for installing packages under MSYS2 (
 
 - [Repositories](#repositories)
   - [Arch User Repository](#arch-user-repository)
+- [Arch Build System](#arch-build-system)
 - [Pacman cheat sheet](#pacman-cheat-sheet)
 
 ## Repositories
@@ -27,6 +28,7 @@ In addition to the official repositories, there are a number of unofficial user 
 
 The most well-known unofficial repository is the
 [Arch User Repository](https://aur.archlinux.org/), or AUR, hosted on the Arch Linux site.
+
 The AUR does not host binary packages but instead a collection of build scripts known as PKGBUILDs. PKGBUILD scripts are executed by the `makepkg` command, which downloads the necessary files from the software's repository and builds them using the Arch Build System.
 
 Installing packages from the AUR is a relatively simple process. Essentially:
@@ -35,6 +37,14 @@ Installing packages from the AUR is a relatively simple process. Essentially:
 - Verify that the PKGBUILD and accompanying files are not malicious or untrustworthy.
 - Run `makepkg` in the directory where the files are saved. This will download the code, compile it, and package it.
 - Run `pacman -U package_file` to install the package onto your system.
+
+These PKGBUILD scripts simplify building from source by explicitly listing and checking for dependencies and configuring the install to match the Arch architecture. Arch User Repository helper programs can further streamline the downloading of PKGBUILD scripts and associated building process.
+
+Users can create packages compatible with Pacman using the Arch Build System and custom PKGBUILD scripts. This functionality has helped support the Arch User Repository, which consists of user contributed packages to supplement the official repositories.
+
+## Arch Build System (ABS)
+
+The Arch Build System (ABS) is a ports-like source packaging system that compiles source tarballs into binary packages, which are installed via Pacman. The Arch Build System provides a directory tree of shell scripts, called PKGBUILDs, that enable any and all official Arch packages to be customized and compiled. Rebuilding the entire system using modified compiler flags is also supported by the Arch Build System. The Arch Build System `makepkg` tool can be used to create custom `pkg.tar.zst` packages from third-party sources. The resulting packages are also installable and trackable via `pacman`.
 
 ## Pacman cheat sheet
 
