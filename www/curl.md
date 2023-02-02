@@ -16,6 +16,7 @@ report, the phase of the Moon, status of Internet infrastructure, uploading
 files, IP address, cheat sheets, and more. See:
 
 - [0x0 upload service](0x0.st.md)
+- [Cheat sheets](cht.sh.md)
 - [Weather and lunar phase](wttr.in.md)
 - [Internet status](status.plaintext.sh.md)
 
@@ -159,5 +160,6 @@ curl -F 'sprunge=<-' sprunge.us
 
 - [Wget](wget.md)
 - [0x0](0x0.st.md)
+- [Cheat sheets](cht.sh.md)
 - [Internet status](status.plaintext.sh.md)
-- [wttr](wttr.in.md)
+- [Weather](wttr.in.md)
