@@ -101,3 +101,5 @@ curl -F 'sprunge=<-' sprunge.us
 ## See also
 
 - [Wget](wget.md)
+- [0x0](0x0.st.md)
+- [wttr](wttr.in.md)
