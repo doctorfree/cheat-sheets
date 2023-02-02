@@ -4,6 +4,7 @@ Index of www category
 
 - [Curl](curl.md)
   - [0x0](0x0.st.md)
+  - [Internet status](status.plaintext.sh.md)
   - [wttr](wttr.in.md)
 - [Lynx](lynx.md)
 - [Nginx](nginx.md)

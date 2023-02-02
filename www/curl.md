@@ -2,6 +2,17 @@
 
 cURL (pronounced like "curl") is a computer software project providing a library (libcurl) and command-line tool (curl) for transferring data using various network protocols. The name stands for "Client URL".
 
+## Internet services
+
+cURL can be used at the command line to query several Internet services.
+For example, free and open services are offered for retrieving a local weather
+report, the phase of the Moon, status of Internet infrastructure, uploading
+files, and more. See:
+
+- [0x0 upload service](0x0.st.md)
+- [Weather and lunar phase](wttr.in.md)
+- [Internet status](status.plaintext.sh.md)
+
 ## Process a single GET request, and show its output on stdout
 
 ```bash
@@ -102,4 +113,5 @@ curl -F 'sprunge=<-' sprunge.us
 
 - [Wget](wget.md)
 - [0x0](0x0.st.md)
+- [Internet status](status.plaintext.sh.md)
 - [wttr](wttr.in.md)
