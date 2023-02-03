@@ -57,6 +57,13 @@ curl cv.soulshake.net
 ```shell
 p=1; while [ $p -lt 10 ]; do curl -N cv.soulshake.net/$((p++)); read; done
 ```
+Many Internet services provide an application programming interface (API)
+that can be queried using `curl`. For example, the Pokémon API at `pokeapi.co`
+can be queried to return JSON data on Pokémon ID 1 with the command:
+
+```shell
+curl -fsLS "https://pokeapi.co/api/v2/pokemon/1" | jq .
+```
 
 ## cURL Cheat Sheet
 
