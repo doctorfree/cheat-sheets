@@ -11,6 +11,7 @@ Index of tools category
 - [Mkrelease](mkrelease.md)
 - [Openssh](openssh.md)
 - [Openssl](openssl.md)
+- [Packer](packer.md)
 - [Rsync](rsync.md)
 - [Starship](starship.md)
 - [Terraform](terraform.md)
