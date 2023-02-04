@@ -12,11 +12,19 @@ You can find the complete documentation of Traefik v2 at [https://doc.traefik.io
 
 A collection of contributions around Traefik can be found at [https://awesome.traefik.io](https://awesome.traefik.io).
 
-## Installation
+## Download/Installation
 
-### Docker
+- Grab the latest binary from the [releases](https://github.com/traefik/traefik/releases) page and run it with the [sample configuration file](https://raw.githubusercontent.com/traefik/traefik/master/traefik.sample.toml):
 
-TODO: WIP
+```shell
+./traefik --configFile=traefik.toml
+```
+
+- Or use the official tiny Docker image and run it with the [sample configuration file](https://raw.githubusercontent.com/traefik/traefik/master/traefik.sample.toml):
+
+```shell
+docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/etc/traefik/traefik.toml traefik
+```
 
 ### Kubernetes
 
@@ -27,7 +35,6 @@ helm repo add traefik https://traefik.github.io/charts
 helm repo update
 helm install traefik traefik/traefik
 ```
-
 
 ---
 ## Dashboard and API
