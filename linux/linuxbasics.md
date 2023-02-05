@@ -1,6 +1,7 @@
 # Linux Commands Cheat Sheet
 
 ## Table of Contents
+
 - [Basics](#basics)
   - [File Hierarchy Standard (FHS)](#file-hierarchy-standard-fhs)
   - [Commands](#commands)
@@ -30,7 +31,9 @@
 - [Other](#other)
 
 ## Basics
+
 ### File Hierarchy Standard (FHS)
+
 | **Path**   | **Content**                     |
 | ---------- | ------------------------------- |
 | /bin   | Binaries (User)                     |
@@ -48,6 +51,7 @@
 | /run   | PID files of running processes      |
 
 ### Commands
+
 **File System Commands**
 
 | **Command** | **Param**    | **Description**                                   |
@@ -120,6 +124,7 @@
 |             | `name='befehl'` | Create alias                               |
 
 ### Globs (Wildcards)
+
 The dot `.` in front of hidden items is ignored by glob patterns!
 
 | **Character** | **Description**     |
@@ -130,6 +135,7 @@ The dot `.` in front of hidden items is ignored by glob patterns!
 | `[!ac-e]` | 1 character not in enum |
 
 ### Regex
+
 Bash itself does not know regex. Use programs like `grep`, `sed`, `awk`.
 
 **Steuerzeichen**
@@ -167,6 +173,7 @@ Bash itself does not know regex. Use programs like `grep`, `sed`, `awk`.
 
 
 ### Stream redirection
+
 - `>` overwrite
 - `>>` append
 
@@ -181,6 +188,7 @@ Bash itself does not know regex. Use programs like `grep`, `sed`, `awk`.
 ## Disk and File System Management
 
 ### General Disk Manipulation (non-LVM)
+
 Creating physical partitions is **not required**! You can create PVs directly!
 
 | **Command**                                 | **Description**                      |
@@ -201,6 +209,7 @@ Creating physical partitions is **not required**! You can create PVs directly!
 | `resize2fs /dev/myVG/myVol`                 | Resize ext3/4 filesystem             |
 
 ### LVM
+
 | **Item**        | **Description**                   |
 | --------------- | --------------------------------- |
 | Physical Volume | Representation of physical volume |
@@ -244,6 +253,7 @@ Creating physical partitions is **not required**! You can create PVs directly!
 | `lvremove /dev/myVG/myVol`                   | Remove logical volume                   |
 
 ## Automatic mounting (/etc/fstab)
+
 Example:
 
 | **file system** | **mount point** | **type** | **option** | **dump** | **pass** |
@@ -260,7 +270,9 @@ Column **dump** configures file system for backup with *dump* (program).
 Column **pass** configures order of file system check during boot. `0` means no check.
 
 ## Text Readers & Editors
+
 ### Less
+
 | **Command**         | **Description**                 |
 | ------------------- | ------------------------------- |
 | `q`                 | Quit                            |
@@ -276,6 +288,7 @@ Column **pass** configures order of file system check during boot. `0` means no 
 | `ESC u`             | Remove highlighting from search |
 
 ### VI
+
 **Editing**
 
 To leave editing mode press `ESC`.
@@ -330,6 +343,7 @@ Navigate as usual with `arrow keys`, `home`, `end`, `pg up`, `pg dn`.
 
 
 ## User and Group Management
+
 **UID**
 
 | **UID** | **Type**     |
@@ -394,6 +408,7 @@ PW:
 | `groupdel` | `groupname`                                    | Gruppe löschen                                           |
 
 ## File System Permissions
+
 Permissions can be set on:
 - User (owner)
 - Group (owner)
@@ -437,6 +452,7 @@ Advanced permissions replace the **x** when using `ls -l`. Lower case if **x** i
 | `chgroup` | `group filename`         | Change owner (*Group*)                            |
 
 ## SSH
+
 Configuration is done in `/etc/ssh/sshd_config`.
 
 Reload SSH service with `systemctl reload sshd` to apply changes!
@@ -454,6 +470,7 @@ DenyUsers, AllowUsers, DenyGroups, AllowGroups override each other and are appli
 | `DenyGroups`      | `group1 group2`    | Allow all users but those in specified groups |
 
 ## IPv6 (disable)
+
 Change the *grub* config `/etc/default/grub` to disalbe IPv6.
 1. Add `ipv6.disable=1` to the `GRUB_CMDLINE_LINUX` property.
    e.g. `GRUB_CMDLINE_LINUX="ipv6.disalbe=1 crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap biosdevname=0 net.ifnames=0 rhgb quiet"`
@@ -461,6 +478,7 @@ Change the *grub* config `/etc/default/grub` to disalbe IPv6.
 3. Reboot the system with `init 6` or `shutdown -r now`
 
 ## Cron jobs
+
 **Crontab**
 
 Cron jobs are configured in crontab files. Do not edit these files directly. Use `crontab -e` instead. This runs all required actions to activate a cronjob after saving the edited crontab. The locations are as follows:
@@ -514,6 +532,7 @@ Results are sent to the users mail `/var/spool/mail/username`.
 See [Package Manager](package-manager.md)
 
 ### RPM
+
 | **Command**              | **Description**                           |
 | ------------------------ | ----------------------------------------- |
 | <code>rpm -i rpmfile &#124; rpmurl</code> | Install package          |
@@ -526,6 +545,7 @@ See [Package Manager](package-manager.md)
 | `rpm -V packagename`     | Validate installed package                |
 
 ### YUM
+
 YUM is configured in `/etc/yum.conf`
 
 Repos are configured in `/etc/yum.repos.d/`
@@ -548,6 +568,7 @@ Log is in `/var/log/yum.log`
 | `yumdownloader --resolve packagename` | Download rpm package with dependencies    |
 
 ## Services (systemd)
+
 | **Command**                    | **Description**           |
 | ------------------------------ | ------------------------- |
 | `systemctl list-dependencies`  | Show Services             |
@@ -556,6 +577,7 @@ Log is in `/var/log/yum.log`
 | `systemctl status servicename` | Show service status       |
 
 ## NFS
+
 **Installation (Client & Server)**
 ```shell
 yum install nfs-utils
@@ -614,6 +636,7 @@ Example of `/etc/fstab`:
 ```
 
 ## Samba
+
 **Server**
 
 Configuration is done in `/etc/samba/smb.conf`.
@@ -694,6 +717,7 @@ password=password
 ```
 
 ## FTP
+
 Configuration is done in `/etc/vsftpd/vsftpd.conf`
 
 Example:
@@ -727,6 +751,7 @@ systemctl restart vsftpd  # Load modified config
 ```
 
 ## MySQL Server
+
 ```shell
 yum install mariadb-server # Install server
 systemctl start mariadb    # Start service
@@ -757,6 +782,7 @@ localectl set-x11-keymap ch             # set keymap to ch (doesn't affect ssh s
 hostnamectl set-hostname newhostname
 ```
 ### Change IP Address in Ubuntu 20.04 LTS
+
 1. Create a new file `/etc/netplan/01-netcfg.yaml`
 ```yaml
 network:
@@ -776,7 +802,9 @@ network:
 netplay apply
 ```
 ### Change IP Address in Ubuntu 22.04 LTS
+
 #### gateway4 has been depricated in ubuntu 22.04 release and routes is used instead!
+
 1. Create a new file `/etc/netplan/01-netcfg.yaml`
 ```yaml
 network:
