@@ -83,7 +83,7 @@ G gg H M L k j ▶ print("to")
 |---------------|-------------------------------------|
 | `Fe` _/_ `fe` | Move to previous/next `e`           |
 | `To` _/_ `to` | Move before/after previous/next `o` |
-| `|` _/_ `n|`  | Go to first/`n`th column            |
+| <code>&#124;</code> _/_ <code>n&#124;</code>  | Go to first/`n`th column            |
 
 #### Document
 
@@ -150,8 +150,8 @@ G gg H M L k j ▶ print("to")
 | `dd`             | Delete line _(Cut)_           |
 | `ddp`            | Swap two lines                |
 | `yy`             | Yank line _(Copy)_            |
-| `"*p` _\|_ `"+p` | Paste from system clipboard   |
-| `"*y` _\|_ `"+y` | Paste to system clipboard     |
+| <code>"\*p _&#124;_ "+p</code> | Paste from system clipboard   |
+| <code>"\*y _&#124;_ "+y | Paste to system clipboard     |
 
 #### In visual mode
 | Shortcut     | Description               |
@@ -197,7 +197,7 @@ You can save macro for any letters not just `i`
 
 | Operator | Motion       |
 |----------|--------------|
-| `d`      | <yel>w</yel> |
+| `d`      | w |
 
 Combine [operators](#available-operators) with [motions](#motions) to use them
 
@@ -221,18 +221,18 @@ Combine [operators](#available-operators) with [motions](#motions) to use them
 
 | Combination          | Description                           |
 |----------------------|---------------------------------------|
-| `d`<yel>d</yel>      | Delete current line                   |
-| `d`<yel>j</yel>      | Delete two lines                      |
-| `d`<yel>w</yel>      | Delete to next word                   |
-| `d`<yel>b</yel>      | Delete to beginning of word           |
-| `d`<yel>fa</yel>     | Delete until `a` char                 |
-| `d`<yel>/hello</yel> | Delete until `hello`                  |
-| `c`<yel>c</yel>      | Change current line, synonym with `S` |
-| `y`<yel>y</yel>      | Copy current line                     |
-| `>`<yel>j</yel>      | Indent 2 lines                        |
-| gg`d`<yel>G</yel>    | Delete a complete document            |
-| gg`=`<yel>G</yel>    | Indent a complete document            |
-| gg`y`<yel>G</yel>    | Copy a whole document                 |
+| `dd`      | Delete current line                   |
+| `dj`      | Delete two lines                      |
+| `dw`      | Delete to next word                   |
+| `db`      | Delete to beginning of word           |
+| `dfa`     | Delete until `a` char                 |
+| `d/hello` | Delete until `hello`                  |
+| `cc`      | Change current line, synonym with `S` |
+| `yy`      | Copy current line                     |
+| <code>&#x3e;j</code>      | Indent 2 lines                        |
+| `ggdG`    | Delete a complete document            |
+| `gg=G`    | Indent a complete document            |
+| `ggyG`    | Copy a whole document                 |
 
 ### Counts
 ```
@@ -243,11 +243,11 @@ Combine [operators](#available-operators) with [motions](#motions) to use them
 
 | Combination      | Description                |
 |------------------|----------------------------|
-| 2`d`<yel>d</yel> | Delete `2` lines           |
-| 6`y`<yel>y</yel> | Copy `6` lines             |
-| `d`3<yel>w</yel> | Delete `3` words           |
-| `d`5<yel>j</yel> | Delete `5` lines downwards |
-| `>`4<yel>k</yel> | Indent `4` lines upwards   |
+| `2dd` | Delete `2` lines           |
+| `6yy` | Copy `6` lines             |
+| `d3w` | Delete `3` words           |
+| `d5j` | Delete `5` lines downwards |
+| <code>&#x3e;4k</code> | Indent `4` lines upwards   |
 
 
 ## Vim Text objects
@@ -256,25 +256,25 @@ Combine [operators](#available-operators) with [motions](#motions) to use them
 
 | Operator | <pur>i</pur>nner _/_ <pur>a</pur>round                    | Text object  |
 |----------|-----------------------------------------------------------|--------------|
-| `v`      | &nbsp; &nbsp; &nbsp; &nbsp; <pur>i</pur> _/_ <pur>a</pur> | <yel>p</yel> |
+| `v`      | &nbsp; &nbsp; &nbsp; &nbsp; <pur>i</pur> _/_ <pur>a</pur> | p |
 
 Operate with an [operator](#available-operators) inner or around text blocks
 
 
 ### Text objects
 
-| Shortcut                                             | Description                            |
-|------------------------------------------------------|----------------------------------------|
-| <yel>p</yel>                                         | Paragraph                              |
-| <yel>w</yel>                                         | Word                                   |
-| <yel>W</yel>                                         | WORD <br/>_(surrounded by whitespace)_ |
-| <yel>s</yel>                                         | Sentence                               |
-| <yel>[</yel> <yel>(</yel> <yel>{</yel> <yel>\<</yel> | A [], (), or {} block                  |
-| <yel>]</yel> <yel>)</yel> <yel>}</yel> <yel>\></yel> | A [], (), or {} block                  |
-| <yel>'</yel> <yel>"</yel> <yel>\`</yel>              | A quoted string                        |
-| <yel>b</yel>                                         | A block [(                             |
-| <yel>B</yel>                                         | A block in [{                          |
-| <yel>t</yel>                                         | A HTML tag block                       |
+| Shortcut                            | Description                        |
+|-------------------------------------|------------------------------------|
+| `p`                                         | Paragraph                              |
+| `w`                                         | Word                                   |
+| `W`                                         | WORD <br/>_(surrounded by whitespace)_ |
+| `s`                                         | Sentence                               |
+| <code>&#91; ( { \<</code> | A [], (), or {} block                  |
+| <code>&#93; ) } \></code> | A [], (), or {} block                  |
+| `' \"`              | A quoted string                        |
+| `b`                                         | A block [(                             |
+| `B`                                         | A block in [{                          |
+| `t`                                         | A HTML tag block                       |
 
 See `:help text-objects`
 
@@ -282,36 +282,36 @@ See `:help text-objects`
 
 | Shortcut                    | Description                           |
 |-----------------------------|---------------------------------------|
-| `d`<pur>i</pur><yel>w</yel> | Delete inner word                     |
-| `d`<pur>i</pur><yel>s</yel> | Delete inner sentence                 |
-| `d`<pur>i</pur><yel>"</yel> | Delete in quotes                      |
-| `d`<pur>a</pur><yel>"</yel> | Delete in quotes _(including quotes)_ |
-| `d`<pur>i</pur><yel>p</yel> | Delete a paragraph                    |
+| `d`<pur>i</pur><yel>w` | Delete inner word                     |
+| `d`<pur>i</pur><yel>s` | Delete inner sentence                 |
+| `d`<pur>i</pur><yel>"` | Delete in quotes                      |
+| `d`<pur>a</pur><yel>"` | Delete in quotes _(including quotes)_ |
+| `d`<pur>i</pur><yel>p` | Delete a paragraph                    |
 
 
 
 ### Selections
 | Shortcut                                            | Description                               |
 |-----------------------------------------------------|-------------------------------------------|
-| `v`<pur>i</pur><yel>"</yel>                         | Select inner quotes "`...`{.underline}"   |
-| `v`<pur>a</pur><yel>"</yel>                         | Select quotes `"..."`{.underline}         |
-| `v`<pur>i</pur><yel>[</yel>                         | Select inner brackets [`...`{.underline}] |
-| `v`<pur>a</pur><yel>[</yel>                         | Select brackets `[...]`{.underline}       |
-| `v`<pur>i</pur><yel>w</yel>                         | Select inner word                         |
-| `v`<pur>i</pur><yel>p</yel>                         | Select inner paragraph                    |
-| `v`<pur>i</pur><yel>p</yel><pur>i</pur><yel>p</yel> | Select more paragraph                     |
+| `v`<pur>i</pur><yel>"`                         | Select inner quotes "`...`{.underline}"   |
+| `v`<pur>a</pur><yel>"`                         | Select quotes `"..."`{.underline}         |
+| `v`<pur>i</pur><yel>[`                         | Select inner brackets [`...`{.underline}] |
+| `v`<pur>a</pur><yel>[`                         | Select brackets `[...]`{.underline}       |
+| `v`<pur>i</pur><yel>w`                         | Select inner word                         |
+| `v`<pur>i</pur><yel>p`                         | Select inner paragraph                    |
+| `v`<pur>i</pur><yel>p`<pur>i</pur><yel>p</yel> | Select more paragraph                     |
 
 
 ### Misc
 
 | Shortcut                    | Description                          |
 |-----------------------------|--------------------------------------|
-| `c`<pur>i</pur><yel>w</yel> | Change inner word                    |
-| `c`<pur>i</pur><yel>"</yel> | Change inner quotes                  |
-| `c`<pur>i</pur><yel>t</yel> | Change inner tags (HTML)             |
-| `c`<pur>i</pur><yel>p</yel> | Change inner paragraph               |
-| `y`<pur>i</pur><yel>p</yel> | Yank inner paragraph                 |
-| `y`<pur>a</pur><yel>p</yel> | Yank paragraph _(including newline)_ |
+| `c`<pur>i</pur><yel>w` | Change inner word                    |
+| `c`<pur>i</pur><yel>"` | Change inner quotes                  |
+| `c`<pur>i</pur><yel>t` | Change inner tags (HTML)             |
+| `c`<pur>i</pur><yel>p` | Change inner paragraph               |
+| `y`<pur>i</pur><yel>p` | Yank inner paragraph                 |
+| `y`<pur>a</pur><yel>p` | Yank paragraph _(including newline)_ |
 
 
 ## Vim Multiple files
@@ -353,23 +353,23 @@ See `:help text-objects`
 ### Tabs
 | Shortcut       | Description                       |
 |----------------|-----------------------------------|
-| `:tabe [file]` | <yel>E</yel>dit file in a new tab |
+| `:tabe [file]` | <yel>E`dit file in a new tab |
 | `:tabf [file]` | Open if exists in new tab         |
-| `:tabc`        | <yel>C</yel>lose current tab      |
-| `:tabo`        | Close <yel>o</yel>ther tabs       |
-| `:tabs`        | List all <yel>tabs</yel>          |
-| `:tabr`        | Go to fi<yel>r</yel>st tab        |
-| `:tabl`        | Go to <yel>l</yel>ast tab         |
-| `:tabm 0`      | <yel>M</yel>ove to position `0`   |
-| `:tabn`        | Go to <yel>n</yel>ext tab         |
-| `:tabp`        | Go to <yel>p</yel>revious tab     |
+| `:tabc`        | <yel>C`lose current tab      |
+| `:tabo`        | Close <yel>o`ther tabs       |
+| `:tabs`        | List all <yel>tabs`          |
+| `:tabr`        | Go to fi<yel>r`st tab        |
+| `:tabl`        | Go to <yel>l`ast tab         |
+| `:tabm 0`      | <yel>M`ove to position `0`   |
+| `:tabn`        | Go to <yel>n`ext tab         |
+| `:tabp`        | Go to <yel>p`revious tab     |
 
 
 #### Normal mode
 | Shortcut | Description                   |
 |----------|-------------------------------|
-| `gt`     | Go to <yel>n</yel>ext tab     |
-| `gT`     | Go to <yel>p</yel>revious tab |
+| `gt`     | Go to next tab     |
+| `gT`     | Go to previous tab |
 | `2gt`    | Go to tab number `2`          |
 
 ## Vim Search and Replace
@@ -383,7 +383,7 @@ See `:help text-objects`
 | `/\v\d+` | Search with [regex](../linux/regex.md)         |
 | `n`      | Next matching search pattern        |
 | `N`      | Previous match                      |
-| `*`      | Search for current word forward     |
+| `\*`     | Search for current word forward     |
 | `#`      | Search for current word backward    |
 
 ### Replace LINE
