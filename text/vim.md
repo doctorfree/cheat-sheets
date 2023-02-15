@@ -254,9 +254,9 @@ Combine [operators](#available-operators) with [motions](#motions) to use them
 
 ### Usage
 
-| Operator | <pur>i</pur>nner _/_ <pur>a</pur>round                    | Text object  |
+| Operator | inner _/_ around                    | Text object  |
 |----------|-----------------------------------------------------------|--------------|
-| `v`      | &nbsp; &nbsp; &nbsp; &nbsp; <pur>i</pur> _/_ <pur>a</pur> | p |
+| `v`      | &nbsp; &nbsp; &nbsp; &nbsp; i _/_ a | p |
 
 Operate with an [operator](#available-operators) inner or around text blocks
 
@@ -282,36 +282,36 @@ See `:help text-objects`
 
 | Shortcut                    | Description                           |
 |-----------------------------|---------------------------------------|
-| `d`<pur>i</pur><yel>w` | Delete inner word                     |
-| `d`<pur>i</pur><yel>s` | Delete inner sentence                 |
-| `d`<pur>i</pur><yel>"` | Delete in quotes                      |
-| `d`<pur>a</pur><yel>"` | Delete in quotes _(including quotes)_ |
-| `d`<pur>i</pur><yel>p` | Delete a paragraph                    |
+| `diw` | Delete inner word                     |
+| `dis` | Delete inner sentence                 |
+| `di"` | Delete in quotes                      |
+| `da"` | Delete in quotes _(including quotes)_ |
+| `dip` | Delete a paragraph                    |
 
 
 
 ### Selections
 | Shortcut                                            | Description                               |
 |-----------------------------------------------------|-------------------------------------------|
-| `v`<pur>i</pur><yel>"`                         | Select inner quotes "`...`{.underline}"   |
-| `v`<pur>a</pur><yel>"`                         | Select quotes `"..."`{.underline}         |
-| `v`<pur>i</pur><yel>[`                         | Select inner brackets [`...`{.underline}] |
-| `v`<pur>a</pur><yel>[`                         | Select brackets `[...]`{.underline}       |
-| `v`<pur>i</pur><yel>w`                         | Select inner word                         |
-| `v`<pur>i</pur><yel>p`                         | Select inner paragraph                    |
-| `v`<pur>i</pur><yel>p`<pur>i</pur><yel>p</yel> | Select more paragraph                     |
+| `vi"`                         | Select inner quotes "`...`{.underline}"   |
+| `va"`                         | Select quotes `"..."`{.underline}         |
+| `vi[`                         | Select inner brackets [`...`{.underline}] |
+| `va[`                         | Select brackets `[...]`{.underline}       |
+| `viw`                         | Select inner word                         |
+| `vip`                         | Select inner paragraph                    |
+| `vip`ip | Select more paragraph                     |
 
 
 ### Misc
 
 | Shortcut                    | Description                          |
 |-----------------------------|--------------------------------------|
-| `c`<pur>i</pur><yel>w` | Change inner word                    |
-| `c`<pur>i</pur><yel>"` | Change inner quotes                  |
-| `c`<pur>i</pur><yel>t` | Change inner tags (HTML)             |
-| `c`<pur>i</pur><yel>p` | Change inner paragraph               |
-| `y`<pur>i</pur><yel>p` | Yank inner paragraph                 |
-| `y`<pur>a</pur><yel>p` | Yank paragraph _(including newline)_ |
+| `ciw` | Change inner word                    |
+| `ci"` | Change inner quotes                  |
+| `cit` | Change inner tags (HTML)             |
+| `cip` | Change inner paragraph               |
+| `yip` | Yank inner paragraph                 |
+| `yap` | Yank paragraph _(including newline)_ |
 
 
 ## Vim Multiple files
@@ -353,16 +353,16 @@ See `:help text-objects`
 ### Tabs
 | Shortcut       | Description                       |
 |----------------|-----------------------------------|
-| `:tabe [file]` | <yel>E`dit file in a new tab |
+| `:tabe [file]` | Edit file in a new tab |
 | `:tabf [file]` | Open if exists in new tab         |
-| `:tabc`        | <yel>C`lose current tab      |
-| `:tabo`        | Close <yel>o`ther tabs       |
-| `:tabs`        | List all <yel>tabs`          |
-| `:tabr`        | Go to fi<yel>r`st tab        |
-| `:tabl`        | Go to <yel>l`ast tab         |
-| `:tabm 0`      | <yel>M`ove to position `0`   |
-| `:tabn`        | Go to <yel>n`ext tab         |
-| `:tabp`        | Go to <yel>p`revious tab     |
+| `:tabc`        | Close current tab      |
+| `:tabo`        | Close other tabs       |
+| `:tabs`        | List all tabs          |
+| `:tabr`        | Go to first tab        |
+| `:tabl`        | Go to last tab         |
+| `:tabm 0`      | Move to position 0   |
+| `:tabn`        | Go to next tab         |
+| `:tabp`        | Go to previous tab     |
 
 
 #### Normal mode
@@ -718,3 +718,5 @@ Copy whole doc to clipboard
 - [Vim cheatsheet](https://vim.rtorr.com/) _(vim.rotrr.com)_
 - [Vim documentation](http://vimdoc.sourceforge.net/htmldoc/) _(vimdoc.sourceforge.net)_
 - [Interactive Vim tutorial](http://openvim.com/) _(openvim.com)_
+- [Neovim](neovim.md)
+- [Vim/Neovim plugin urls](Plugin-urls.md)

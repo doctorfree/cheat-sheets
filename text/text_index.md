@@ -22,6 +22,7 @@ Index of text category
 - [Markdown Guide: tools](markdown-guide/tools.md)
 - [Markdown Guide: api](markdown-guide/api.md)
 - [Nb](nb.md)
+- [Neovim](neovim.md)
 - [Obsidian](obsidian/obsidian.md)
     - [Obsidian API](obsidian/obsidian-api.md)
     - [Obsidian API documentation](obsidian/obsidian.d.ts.md)
@@ -31,4 +32,5 @@ Index of text category
 - [Pandoc](pandoc.md)
 - [Toml](toml.md)
 - [Vim](vim.md)
+- [Vim/Neovim plugin urls](Plugin-urls.md)
 - [Yaml](yaml.md)
