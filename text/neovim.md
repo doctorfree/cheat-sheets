@@ -76,3 +76,4 @@ nvim path/to/file
 
 - [Vim](vim.md)
 - [Vim/Neovim plugin urls](Plugin-urls.md)
+- [Vimscript to Lua guide](https://www.imaginaryrobots.net/posts/2021-04-17-converting-vimrc-to-lua)
