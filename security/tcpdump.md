@@ -97,10 +97,14 @@ tcpdump src net 172.16.0.0/16 and dst net 192.168.1.0/24 or 10.0.0.0/8
 tcpdump src H1 and not dst port 22
 ```
 
-With some complex queries you may have to use single quotes to ignore special characters, namely parentheses 
+With some complex queries you may have to use single quotes to ignore special characters, namely parentheses
 
 ### Capture traffic from 192.168.1.1 that is destined for ports 80 and 21
 
 ```shell
 tcpdump 'src 192.168.1.1 and (dst port 80 or 21)'
 ```
+
+## Tcpdump cheat sheet
+
+![Tcpdump cheat sheet](assets/tcpdump_cheat_sheet.pdf)

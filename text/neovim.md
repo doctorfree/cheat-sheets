@@ -12,9 +12,9 @@ The Neovim editor is available in an Ubuntu Personal Package Archive, hosted by 
 
 On October 27, 2021, GitHub released a GitHub Copilot (a cloud-based artificial intelligence tool for autocompleting code) plugin for Neovim as a public repository.
 
-Repository: https://github.com/neovim/neovim
+Repository: <https://github.com/neovim/neovim>
 
-Website: https://neovim.io/
+Website: <https://neovim.io/>
 
 ![](assets/neovim.png)
 
@@ -23,7 +23,7 @@ Website: https://neovim.io/
 Most, if not all, of the information in the [Vim cheat sheet](vim.md)
 applies equally to `nvim`.
 
-See https://github.com/sudormrfbin/cheatsheet.nvim for a Neovim plugin
+See <https://github.com/sudormrfbin/cheatsheet.nvim> for a Neovim plugin
 that provides searchable cheatsheets from within Neovim itself.
 
 Neovim, a programmer's text editor based on Vim, provides several modes
@@ -33,44 +33,56 @@ Pressing 'i' in normal mode enters insert mode.
 '<Esc>' goes back to normal mode, which doesn't allow regular text insertion.
 
 ### Open a file
+
 ```shell
 nvim path/to/file
 ```
 
-### Enter text editing mode (insert mode):
+### Enter text editing mode (insert mode)
+
 ```shell
 <Esc>i
 ```
 
-### Copy ("yank") or cut ("delete") the current line (paste it with `P`):
+### Copy ("yank") or cut ("delete") the current line (paste it with `P`)
+
 ```shell
 <Esc>yy|dd
 ```
 
-### Enter normal mode and undo the last operation:
+### Enter normal mode and undo the last operation
+
 ```shell
 <Esc>u
 ```
 
-### Search for a pattern in the file (press `n`/`N` to go to next/previous match):
+### Search for a pattern in the file (press `n`/`N` to go to next/previous match)
+
 ```shell
 <Esc>/search_pattern<Enter>
 ```
 
-### Perform a regular expression substitution in the whole file:
+### Perform a regular expression substitution in the whole file
+
 ```shell
 <Esc>:%s/regular_expression/replacement/g<Enter>
 ```
 
-### Enter normal mode and save (write) the file, and quit:
+### Enter normal mode and save (write) the file, and quit
+
 ```shell
 <Esc>:wq<Enter>
 ```
 
-### Quit without saving:
+### Quit without saving
+
 ```shell
 <Esc>:q!<Enter>
 ```
+
+## Vi cheat sheet
+
+![Vi cheat sheet](assets/vi_cheat_sheet.pdf)
 
 ## See also
 

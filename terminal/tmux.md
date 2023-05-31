@@ -672,6 +672,10 @@ set-option -g bell-action none
 set-window-option -g monitor-activity off
 ```
 
+## Cheat sheet
+
+![Tmux cheat sheet](assets/tmux_cheat_sheet.pdf)
+
 ## See also
 
 - [Escape Codes](escape_codes.md)

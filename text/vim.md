@@ -712,6 +712,10 @@ Copy whole doc to clipboard
 :%w !xsel -i -b        # GNU/Linux
 ```
 
+## Vi cheat sheet
+
+![Vi cheat sheet](assets/vi_cheat_sheet.pdf)
+
 ## See also
 
 - [Devhints](https://devhints.io/vim) _(devhints.io)_
