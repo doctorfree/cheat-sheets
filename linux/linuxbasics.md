@@ -28,6 +28,7 @@
 - [Samba](#samba)
 - [FTP](#ftp)
 - [MySQL Server](#mysql-server)
+- [Ubuntu Server CLI](#ubuntu-server-cli)
 - [Other](#other)
 
 ## Basics
@@ -759,6 +760,12 @@ systemctl enable mariadb   # Start service on system start
 mysql_secure_installation  # Run security wizard
 mysql -u root -p           # Connect to MySQL
 ```
+
+## Ubuntu Server CLI
+
+A PDF format cheat sheet for Ubuntu Server command line interface is freely available:
+
+![Ubuntu Server CLI Cheat Sheet](assets/Ubuntu-Server-CLI.pdf)
 
 ## Other
 
