@@ -20,6 +20,8 @@ Website: <https://neovim.io/>
 
 ## Neovim cheat sheet
 
+![](assets/neovim_cheatsheet.png)
+
 Most, if not all, of the information in the [Vim cheat sheet](vim.md)
 applies equally to `nvim`.
 
