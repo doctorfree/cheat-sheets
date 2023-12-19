@@ -3,16 +3,16 @@
 ## Table of Contents
 
 - [Basics](#basics)
-  - [File Hierarchy Standard (FHS)](#file-hierarchy-standard-fhs)
+  - [File Hierarchy Standard](#file-hierarchy-standard)
   - [Commands](#commands)
-  - [Globs (Wildcards)](#globs-wildcards)
+  - [Wildcards](#wildcards)
   - [Regex](#regex)
   - [Stream redirection](#stream-redirection)
 - [Disk and File System Management](#disk-and-file-system-management)
-  - [General Disk Manipulation (non-LVM)](#general-disk-manipulation-non-lvm)
+  - [General Disk Manipulation](#general-disk-manipulation)
   - [LVM](#lvm)
-- [Automatic mounting (/etc/fstab)](#automatic-mounting-etcfstab)
-- [Text Readers & Editors](#text-readers--editors)
+- [Automatic mounting](#automatic-mounting)
+- [Text Readers and Editors](#text-readers-and-editors)
   - [Less](#less)
   - [VI](#vi)
 - [User and Group Management](#user-and-group-management)
@@ -33,7 +33,7 @@
 
 ## Basics
 
-### File Hierarchy Standard (FHS)
+### File Hierarchy Standard
 
 | **Path**   | **Content**                     |
 | ---------- | ------------------------------- |
@@ -124,7 +124,7 @@
 | `alias`     |                 | Show aliases                               |
 |             | `name='befehl'` | Create alias                               |
 
-### Globs (Wildcards)
+### Wildcards
 
 The dot `.` in front of hidden items is ignored by glob patterns!
 
@@ -188,7 +188,7 @@ Bash itself does not know regex. Use programs like `grep`, `sed`, `awk`.
 
 ## Disk and File System Management
 
-### General Disk Manipulation (non-LVM)
+### General Disk Manipulation
 
 Creating physical partitions is **not required**! You can create PVs directly!
 
@@ -253,7 +253,9 @@ Creating physical partitions is **not required**! You can create PVs directly!
 | `lvreduce -L -10G /dev/myVG/myVol`           | Reduce LV by 10GB                       |
 | `lvremove /dev/myVG/myVol`                   | Remove logical volume                   |
 
-## Automatic mounting (/etc/fstab)
+## Automatic mounting
+
+`/etc/fstab`
 
 Example:
 
@@ -270,7 +272,7 @@ Column **dump** configures file system for backup with *dump* (program).
 
 Column **pass** configures order of file system check during boot. `0` means no check.
 
-## Text Readers & Editors
+## Text Readers and Editors
 
 ### Less
 
