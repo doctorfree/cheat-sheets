@@ -1,5 +1,13 @@
 # KASM Workspaces
-Streaming containerized apps and desktops to end-users. The Workspaces platform provides enterprise-class orchestration, data loss prevention, and web streaming technology to enable the delivery of containerized workloads to your browser.
+[Kasm Workspaces](https://www.kasmweb.com) is a a highly configurable container
+streaming platform that enables you to stream and deliver containerized
+applications over the web. It offers tools that you can use to create desktop
+workspaces and provide access to virtual desktops to end users. It also ensures
+data loss prevention as well as secure and private web browsing.
+
+Streaming containerized apps and desktops to end-users, the Workspaces platform
+provides enterprise-class orchestration, data loss prevention, and web streaming
+technology to enable the delivery of containerized workloads to your browser.
 
 ---
 ## Add self-signed SSL Certificates
@@ -25,10 +33,12 @@ sudo /opt/kasm/bin/start
 ## Custom Images
 ...
 
-Registry
-```
-https://index.docker.io/v1/
-```
+Kasm Registries provide easy installation and configuration of custom images.
+Third party registries provide additional value and customized Kasm images.
+For example, the
+[Record Technologies Kasm Registry](https://doctorfree.github.io/kasm-registry)
+provides custom Kasm images. Copy and add the registry URL as a Kasm admin at
+`Workspaces -> Registry -> Registries -> Add new`.
 
 ...
 

@@ -9,5 +9,6 @@ Index of misc category
 - [Mime](mime.md)
 - [Pokemon](pokemon.md)
 - [Pokemon fetch](pokefetch.md)
+- [Self hosting](self-hosting.md)
 - [Ssl-certs](ssl-certs.md)
 - [Ssl-security](ssl-security.md)
