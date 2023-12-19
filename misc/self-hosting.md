@@ -18,7 +18,7 @@ categories:
   <br />
 </p>
  
-# Table of Contents
+## Table of Contents
 
 1. [Getting Started with Self-Hosting](#getting-started-with-self-hosting)
  
@@ -191,7 +191,7 @@ categories:
 
 34. [XML Development](#xml-development)
 
-# Getting Started with Self-Hosting
+## Getting Started with Self-Hosting
 [Back to the Top](#table-of-contents)
 
 [Self-Hosting](https://www.reddit.com/r/selfhosted/) is the practice of locally hosting(on premises & private web servers) and managing software applications by a person or organization instead of monthly subscriptions from [Software as a service (SaaS) providers](https://azure.microsoft.com/en-us/overview/what-is-saas/).  
@@ -883,32 +883,32 @@ MinIO UI
 
 ## Podman
 
-```
+```shell
 podman run -p 9000:9000 -p 9001:9001 \
   quay.io/minio/minio server /data --console-address ":9001"
 ```
 
 ## Docker
 
-```
-#docker run -p 9000:9000 --name minio -d minio/minio server /export
+```shell
+docker run -p 9000:9000 --name minio -d minio/minio server /export
 ```
 **If you're using an SSD mounted at /mnt/sdd, then we can run the following to use it instead:**
 
-```
-# docker run -v /mnt/ssd:/export -p 9000:9000 --name minio -d minio/minio server /export
+```shell
+docker run -v /mnt/ssd:/export -p 9000:9000 --name minio -d minio/minio server /export
 ```
 
 ## MacOS
 
-```
+```shell
 brew install minio/stable/minio
 minio server /data
 ```
 
 ## Binary Download for MacOS
 
-```
+```shell
 wget https://dl.min.io/server/minio/release/darwin-amd64/minio
 chmod +x minio
 ./minio server /data
@@ -916,7 +916,7 @@ chmod +x minio
 
 ## Linux
 
-```
+```shell
 wget https://dl.min.io/server/minio/release/linux-amd64/minio
 chmod +x minio
 ./minio server /data
@@ -3961,7 +3961,7 @@ Red Hat Enterprise Linux Desktop
   - [r/OpenMediaVault](https://www.reddit.com/r/OpenMediaVault/)
  
 
-# WireGuard
+## WireGuard
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -4361,7 +4361,7 @@ If all goes well, you can click into the new tunnel connection from within the a
 
 Once you have everything setup and working correctly, you should read through the [WireGuard Addon docs](https://github.com/hassio-addons/addon-wireguard/blob/main/wireguard/DOCS.md) to setup up ```allowed_ips``` and ```client_allowed_ips``` to further secure your VPN instance. There’s also some other helpful options you can configure such as log level, but these are all optional.
 
-# Nextcloud
+## Nextcloud
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -4427,7 +4427,7 @@ Nexcloud Hub
 
 [LibreSign](https://libresign.github.io/) is a Libre digital signature app for Nextcloud. 
 
-# Raspberry Pi 
+## Raspberry Pi 
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -4993,7 +4993,7 @@ priority = 1
  <img src="https://user-images.githubusercontent.com/45159366/112692696-92fa6f00-8e3c-11eb-8c7a-c169bb0c9b1e.png">
 </p>
 
-# Grafana
+## Grafana
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -5056,7 +5056,7 @@ priority = 1
 [Graphite](https://grafana.com/oss/graphite/) is an open source monitoring system.
 
 
-# Networking
+## Networking
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -5179,7 +5179,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [OAuth 2.0](https://oauth.net/2/) is an open source authorization framework that enables applications to obtain limited access to user accounts on an HTTP service, such as Amazon, Google, Facebook, Microsoft, Twitter GitHub, and DigitalOcean. It works by delegating user authentication to the service that hosts the user account, and authorizing third-party applications to access the user account.
 
-# Docker
+## Docker
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -5252,7 +5252,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 [Containerd](https://containerd.io) is a daemon that manages the complete container lifecycle of its host system, from image transfer and storage to container execution and supervision to low-level storage to network attachments and beyond. It is available for Linux and Windows.
 
 
-# Kubernetes
+## Kubernetes
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -5397,7 +5397,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Platform9 Managed Kubernetes (PMK)](https://platform9.com/managed-kubernetes/) is a Kubernetes as a service that ensures fully automated Day-2 operations with 99.9% SLA on any environment, whether in data-centers, public clouds, or at the edge.
 
-# Ansible
+## Ansible
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -5489,7 +5489,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [OpenShift Hive](https://github.com/openshift/hive) is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
 
-# Databases
+## Databases
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -5617,7 +5617,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Sequel Pro](https://sequelpro.com/) is a fast MacOS database management tool for working with MySQL. This SQL management tool helpful for interacting with your database by easily to adding new databases, new tables, and new rows.
 
-# Telco 5G
+## Telco 5G
 [Back to the Top](#table-of-contents)
 
 <img src="https://user-images.githubusercontent.com/45159366/105409952-14881380-5be6-11eb-84fc-b07db69698ed.png">
@@ -5711,7 +5711,7 @@ Networking works by piggybacks on a number of different protocols on top of each
 
 [Network functions virtualization infrastructure(NFVI)](https://docs.vmware.com/en/VMware-vCloud-NFV/2.0/vmware-vcloud-nfv-reference-architecture-20/GUID-FBEA6C6B-54D8-4A37-87B1-D825F9E0DBC7.html) is the foundation of the overall NFV architecture. It provides the physical compute, storage, and networking hardware that hosts the VNFs. Each NFVI block can be thought of as an NFVI node and many nodes can be deployed and controlled geographically.
 
-# Open Source Security
+## Open Source Security
 [Back to the Top](#table-of-contents)
 
 [Open Source Security Foundation (OpenSSF)](https://openssf.org/) is a cross-industry collaboration that brings together leaders to improve the security of open source software by building a broader community, targeted initiatives, and best practices. The OpenSSF brings together open source security initiatives under one foundation to accelerate work through cross-industry support. Along with the Core Infrastructure Initiative and the Open Source Security Coalition, and will include new working groups that address vulnerability disclosures, security tooling and more.
@@ -5875,7 +5875,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Security Certifications Training from Pluarlsight](https://www.pluralsight.com/browse/information-cyber-security/security-certifications)
 
-# Differential Privacy
+## Differential Privacy
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -5975,7 +5975,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
 [Smart Noise](https://github.com/opendifferentialprivacy/smartnoise-sdk) is a toolkit that uses state-of-the-art differential privacy (DP) techniques to inject noise into data, to prevent disclosure of sensitive information and manage exposure risk.
 
-# Machine Learning
+## Machine Learning
 [Back to the Top](#table-of-contents)
 
 <img src="https://user-images.githubusercontent.com/45159366/108111395-756e0480-7049-11eb-85ca-b87315e9d3ef.jpeg">
@@ -6065,7 +6065,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Learn Machine Learning with Online Courses and Classes from edX](https://www.edx.org/learn/machine-learning)
 
 
-# IoT Protocols
+## IoT Protocols
 [Back to the Top](#table-of-contents)
 
 [DBus](https://www.freedesktop.org/wiki/Software/dbus/) is an open source software bus developed Red Hat for inter-process communication, and remote procedure call mechanism that allows communication between multiple processes running concurrently on the same machine.
@@ -6086,7 +6086,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
  [Very Simple Control Protocol (VSCP)](https://vscp.org) is a free automation protocol suitable for all sorts of automation task where building- or home-automation is in the main focus. Its main advantage is that each VSCP-node can work completely autonomous, being part of distributed network of other nodes.
 
-# Operating systems
+## Operating systems
 [Back to the Top](#table-of-contents)
 
 
@@ -6149,7 +6149,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 [Contiki-os](https://github.com/contiki-os) is an operating system for networked, memory-constrained systems with a focus on low-power wireless Internet of Things devices.
 
 
-# Middleware
+## Middleware
 [Back to the Top](#table-of-contents)
 
  [IoTSyS](https://iotsyst.com) is an integration middleware for the Internet of Things. It provides a communication stack for embedded devices based on IPv6, Web services, and OBIX to establish interoperable interfaces for smart objects.
@@ -6160,7 +6160,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
  [Kaa](https://www.kaaproject.org/platform/) is a Enterprise IoT Platform has been designed with heavy-duty, enterprise-grade IoT solutions in mind. It banishes a monolithic approach to architecture in favour of highly portable microservices, which allow for flexible rearrangement and customization even in the middle of the solution's lifecycle.
 
-# Node flow editors
+## Node flow editors
 [Back to the Top](#table-of-contents)
 
  [Node-RED](https://nodered.org) is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
@@ -6172,19 +6172,19 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
  [IoT Toolkit](https://www.segger.com/products/security-iot/iot-toolkit/) is a collection of libraries that enables communication with modern IoT based environments and devices. It is a high-performance collection of libraries optimized for minimum memory consumption in RAM, ROM, high speed, and versatility working on any device.
 
-# Data Visualization
+## Data Visualization
 [Back to the Top](#table-of-contents)
 
 [Freeboard](https://github.com/Freeboard/freeboard) is an open source real-time dashboard builder for IOT and other web mashups. A free open-source alternative to Geckoboard.
 
 [ThingSpeak](https://thingspeak.com) is an IoT analytics platform service that allows you to aggregate, visualize, and analyze live data streams in the cloud. You can send data to ThingSpeak from your devices, create instant visualization of live data, and send alerts.
 
-# Search
+## Search
 [Back to the Top](#table-of-contents)
 
  [Thingful](https://www.thingful.net) is a Search Engine for the Internet of Things Find & use open IoT data from around the world.
 
-# Hardware
+## Hardware
 [Back to the Top](#table-of-contents)
 
  [Arduino Ethernet Shield 2](https://www.arduino.cc/en/Guide/ArduinoEthernetShield) allows an Arduino board to connect to the internet using the Ethernet library and to read and write an SD card using the SD library.This shield is fully compatible with the former version, but relies on the newer W5500 chip.
@@ -6204,7 +6204,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
  [Hazelcast](https://hazelcast.com) is an open source in-memory data grid based on Java.
 
-# Home automation
+## Home automation
 [Back to the Top](#table-of-contents)
 
  [Home Assistant](https://github.com/home-assistant/core) is open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
@@ -6215,7 +6215,7 @@ It is extended by a set of privacy-specific requirements, control objectives and
 
  [The Thing System](https://github.com/TheThingSystem) is a set of software components and network protocols that aims to fix the Internet of Things. Our steward software is written in node.js making it both portable and easily extensible. It can run on your laptop, or fit onto a small single board computer like the Raspberry Pi.
 
-# Robotics
+## Robotics
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -6321,7 +6321,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Google Robotics Research](https://research.google/teams/brain/robotics/)
 
-# Mesh networks
+## Mesh networks
 [Back to the Top](#table-of-contents)
 
 [Zigbee](https://csa-iot.org/all-solutions/zigbee/) is the full-stack, secure, reliable, and market-proven solution used by a majority of large smart home ecosystem providers, such as Amazon's Echo Plus, Samsung SmartThings, Signify (Philips Hue), and more.
@@ -6330,7 +6330,7 @@ commercially available industrial robot models that you can import, visualize, a
 
  [OpenWSN](https://github.com/openwsn-berkeley/) is a project created at the University of California Berkeley and extended at the INRIA and at the Open University of Catalonia which aims to build an open standard-based and open source implementation of a complete constrained network protocol stack for wireless sensor networks and Internet of Things.
  
-# Blockchain Development
+## Blockchain Development
 [Back to the Top](#table-of-contents)
  
  <p align="center">
@@ -6397,7 +6397,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Squeezer](https://squeezer.io/) is a platform that empowers new-entry blockchain developers to build serverless dApps easily. 
  
-# Node.js Development
+## Node.js Development
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -6475,7 +6475,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Hexo](https://hexo.io/) is a A fast, simple & powerful blog framework, powered by Node.js. 
 
-# C/C++ Development
+## C/C++ Development
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -6613,7 +6613,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
-# Java Development
+## Java Development
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -6714,7 +6714,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [YourKit](https://www.yourkit.com/) is a technology leader, creator of the most innovative and intelligent tools for profiling Java & .NET applications.
 
-# Python Development
+## Python Development
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -6836,7 +6836,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Scikit-Learn](https://scikit-learn.org/stable/index.html) is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.
 
-# Rust Development
+## Rust Development
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -6921,7 +6921,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Writing an OS in Rust ](https://os.phil-opp.com) is a blog series creates a small operating system in the Rust programming language by [Philipp Oppermann](https://github.com/phil-opp). 
 
-# Swift Development
+## Swift Development
 [Back to the Top](#table-of-contents)
 
 <p align="center">
@@ -7011,7 +7011,7 @@ commercially available industrial robot models that you can import, visualize, a
 
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) is reactive extensions to Cocoa frameworks, built on top of ReactiveSwift.
 
-# XML Development
+## XML Development
 [Back to the Top](#table-of-contents)
 
  <p align="center">
