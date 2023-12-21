@@ -3,6 +3,9 @@ tags:
   - projects
   - kasm
   - workspace
+categories:
+  - kasm
+  - linux
 ---
 
 # Kasm Workspaces

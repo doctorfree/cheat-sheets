@@ -3,6 +3,9 @@ tags:
   - projects
   - kasm
   - workspace
+categories:
+  - kasm
+  - linux
 ---
 
 ![Logo](https://raw.githubusercontent.com/wiki/doctorfree/kasm-registry/logo.png)
