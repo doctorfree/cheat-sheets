@@ -10,53 +10,27 @@ categories:
 
 # AppImage Kasm Workspace
 
-[AppImage](https://appimage.org) is a format for distributing portable software
-on Linux without needing superuser permissions to install the application.
-It aims to enable application developers to deploy binary software without
-being restricted to specific Linux distributions, a concept often referred
-to as upstream packaging. In this manner, a single developed software can
-effortlessly run on any Linux distribution, such as Ubuntu, RHEL, or Arch.
+[AppImage](https://appimage.org) is a format for distributing portable software on Linux without needing superuser permissions to install the application. It aims to enable application developers to deploy binary software without being restricted to specific Linux distributions, a concept often referred to as upstream packaging. In this manner, a single developed software can effortlessly run on any Linux distribution, such as Ubuntu, RHEL, or Arch.
 
-Released first in 2004 under the name klik, it was continuously developed,
-then renamed in 2011 to PortableLinuxApps and later in 2013 to `AppImage`.
+Released first in 2004 under the name klik, it was continuously developed, then renamed in 2011 to PortableLinuxApps and later in 2013 to `AppImage`.
 
 ## Design
 
-`AppImage` aims to be an application deployment system for Linux with the
-following objectives: **simplicity**, **binary compatibility**, **portability**,
-**distro agnosticism**, **no installation**, **no root permission**, and keeping
-the underlying operating system untouched.
+`AppImage` aims to be an application deployment system for Linux with the following objectives: **simplicity**, **binary compatibility**, **portability**, **distro agnosticism**, **no installation**, **no root permission**, and keeping the underlying operating system untouched.
 
-`AppImage` does not install the application in the traditional Linux sense.
-Instead of putting the application's various files in the distribution's
-appropriate places in the file system, the `AppImage` file is a single file
-system image itself. When it runs, the file is mounted with `FUSE`.
+`AppImage` does not install the application in the traditional Linux sense. Instead of putting the application's various files in the distribution's appropriate places in the file system, the `AppImage` file is a single file system image itself. When it runs, the file is mounted with `FUSE`.
 
-Each file is self-contained: it includes all libraries the application depends
-on that are not already part of the targeted base-system. A version 1.0
-`AppImage` is an ISO 9660 Rock Ridge file (which can be optionally `zisofs`
-compressed) containing a minimal AppDir and a tiny runtime. Version 2 may use
-other file system image formats like SquashFS.
+Each file is self-contained: it includes all libraries the application depends on that are not already part of the targeted base-system. A version 1.0 `AppImage` is an ISO 9660 Rock Ridge file (which can be optionally `zisofs` compressed) containing a minimal AppDir and a tiny runtime. Version 2 may use other file system image formats like SquashFS.
 
-`AppImage` files are simpler than installing an application. No extraction tools
-are needed, nor is it necessary to modify the operating system or user environment.
-Regular users on the common Linux distributions can download it, make it executable,
-and run it.
+`AppImage` files are simpler than installing an application. No extraction tools are needed, nor is it necessary to modify the operating system or user environment. Regular users on the common Linux distributions can download it, make it executable, and run it.
 
 ## AppImage Kasm Workspace
 
-The `AppImage` Kasm workspace is designed to facilitate and ease the integration
-of AppImages into an Ubuntu 22.04 desktop environment. The workspace image includes
-[AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher), a helper
-application for Linux distributions serving as a kind of "entry point" for running
-and integrating AppImages.
+The `AppImage` Kasm workspace is designed to facilitate and ease the integration of AppImages into an Ubuntu 22.04 desktop environment. The workspace image includes [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher), a helper application for Linux distributions serving as a kind of "entry point" for running and integrating AppImages.
 
 ### Kasm volume mapping
 
-The `AppImage` Kasm workspace should be deployed with a volume mapping in `/share`
-on the workspace. This maps `/share` in the Kasm workspace to a folder on the host.
-An administrator can place AppImages in the mapped `/share/AppImages` on the host.
-For example, with the following volume mapping configured in the `AppImage` workspace:
+The `AppImage` Kasm workspace should be deployed with a volume mapping in `/share` on the workspace. This maps `/share` in the Kasm workspace to a folder on the host. An administrator can place AppImages in the mapped `/share/AppImages` on the host. For example, with the following volume mapping configured in the `AppImage` workspace:
 
 ```json
 {
@@ -71,10 +45,7 @@ For example, with the following volume mapping configured in the `AppImage` work
 }
 ```
 
-AppImages on the host in `/u/kasm_user_share/AppImages` would be exposed in
-`/share/AppImages` in the workspace. If this mapping is used then the
-`appimage-launcher` utility will automatically discover and integrate
-AppImages located there.
+AppImages on the host in `/u/kasm_user_share/AppImages` would be exposed in `/share/AppImages` in the workspace. If this mapping is used then the `appimage-launcher` utility will automatically discover and integrate AppImages located there.
 
 ## For users
 

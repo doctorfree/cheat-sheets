@@ -10,9 +10,7 @@ categories:
 
 # Kasm Workspaces
 
-[Kasm Workspaces](https://kasmweb.com) provides enterprise-class orchestration,
-data loss prevention, and web streaming technology to enable the delivery of
-containerized workloads to your browser and desktops to end-users.
+[Kasm Workspaces](https://kasmweb.com) provides enterprise-class orchestration, data loss prevention, and web streaming technology to enable the delivery of containerized workloads to your browser and desktops to end-users.
 
 ## Table of Contents
 
@@ -48,12 +46,9 @@ sudo bash kasm_release/install.sh -L 8443 --accept-eula --swap-size 8192
 
 ## Custom Docker Images
 
-See the Kasm Workspaces documentation on
-[Building Custom Images](https://kasmweb.com/docs/latest/how_to/building_images.html#).
+See the Kasm Workspaces documentation on [Building Custom Images](https://kasmweb.com/docs/latest/how_to/building_images.html#).
 
-Many example custom Kasm image builder Dockerfiles can be found at
-https://github.com/doctorfree/workspaces-images including a `Neovim` image.
-To build the `Neovim` Workspace image:
+Many example custom Kasm image builder Dockerfiles can be found at https://github.com/doctorfree/workspaces-images including a `Neovim` image. To build the `Neovim` Workspace image:
 
 ```bash
 # On the Kasm Workspaces server
@@ -63,9 +58,7 @@ export GH_TOKEN="<YOUR-GITHUB-API-TOKEN>"
 ./build-neovim
 ```
 
-After building a custom image, as an administrator in Kasm Workspaces,
-add the custom Workspace with `Workspaces -> Workspaces -> Add Workspace`.
-Add the `Neovim` image as:
+After building a custom image, as an administrator in Kasm Workspaces, add the custom Workspace with `Workspaces -> Workspaces -> Add Workspace`. Add the `Neovim` image as:
 
 - **Workspace Type**: `Container`
 - **Thumbnail URL**: `https://lazyman.dev/assets/neovim-hicontrast.png`
@@ -77,10 +70,7 @@ Add the `Neovim` image as:
 - **Persistent Profile Path**: `/u/kasm_profiles/{image_id}/{user_id}`
 - **Docker Run Config Override**: `{ "hostname": "kasm" }`
 
-After adding a Workspace, check `Workspaces -> Registry -> Installed Workspaces`
-to verify the Workspace is installed. The first time this Workspace session runs
-the [Lazyman Neovim Configuration Manager](https://github.com/doctorfree/nvim-lazyman)
-is installed and configured.
+After adding a Workspace, check `Workspaces -> Registry -> Installed Workspaces` to verify the Workspace is installed. The first time this Workspace session runs the [Lazyman Neovim Configuration Manager](https://github.com/doctorfree/nvim-lazyman) is installed and configured.
 
 ## References
 
