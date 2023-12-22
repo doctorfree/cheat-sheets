@@ -10,13 +10,13 @@ This knowledge base has been developed through the efforts of several individual
 
 1. [Authors](#authors)
 1. [Why](#why)
-1. [Category index](#category-index)
+1. [Categories](#categories)
 1. [Usage](#usage)
-    1. [Markdown viewers](#markdown-viewers)
-    1. [Clone and view locally](#clone-and-view-locally)
-    1. [Obsidian plus NB](#obsidian-plus-nb)
-    1. [Obsidian license restriction](#obsidian-license-restriction)
-1. [Auto Cheat Sheets](#auto-cheat-sheets)
+    1. [Viewers](#viewers)
+    1. [Clone and use locally](#clone)
+    1. [NB Knowledge Base tool](#nb)
+    1. [Obsidian license restriction](#license)
+1. [Auto Generate Cheat Sheets](#auto)
 1. [Resources](#resources)
 1. [Support](#support)
 
@@ -98,7 +98,7 @@ Displays as:
 
 Our cheatsheets have been meticulously groomed to avoid these kinds of errors through the appropriate use of HTML character entities.
 
-## Category index
+## Categories
 
 These cheat sheets are roughly organized within categories. Browse the index of categories here:
 
@@ -113,7 +113,7 @@ These cheat sheets are roughly organized within categories. Browse the index of 
 
 ## Usage
 
-Any [markdown](https://en.wikipedia.org/wiki/Markdown) viewer can be used to view this knowledge base. You can simply browse the repository and click on the individual markdown files at https://github.com/doctorfree/cheat-sheets.git in any web browser. However, to view the inter-relationships between the many components, categories, and technologies documented here, we recommend using the [Obsidian](https://obsidian.md) knowledge base engine.
+Any [markdown](https://en.wikipedia.org/wiki/Markdown) viewer can be used to view this knowledge base. You can simply browse the repository and click on the individual markdown files at https://github.com/doctorfree/cheat-sheets-plus.git in any web browser. However, to view the inter-relationships between the many components, categories, and technologies documented here, we recommend using the [Obsidian](https://obsidian.md) knowledge base engine.
 
 The repository contains the Obsidian theme `Doctorfree`. To use this theme with Obsidian:
 
@@ -126,7 +126,7 @@ The repository contains the Obsidian theme `Doctorfree`. To use this theme with 
     - Go to `Settings -> Appearance -> Themes` in Obsidian
     - Select `Doctorfree` from the drop down menu of available themes
 
-**[Note:]** Obsidian is free for personal non-commercial use but must be purchased in revenue generating operations (see the note on [Obsidian license restrictions](#obsidian-license-restriction) below).
+**[Note:]** Obsidian is free for personal non-commercial use but must be purchased in revenue generating operations (see the note on [Obsidian license restrictions](#license) below).
 
 ### Recommeded Obsidian Plugins
 
@@ -144,14 +144,14 @@ Obsidian community plugins we have found useful and can recommend include the fo
 - [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Enables theme customization
 - [Templater](https://github.com/SilentVoid13/Templater): Defines a powerful templating language
 
-### Markdown viewers
+### Viewers
 
 Recommended markdown viewers, available for all platforms and with many features:
 
 - [Obsidian](https://obsidian.md)
 - [nb](https://xwmx.github.io/nb)
 
-If Obsidian does not suit your needs, there are many free an open source markdown editors and viewers available for all platforms. Doctorfree uses the [nb](https://xwmx.github.io/nb/) command line and local web note-taking, bookmarking, archiving, and knowledge base application. Obsidian and nb work well together to provide a rich markdown editing, viewing, and management system. See the [Obsidian plus NB](#obsidian-plus-nb) section below for details.
+If Obsidian does not suit your needs, there are many free an open source markdown editors and viewers available for all platforms. Doctorfree uses the [nb](https://xwmx.github.io/nb/) command line and local web note-taking, bookmarking, archiving, and knowledge base application. Obsidian and nb work well together to provide a rich markdown editing, viewing, and management system. See the [Obsidian plus NB](#nb) section below for details.
 
 Several excellent resources exist that provide lists and reviews of popular markdown editors and viewers:
 
@@ -164,22 +164,22 @@ Several excellent resources exist that provide lists and reviews of popular mark
 
 Obsidian is pretty cool though, so try it out.
 
-### Clone and view locally
+### Clone
 
 To explore this repository locally or to integrate it into a service, first clone the repository:
 
 ```
-git clone https://github.com/doctorfree/cheat-sheets.git
+git clone https://github.com/doctorfree/cheat-sheets-plus.git
 ```
 
-This will result in a local folder, `cheat-sheets`, containing all of the markdown and supporting file assets. Import these into your markdown viewer. The import method varies from viewer to viewer. To import into Obsidian:
+This will result in a local folder, `cheat-sheets-plus`, containing all of the markdown and supporting file assets. Import these into your markdown viewer. The import method varies from viewer to viewer. To import into Obsidian:
 
 - Open another vault (or create new vault if first time)
 - Open folder as vault (click "Open")
-- Navigate to the `cheat-sheets` folder created by `git clone ...`
+- Navigate to the `cheat-sheets-plus` folder created by `git clone ...`
 - Click "Open" to create the new Obsidian vault
 
-### Obsidian plus NB
+### NB
 
 The open source [command line tool nb](https://github.com/xwmx/nb) is another
 powerful knowledge base application. [Obsidian](https://obsidian.md/) and nb
@@ -197,7 +197,7 @@ These markdown files are intended to be used with [NB](text/nb) and
 from an existing Obsidian vault (or any repository with markdown):
 
 ```
-nb notebooks add cheat-sheets https://github.com/doctorfree/cheat-sheets.git
+nb notebooks add cheat-sheets https://github.com/doctorfree/cheat-sheets-plus.git
 ```
 
 This would create an nb notebook named 'cheat-sheets'. The 'cheat-sheets' nb
@@ -206,7 +206,7 @@ were an Obsidian vault then changes/updates to the Obsidian vault can now be
 made in either Obsidian or nb. All changes will automatically sync and be
 available across all platforms where either Obsidian or nb is deployed.
 
-### Obsidian license restriction
+### License
 
 Obsidian is free for personal use. However, the license includes a restriction
 on the use of Obsidian for revenue generating activities. Here is the relevant
@@ -222,7 +222,7 @@ The `nb` note-taking command line application has no such restriction and is
 completely free and open source software licensed under the GNU Affero General
 Public License v3.0.
 
-## Auto Cheat Sheets
+## Auto
 
 Resources exist on the web and as command line clients to auto-generate cheat sheets.
 
@@ -267,5 +267,3 @@ Support our mission to create free, high-quality content for tech enthusiasts an
 <a href="https://www.buymeacoffee.com/doctorfree"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=doctorfree&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a>
 
 ***Help us to create something that matters to people!***
-
-![Analytics](https://repobeats.axiom.co/api/embed/0af94b2dfc99ac56930e3bf8c5ebb8320831b945.svg "Repobeats analytics image")

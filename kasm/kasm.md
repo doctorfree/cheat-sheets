@@ -15,25 +15,39 @@ categories:
 ## Table of Contents
 
 - [Installation](#installation)
-  - [Download and extract](#download-and-extract)
-  - [To run Kasm on port 8443 with a reverse proxy on 443](#to-run-kasm-on-port-8443-with-a-reverse-proxy-on-443)
-- [Custom Docker Images](#custom-docker-images)
+  - [Download](#download)
+  - [Extract](#extract)
+  - [Install](#install)
+  - [Port](#port)
+- [Build](#build)
 - [Cron periodic cleanup and certificate renewal](cron/README.md)
 - [References](#references)
 
 ## Installation
 
-### Download and extract
+### Download
 
 ```bash
 [ -d $HOME/Kasm ] || mkdir -p $HOME/Kasm
 cd $HOME/Kasm
 curl -O https://kasm-static-content.s3.amazonaws.com/kasm_release_1.14.0.3a7abb.tar.gz
+```
+
+### Extract
+
+```bash
 tar -xf kasm_release_1.14.0.3a7abb.tar.gz
+```
+
+### Install
+
+```bash
 sudo bash kasm_release/install.sh --accept-eula --swap-size 8192
 ```
 
-### To run Kasm on port 8443 with a reverse proxy on 443
+### Port
+
+To run Kasm on port 8443 with a reverse proxy on 443:
 
 ```bash
 sudo bash kasm_release/install.sh -L 8443 --accept-eula --swap-size 8192
@@ -44,7 +58,7 @@ sudo bash kasm_release/install.sh -L 8443 --accept-eula --swap-size 8192
 - Passwords will be randomly generated and presented at the end of the install
   - Unless the `--admin-password` and/or `--user-password` are specified
 
-## Custom Docker Images
+## Build
 
 See the Kasm Workspaces documentation on [Building Custom Images](https://kasmweb.com/docs/latest/how_to/building_images.html#).
 

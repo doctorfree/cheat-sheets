@@ -18,17 +18,17 @@ The repository at https://github.com/doctorfree/kasm-registry is home to the Rec
 
 ## Table of Contents
 
-- [Record Technologies Workspaces](#record-technologies-workspaces)
-  - [Workspace features](#workspace-features)
-  - [Workspace deployment](#workspace-deployment)
-  - [Docker deployment](#docker-deployment)
-- [Repository template](#repository-template)
+- [Workspaces](#workspaces)
+  - [Features](#features)
+  - [Deployment](#deployment)
+  - [Docker](#docker)
+- [Template](#template)
 - [Schema](#schema)
 - [Discovery](#discovery)
 
-## Record Technologies Workspaces
+## Workspaces
 
-This registry primarily serves as the distribution mechanism for Kasm workspaces generated from [Doctorfree Open Source Projects](https://github.com/doctorfree).
+The [Record Technologies Workspaces Kasm registry](https://doctorfree.github.io/kasm-registry) serves as the distribution mechanism for Kasm workspaces generated from [Doctorfree Open Source Projects](https://github.com/doctorfree).
 
 Currently available workspaces in this registry include:
 
@@ -46,7 +46,7 @@ Currently available workspaces in this registry include:
 * `WingPlus`: The Wing workspace with the Neovim hyper-extensible text editor
 * More to come ...
 
-## Workspace features
+### Features
 
 Record Technologies workspaces all include customized desktops with several productivity and development packages preconfigured for ease of use. In addition to the rich feature set provided by the base images upon which these workspaces are built, Record Technologies workspaces provide advanced configuration and integration of many additional components including:
 
@@ -80,7 +80,7 @@ In most Record Technologies workspaces the [Kitty terminal emulator](https://sw.
 
 Where appropriate Record Technologies workspaces perform a `postinstall` which installs and configures many additional utilities in the Kasm user's home directory. When used in conjunction with Kasm persistent profiles this feature enables a rich persistent user runtime environment across workspace sessions.
 
-## Workspace deployment
+## Deployment
 
 All Record Technologies workspaces are designed for deployment using [Kasm Workspaces](https://kasmweb.com). The Docker images can be deployed directly with Docker but they will not provide persistent user profiles and thus will not be as usable, requiring initialization on every start. The use of Kasm Workspaces for deployment is strongly encouraged.
 
@@ -98,7 +98,7 @@ Click on any of the Record Technologies workspaces and then click `Install` to i
 
 Where the `/u/kasm_profiles/` folder has been created on the Kasm host. Note that this folder can grow quite large depending on how many workspaces are configured to use it and how many users are active. I place this folder along with any volume mappings and the Docker library folders on a large second drive using XFS.
 
-## Docker deployment
+## Docker
 
 These images are designed for use as streaming containers in `Kasm`. However, they can be run using `docker`. For example, to run the `Wing` workspace:
 
@@ -119,7 +119,7 @@ docker run --rm  -it --shm-size=512m -p 3000:3000 -p 6901:6901 -e VNC_PW=passwor
 
 **NOTE:** Several of the Record Technologies Kasm workspaces perform extensive post-installation configuration. For this reason they are not well suited for use with `docker run ...` since each time they are run in this manner they will perform the time consuming initialization. The recommended use for these images is as Kasm Workspaces streamed containers with a persistent profile configured.
 
-## Repository template
+## Template
 
 This repository was created from the registry repository template at [https://github.com/kasmtech/workspaces_registry_template](https://github.com/kasmtech/workspaces_registry_template).
 
@@ -147,21 +147,3 @@ This repository was created from the registry repository template at [https://gi
 | cpu_allocation_method | False    | String | What CPU allocation method to use for this workspace. Can be either "Inherit", "Quotas" or "Shares"  |
 
 Head to the **Actions** tab to check your progress and once `Page build and deployment` is complete, your site should be ready.
-
-### New schema version
-
-When a new schema version comes out, you just need to create a new branch that refrlects the new schema, for example `1.1` and make it the default branch.
-
-In the new branch, make any updates that are needed, when the changes are committed a new version will be built.
-
-Kasm Workspaces will automatically pull the version of the schema that it understands.
-
-&nbsp;
-
-## Discovery
-
-The tag below will hopefully make it easier for people to find your Workspace Registry by clicking on [this github search link](https://github.com/search?q=in%3Areadme+sort%3Aupdated+-user%3Akasmtech+%22KASM-REGISTRY-DISCOVERY-IDENTIFIER%22&type=repositories). If you want to make it harder to find your repository for some reason, just remove this section.
-
-If you are the one doing the searching, click on the **site** folder, then click on **next.config.js** and the url can be found under **env.listUrl**
-
-![search-600](https://user-images.githubusercontent.com/5698566/230614274-2976b4d7-074f-4e6d-9e58-e4d2512a3d2a.gif)

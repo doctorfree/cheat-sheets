@@ -20,16 +20,16 @@ The Kasm team publishes applications and desktop images for use inside the platf
 
 ## Table of Contents
 
-- [Record Technologies Workspace Registry](#record-technologies-workspace-registry)
-  - [Workspace features](#workspace-features)
-  - [Registry deployment](#registry-deployment)
-- [Repository Structure](#repository-structure)
-- [Manual Deployment](#manual-deployment)
-  - [Manual Execution](#manual-execution)
-- [About Workspaces](#about-workspaces)
-- [Live Demo](#live-demo)
+- [Registry](#registry)
+- [Features](#features)
+- [Deployment](#deployment)
+  - [Manual](#manual)
+- [Execution](#execution)
+- [Structure](#structure)
+- [About](#about)
+- [Demo](#demo)
 
-## Record Technologies Workspace Registry
+## Registry
 
 ![Registry](https://raw.githubusercontent.com/wiki/doctorfree/kasm-registry/registry.png)
 
@@ -52,7 +52,7 @@ Currently available workspaces in this registry include:
 * `WingPlus`: The Wing workspace with the Neovim hyper-extensible text editor
 * More to come ...
 
-### Workspace features
+## Features
 
 Record Technologies workspaces all include customized desktops with several productivity and development packages preconfigured for ease of use. In addition to the rich feature set provided by the base images upon which these workspaces are built, Record Technologies workspaces provide advanced configuration and integration of many additional components including:
 
@@ -86,7 +86,7 @@ In most Record Technologies workspaces the [Kitty terminal emulator](https://sw.
 
 Where appropriate Record Technologies workspaces perform a `postinstall` which installs and configures many additional utilities in the Kasm user's home directory. When used in conjunction with Kasm persistent profiles this feature enables a rich persistent user runtime environment across workspace sessions.
 
-### Registry deployment
+## Deployment
 
 All Record Technologies workspaces are designed for deployment using [Kasm Workspaces](https://kasmweb.com). The Docker images can be deployed directly with Docker but they will not provide persistent user profiles and thus will not be as usable, requiring initialization on every start. The use of Kasm Workspaces for deployment is strongly encouraged.
 
@@ -104,19 +104,7 @@ Click on any of the Record Technologies workspaces and then click `Install` to i
 
 Where the `/u/kasm_profiles/` folder has been created on the Kasm host. Note that this folder can grow quite large depending on how many workspaces are configured to use it and how many users are active. I place this folder along with any volume mappings and the Docker library folders on a large second drive using XFS.
 
-## Repository Structure
-
-The top-level directory of this repository contains the Dockerfiles used to build the Kasm workspace images deployed to the [Record Technologies Kasm Workspace Registry](https://doctorfree.github.io/kasm-registry). By convention, these Dockerfiles have a `.Dockerfile` filename suffix.
-
-The subdirectory `kasmtech` contains the Dockerfiles used by the `kasmtech` project from which this repository was forked. By convention, these Dockerfiles have a `dockerfile-kasm` filename prefix.
-
-The subdirectory `dev` contains Dockerfiles in development but not yet deployed to the Record Technologies workspace registry.
-
-The `bin` directory contains convenience scripts used to build and push the workspace images.
-
-The `src` directory contains files, scripts, archives, configuration, and data used by each image build.
-
-## Manual Deployment
+### Manual
 
 Use `docker` to build the provided images. For example, to build the `doctorwhen/kasm:neovim` image for the `Neovim` workspace:
 
@@ -132,7 +120,7 @@ bin/build-neovim
 
 For some image builds it is necessary to use the convenience script as this script modifies some files in the build to add a Github API key if one is present in the environment.
 
-### Manual Execution
+## Execution
 
 While these image are primarily built to run inside the Workspaces platform, they can also be executed manually. Please note that certain functionality, such as audio, uploads, downloads, and microphone pass-through are only available within the Kasm platform.
 
@@ -147,7 +135,19 @@ The container is now accessible via a browser : `https://<IP>:6901`
 
 **NOTE:** Several of the Record Technologies Kasm workspaces perform extensive post-installation configuration. For this reason they are not well suited for use with `docker run ...` since each time they are run in this manner they will perform the time consuming initialization. The recommended use for these images is as Kasm Workspaces streamed containers with a persistent profile configured.
 
-## About Workspaces
+## Structure
+
+The top-level directory of this repository contains the Dockerfiles used to build the Kasm workspace images deployed to the [Record Technologies Kasm Workspace Registry](https://doctorfree.github.io/kasm-registry). By convention, these Dockerfiles have a `.Dockerfile` filename suffix.
+
+The subdirectory `kasmtech` contains the Dockerfiles used by the `kasmtech` project from which this repository was forked. By convention, these Dockerfiles have a `dockerfile-kasm` filename prefix.
+
+The subdirectory `dev` contains Dockerfiles in development but not yet deployed to the Record Technologies workspace registry.
+
+The `bin` directory contains convenience scripts used to build and push the workspace images.
+
+The `src` directory contains files, scripts, archives, configuration, and data used by each image build.
+
+## About
 
 Kasm Workspaces is a docker container streaming platform that enables you to deliver browser-based access to desktops, applications, and web services. Kasm uses a modern DevOps approach for programmatic delivery of services via Containerized Desktop Infrastructure (CDI) technology to create on-demand, disposable, docker containers that are accessible via web browser.
 
@@ -155,5 +155,6 @@ The rendering of the graphical-based containers is powered by the open-source pr
 
 Kasm Workspaces was developed to meet the most demanding secure collaboration requirements that is highly scalable, customizable, and easy to maintain. Most importantly, Kasm provides a solution, rather than a service, so it is infinitely customizable to your unique requirements and includes a developer API so that it can be integrated with, rather than replace, your existing applications and workflows. Kasm can be deployed in the cloud (Public or Private), on-premise (Including Air-Gapped Networks), or in a hybrid configuration.
 
-## Live Demo
+## Demo
+
 A self-guided on-demand demo is available at [**kasmweb.com**](https://www.kasmweb.com/demo.html)
