@@ -107,7 +107,7 @@ These cheat sheets are roughly organized within categories. Browse the index of 
 | [Apps](apps/apps_index.md) | [Audio](audio/audio_index.md) | [Cloud](cloud/cloud_index.md) | [Databases](databases/databases_index.md) |
 | [Docker](docker/docker_index.md) | [Kasm](kasm/kasm_index.md) | [Keyboard](keyboard/keyboard_index.md) | [Kubernetes](kubernetes/kubernetes_index.md) |
 | [Linux](linux/linux_index.md) | [Mac OS](macos/macos_index.md) | [Markdown](text/markdown-guide/markdown-guide.md) | [Messaging](messaging/messaging_index.md) |
-| [Misc](misc/misc_index.md) | [Networking](networking/networking_index.md) | [Projects](projects/projects_index.md) | [Rclone](cloud/rclone/index.md) |
+| [Misc](misc/misc_index.md) | [Networking](networking/networking_index.md) | [Projects](projects/projects_index.md) | [Rclone](cloud/rclone.md) |
 | [Security](security/security_index.md) | [Shells](shells/shells_index.md) | [Terminal](terminal/terminal_index.md) | [Text](text/text_index.md) |
 | [Tools](tools/tools_index.md) | [Windows](windows/windows_index.md) | [WWW](www/www_index.md) | |
 
