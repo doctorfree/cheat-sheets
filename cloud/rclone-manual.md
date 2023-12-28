@@ -1,6 +1,6 @@
 # Rclone syncs your files to cloud storage
 
-![Logo](https://rclone.org/img/logo_on_light__horizontal_color.svg)
+![Logo](https://rclone.org/img/logo_on_dark__horizontal_color.svg)
 
 - [About rclone](#about)
 - [What can rclone do for you?](#what)
@@ -110,109 +110,46 @@ Rclone helps you:
 (There are many others, built on standard protocols such as
 WebDAV or S3, that work out of the box.)
 
+  | **Storage** |      |      |      | **Providers** |
+  | ----------- | ---- | ---- | ---- | ------------- |
+  | [1Fichier](https://rclone.org/fichier/) | [Akamai Netstorage](https://rclone.org/netstorage/) | [Alibaba Cloud (Aliyun) Object Storage System (OSS)](https://rclone.org/s3/#alibaba-oss) | [Amazon Drive](https://rclone.org/amazonclouddrive/) ([See note](https://rclone.org/amazonclouddrive/#status)) | [Amazon S3](https://rclone.org/s3/) |
+  | [ArvanCloud Object Storage (AOS)](https://rclone.org/s3/#arvan-cloud-object-storage-aos) | [Backblaze B2](https://rclone.org/b2/) | [Box](https://rclone.org/box/) | [Ceph](https://rclone.org/s3/#ceph) | [China Mobile Ecloud Elastic Object Storage (EOS)](https://rclone.org/s3/#china-mobile-ecloud-eos) |
+  | [Cloudflare R2](https://rclone.org/s3/#cloudflare-r2) | [Citrix ShareFile](https://rclone.org/sharefile/) | [DigitalOcean Spaces](https://rclone.org/s3/#digitalocean-spaces) | [Digi Storage](https://rclone.org/koofr/#digi-storage) | [Dreamhost](https://rclone.org/s3/#dreamhost) |
+  | [Dropbox](https://rclone.org/dropbox/) | [Enterprise File Fabric](https://rclone.org/filefabric/) | [Fastmail Files](https://rclone.org/webdav/#fastmail-files) | [FTP](https://rclone.org/ftp/) | [Google Cloud Storage](https://rclone.org/googlecloudstorage/) |
+  | [Google Drive](https://rclone.org/drive/) | [Google Photos](https://rclone.org/googlephotos/) | [HDFS (Hadoop Distributed Filesystem)](https://rclone.org/hdfs/) | [HiDrive](https://rclone.org/hidrive/) | [HTTP](https://rclone.org/http/) |
+  | [Huawei Cloud Object Storage Service(OBS)](https://rclone.org/s3/#huawei-obs) | [Internet Archive](https://rclone.org/internetarchive/) | [Jottacloud](https://rclone.org/jottacloud/) | [IBM COS S3](https://rclone.org/s3/#ibm-cos-s3) | [IONOS Cloud](https://rclone.org/s3/#ionos) |
+  | [Koofr](https://rclone.org/koofr/) | [Leviia Object Storage](https://rclone.org/s3/#leviia) | [Liara Object Storage](https://rclone.org/s3/#liara-object-storage) | [Linkbox](https://rclone.org/linkbox) | [Linode Object Storage](https://rclone.org/s3/#linode) |
+  | [Mail.ru Cloud](https://rclone.org/mailru/) | [Memset Memstore](https://rclone.org/swift/) | [Mega](https://rclone.org/mega/) | [Memory](https://rclone.org/memory/) | [Microsoft Azure Blob Storage](https://rclone.org/azureblob/) |
+  | [Microsoft Azure Files Storage](https://rclone.org/azurefiles/) | [Microsoft OneDrive](https://rclone.org/onedrive/) | [Minio](https://rclone.org/s3/#minio) | [Nextcloud](https://rclone.org/webdav/#nextcloud) | [OVH](https://rclone.org/swift/) |
+  | [Blomp Cloud Storage](https://rclone.org/swift/) | [OpenDrive](https://rclone.org/opendrive/) | [OpenStack Swift](https://rclone.org/swift/) | [Oracle Cloud Storage](https://rclone.org/swift/) | [Oracle Object Storage](https://rclone.org/oracleobjectstorage/) |
+  | [ownCloud](https://rclone.org/webdav/#owncloud) | [pCloud](https://rclone.org/pcloud/) | [Petabox](https://rclone.org/s3/#petabox) | [PikPak](https://rclone.org/pikpak/) | [premiumize.me](https://rclone.org/premiumizeme/) |
+  | [put.io](https://rclone.org/putio/) | [Proton Drive](https://rclone.org/protondrive/) | [QingStor](https://rclone.org/qingstor/) | [Qiniu Cloud Object Storage (Kodo)](https://rclone.org/s3/#qiniu) | [Quatrix](https://rclone.org/quatrix/) |
+  | [Rackspace Cloud Files](https://rclone.org/swift/) | [RackCorp Object Storage](https://rclone.org/s3/#RackCorp) | [Scaleway](https://rclone.org/s3/#scaleway) | [Seafile](https://rclone.org/seafile/) | [SeaweedFS](https://rclone.org/s3/#seaweedfs) |
+  | [SFTP](https://rclone.org/sftp/) | [SMB / CIFS](https://rclone.org/smb/) | [StackPath](https://rclone.org/s3/#stackpath) | [Storj](https://rclone.org/storj/) | [SugarSync](https://rclone.org/sugarsync/) |
+  | [Synology C2 Object Storage](https://rclone.org/s3/#synology-c2) | [Tencent Cloud Object Storage (COS)](https://rclone.org/s3/#tencent-cos) | [Wasabi](https://rclone.org/s3/#wasabi) | [WebDAV](https://rclone.org/webdav/) | [Yandex Disk](https://rclone.org/yandex/) |
+  | | [Zoho WorkDrive](https://rclone.org/zoho/) | | [The local filesystem](https://rclone.org/local/) | |
 
-- 1Fichier
-- Akamai Netstorage
-- Alibaba Cloud (Aliyun) Object Storage System (OSS)
-- Amazon Drive
-- Amazon S3
-- Backblaze B2
-- Box
-- Ceph
-- China Mobile Ecloud Elastic Object Storage (EOS)
-- Arvan Cloud Object Storage (AOS)
-- Citrix ShareFile
-- Cloudflare R2
-- DigitalOcean Spaces
-- Digi Storage
-- Dreamhost
-- Dropbox
-- Enterprise File Fabric
-- Fastmail Files
-- FTP
-- Google Cloud Storage
-- Google Drive
-- Google Photos
-- HDFS
-- Hetzner Storage Box
-- HiDrive
-- HTTP
-- Internet Archive
-- Jottacloud
-- IBM COS S3
-- IDrive e2
-- IONOS Cloud
-- Koofr
-- Leviia Object Storage
-- Liara Object Storage
-- Linkbox
-- Linode Object Storage
-- Mail.ru Cloud
-- Memset Memstore
-- Mega
-- Memory
-- Microsoft Azure Blob Storage
-- Microsoft Azure Files Storage
-- Microsoft OneDrive
-- Minio
-- Nextcloud
-- OVH
-- Blomp Cloud Storage
-- OpenDrive
-- OpenStack Swift
-- Oracle Cloud Storage Swift
-- Oracle Object Storage
-- ownCloud
-- pCloud
-- Petabox
-- PikPak
-- premiumize.me
-- put.io
-- Proton Drive
-- QingStor
-- Qiniu Cloud Object Storage (Kodo)
-- Quatrix by Maytech
-- Rackspace Cloud Files
-- rsync.net
-- Scaleway
-- Seafile
-- Seagate Lyve Cloud
-- SeaweedFS
-- SFTP
-- Sia
-- SMB / CIFS
-- StackPath
-- Storj
-- Synology
-- SugarSync
-- Tencent Cloud Object Storage (COS)
-- Uptobox
-- Wasabi
-- WebDAV
-- Yandex Disk
-- Zoho WorkDrive
-- The local filesystem
-
+Please see [the full list of all storage providers and their features](https://rclone.org/overview/)
 
 ### Virtual
 
-These backends adapt or modify other storage providers:
+These backends adapt or modify other storage providers
 
-- Alias: Rename existing remotes
-- Cache: Cache remotes (DEPRECATED)
-- Chunker: Split large files
-- Combine: Combine multiple remotes into a directory tree
-- Compress: Compress files
-- Crypt: Encrypt files
-- Hasher: Hash files
-- Union: Join multiple remotes to work together
+  * [Alias](https://rclone.org/alias/) : rename existing remotes
+  * [Cache](https://rclone.org/cache/) : cache remotes (DEPRECATED)
+  * [Chunker](https://rclone.org/chunker/) : split large files
+  * [Combine](https://rclone.org/combine/) : combine multiple remotes into a directory tree
+  * [Compress](https://rclone.org/compress/) : compress files
+  * [Crypt](https://rclone.org/crypt/) : encrypt files
+  * [Hasher](https://rclone.org/hasher/) : hash files
+  * [Union](https://rclone.org/union/) : join multiple remotes to work together
 
 
 ## Links
 
-  *  [Home page](https://rclone.org/)
-  *  [GitHub project page for source and bug tracker](https://github.com/rclone/rclone)
-  *  [Rclone Forum](https://forum.rclone.org)
+  * [Home page](https://rclone.org/)
+  * [GitHub project page for source and bug tracker](https://github.com/rclone/rclone)
+  * [Rclone Forum](https://forum.rclone.org)
   * [Downloads](https://rclone.org/downloads/)
 
 ## Installation
@@ -241,11 +178,15 @@ signatures on the release.
 
 To install rclone on Linux/macOS/BSD systems, run:
 
+```bash
     sudo -v ; curl https://rclone.org/install.sh | sudo bash
+```
 
 For beta installation, run:
 
+```bash
     sudo -v ; curl https://rclone.org/install.sh | sudo bash -s beta
+```
 
 Note that this script checks the version of rclone installed first and
 won't re-download if not needed.
@@ -256,31 +197,41 @@ won't re-download if not needed.
 
 Fetch and unpack
 
+```bash
     curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
     unzip rclone-current-linux-amd64.zip
     cd rclone-*-linux-amd64
+```
 
 Copy binary file
 
+```bash
     sudo cp rclone /usr/bin/
     sudo chown root:root /usr/bin/rclone
     sudo chmod 755 /usr/bin/rclone
+```
 
 Install manpage
 
+```bash
     sudo mkdir -p /usr/local/share/man/man1
     sudo cp rclone.1 /usr/local/share/man/man1/
     sudo mandb
+```
 
 Run `rclone config` to setup. See [rclone config docs](https://rclone.org/docs/) for more details.
 
+```bash
     rclone config
+```
 
 ## macOS
 
 ### Installation with brew {#macos-brew}
 
+```bash
     brew install rclone
+```
 
 NOTE: This version of rclone will not support `mount` any more (see
 [#5373](https://github.com/rclone/rclone/issues/5373)). If mounting is wanted
@@ -296,7 +247,9 @@ developers so it may be out of date. Its current version is as below.
 
 On macOS, rclone can also be installed via [MacPorts](https://www.macports.org):
 
+```bash
     sudo port install rclone
+```
 
 Note that this is a third party installer not controlled by the rclone
 developers so it may be out of date. Its current version is as below.
@@ -312,26 +265,36 @@ notarized it is enough to download with `curl`.
 
 Download the latest version of rclone.
 
+```bash
     cd && curl -O https://downloads.rclone.org/rclone-current-osx-amd64.zip
+```
 
 Unzip the download and cd to the extracted folder.
 
+```bash
     unzip -a rclone-current-osx-amd64.zip && cd rclone-*-osx-amd64
+```
 
 Move rclone to your $PATH. You will be prompted for your password.
 
+```bash
     sudo mkdir -p /usr/local/bin
     sudo mv rclone /usr/local/bin/
+```
 
 (the `mkdir` command is safe to run, even if the directory already exists).
 
 Remove the leftover files.
 
+```bash
     cd .. && rm -rf rclone-*-osx-amd64 rclone-current-osx-amd64.zip
+```
 
 Run `rclone config` to setup. See [rclone config docs](https://rclone.org/docs/) for more details.
 
+```bash
     rclone config
+```
 
 ### Precompiled binary, using a web browser  {#macos-precompiled-web}
 
@@ -344,7 +307,9 @@ gatekeeper quarantine attribute. Starting from Catalina, when attempting to run
 
 The simplest fix is to run
 
+```bash
     xattr -d com.apple.quarantine rclone
+```
 
 ## Windows
 
@@ -530,7 +495,7 @@ $ sudo snap install rclone
 Due to the strict confinement of Snap, rclone snap cannot access real /home/$USER/.config/rclone directory, default config path is as below.
 
 - Default config directory:
-    - /home/$USER/snap/rclone/current/.config/rclone
+    - `/home/$USER/snap/rclone/current/.config/rclone`
 
 Note: Due to the strict confinement of Snap, `rclone mount` feature is `not` supported.
 
@@ -2935,11 +2900,15 @@ files, use:
 
 * bash:
 
+```bash
       rclone --include "*.txt" --separator $'\n' cat remote:path/to/dir
+```
 
 * powershell:
 
+```bash
       rclone --include "*.txt" --separator "`n" cat remote:path/to/dir
+```
 
 
 ```
@@ -3151,12 +3120,16 @@ Generates a bash shell autocompletion script for rclone.
 This writes to /etc/bash_completion.d/rclone by default so will
 probably need to be run with sudo or as root, e.g.
 
+```bash
     sudo rclone genautocomplete bash
+```
 
 Logout and login again to use the autocompletion scripts, or source
 them directly
 
+```bash
     . /etc/bash_completion
+```
 
 If you supply a command line argument the script will be written
 there.
