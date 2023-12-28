@@ -47,6 +47,22 @@ The `AppImage` Kasm workspace should be deployed with a volume mapping in `/shar
 
 AppImages on the host in `/u/kasm_user_share/AppImages` would be exposed in `/share/AppImages` in the workspace. If this mapping is used then the `appimage-launcher` utility will automatically discover and integrate AppImages located there.
 
+## Kasm workspace persistent profile
+
+The `AppImage` Kasm workspace should be deployed with a persistent profile. This preserves the home directory of the `kasm-user` user. For example, use the following persistent profile configured in the `AppImage` workspace:
+
+```json
+/u/kasm_profiles/{image_id}/{user_id}
+```
+
+Where `/u/kasm_profiles/` has been created on the Kasm server host.
+
+Using a persistent profile in a Kasm workspace preserves any changes the the Kasm user's home directory across sessions allowing for personalized customization and configuration.
+
+## Help documents
+
+Record Technologies Kasm workspaces include a help facility that integrates the `ranger` file manager, the `glow` markdown previewer, and the `Obsidian` notes application. Help documents are provided in an Obsidian vault and can be browsed either directly with Obsidian or via the `ranger` file manager. Selecting a help document in `ranger` and pressing `<Enter>` will open Obsidian with the selected document.
+
 ## For users
 
 ### ![](https://github.com/encharm/Font-Awesome-SVG-PNG/raw/master/black/png/48/question-circle.png) What is an AppImage?

@@ -22,6 +22,7 @@ The Kasm team publishes applications and desktop images for use inside the platf
 
 - [Registry](#registry)
 - [Features](#features)
+- [Help](#help)
 - [Deployment](#deployment)
   - [Manual](#manual)
 - [Execution](#execution)
@@ -85,6 +86,10 @@ The Wing workspaces include Visual Studio Code with the Wing extension; the Neov
 In most Record Technologies workspaces the [Kitty terminal emulator](https://sw.kovidgoyal.net/kitty) is installed along with the `JetBrains Mono` [Nerd Font](https://github.com/ryanoasis/nerd-fonts). Kitty is preconfigured and Kitty sessions are tailored for each use case.
 
 Where appropriate Record Technologies workspaces perform a `postinstall` which installs and configures many additional utilities in the Kasm user's home directory. When used in conjunction with Kasm persistent profiles this feature enables a rich persistent user runtime environment across workspace sessions.
+
+## Help
+
+Record Technologies Kasm workspaces include a help facility that integrates the `ranger` file manager, the `glow` markdown previewer, and the `Obsidian` notes application. Help documents are provided in an Obsidian vault and can be browsed either directly with Obsidian or via the `ranger` file manager. Selecting a help document in `ranger` and pressing `<Enter>` will open Obsidian with the selected document.
 
 ## Deployment
 
