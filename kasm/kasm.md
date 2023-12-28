@@ -20,6 +20,7 @@ categories:
   - [Install](#install)
   - [Port](#port)
 - [Build](#build)
+- [Deployment](#deployment)
 - [Cron periodic cleanup and certificate renewal](cron/README.md)
 - [References](#references)
 
@@ -85,6 +86,27 @@ After building a custom image, as an administrator in Kasm Workspaces, add the c
 - **Docker Run Config Override**: `{ "hostname": "kasm" }`
 
 After adding a Workspace, check `Workspaces -> Registry -> Installed Workspaces` to verify the Workspace is installed. The first time this Workspace session runs the [Lazyman Neovim Configuration Manager](https://github.com/doctorfree/nvim-lazyman) is installed and configured.
+
+## Deployment
+
+### Kasm volume mapping
+
+Kasm workspaces can be deployed with a volume mapping on the workspace which maps a folder on the host to a folder in the workspace. An administrator can place files in the mapped folder on the host and these will become available in the workspace. For example, with the following volume mapping configured in a Kasm workspace:
+
+```json
+{
+  "/u/kasm_user_share": {
+   "bind":"/share",
+   "mode":"rw",
+   "uid": 1000,
+   "gid": 1000,
+   "required": true,
+   "skip_check": false
+  }
+}
+```
+
+Files on the host in `/u/kasm_user_share/` would be exposed in `/share/` in the workspace. Further, since the mapped folder is both readable and writeable (`"mode": "rw"`), the `kasm-user` workspace user can copy files in `/share/` as well as write to files in `/share/`. Volume mappings can ease the transfer of files to and from the Kasm workspace.
 
 ## References
 

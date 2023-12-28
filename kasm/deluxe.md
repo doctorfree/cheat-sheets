@@ -20,6 +20,12 @@ The `Deluxe Desktop` Kasm workspace is designed to integrate many of the feature
 * [Spiderfoot](https://github.com/smicallef/spiderfoot): A reconnaissance tool that automatically queries public data sources to gather intelligence
 * [Wing cloud programming language](https://www.winglang.io): Wing programming language, examples, and editors
 
+## Help documents
+
+Record Technologies Kasm workspaces include a help facility that integrates the `ranger` file manager, the `glow` markdown previewer, and the `Obsidian` notes application. Help documents are provided in an Obsidian vault and can be browsed either directly with Obsidian or via the `ranger` file manager. Selecting a help document in `ranger` and pressing `<Enter>` will open Obsidian with the selected document.
+
+Help pages for `rclone`, `spiderfoot`, `zsh`, `neovim`, and many others may serve as a guide to getting started with the Deluxe Desktop workspace.
+
 ## Kasm workspace persistent profile
 
 The `Deluxe Desktop` Kasm workspace should be deployed with a persistent profile. This preserves the home directory of the `kasm-user` user. For example, use the following persistent profile configured in the `Deluxe Desktop` workspace:
@@ -32,8 +38,21 @@ Where `/u/kasm_profiles/` has been created on the Kasm server host.
 
 Using a persistent profile in a Kasm workspace preserves any changes the the Kasm user's home directory across sessions allowing for personalized customization and configuration.
 
-## Help documents
+### Kasm volume mapping
 
-Record Technologies Kasm workspaces include a help facility that integrates the `ranger` file manager, the `glow` markdown previewer, and the `Obsidian` notes application. Help documents are provided in an Obsidian vault and can be browsed either directly with Obsidian or via the `ranger` file manager. Selecting a help document in `ranger` and pressing `<Enter>` will open Obsidian with the selected document.
+Kasm workspaces can be deployed with a volume mapping on the workspace which maps a folder on the host to a folder in the workspace. An administrator can place files in the mapped folder on the host and these will become available in the workspace. For example, with the following volume mapping configured in a Kasm workspace:
 
-Help pages for `rclone`, `spiderfoot`, `zsh`, `neovim`, and many others may serve as a guide to getting started with the Deluxe Desktop workspace.
+```json
+{
+  "/u/kasm_user_share": {
+   "bind":"/share",
+   "mode":"rw",
+   "uid": 1000,
+   "gid": 1000,
+   "required": true,
+   "skip_check": false
+  }
+}
+```
+
+Files on the host in `/u/kasm_user_share/` would be exposed in `/share/` in the workspace. Further, since the mapped folder is both readable and writeable (`"mode": "rw"`), the `kasm-user` workspace user can copy files in `/share/` as well as write to files in `/share/`. Volume mappings can ease the transfer of files to and from the Kasm workspace.

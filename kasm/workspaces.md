@@ -101,13 +101,37 @@ Once you have the Workspace Registry Link for Record Technologies, in Kasm as an
 
 After adding a 3rd party workspace registry to Kasm, clicking on `Workspaces` -> `Registry` should now show the new registry under `Available Workspaces`. Clicking on `Record Technologies` will filter the available workspaces and display only those workspaces available from Record Technologies.
 
-Click on any of the Record Technologies workspaces and then click `Install` to install that workspace. Once installed go to `Workspaces` -> `Workspaces` and click the right arrow button on the right hand side of the newly installed workspace then click the pencil icon to edit the workspace. Adjust any of the settings you like but most importantly scroll down to the `Persistent Profile Path` and add a path to save changes users make to their workspace. I use the following setting for a persistent profile:
+Click on any of the Record Technologies workspaces and then click `Install` to install that workspace. Once installed go to `Workspaces` -> `Workspaces` and click the right arrow button on the right hand side of the newly installed workspace then click the pencil icon to edit the workspace. Adjust any of the settings you like but most importantly scroll down to the `Persistent Profile Path` and add a path to save changes users make to their workspace.
+
+### Kasm persistent profiles
+
+Persistent profiles can be created for each Kasm workspace in order to preserve changes to the `kasm-user` home directory over sessions. A persistent profile setting might look like:
 
 ```
 /u/kasm_profiles/{image_id}/{user_id}
 ```
 
 Where the `/u/kasm_profiles/` folder has been created on the Kasm host. Note that this folder can grow quite large depending on how many workspaces are configured to use it and how many users are active. I place this folder along with any volume mappings and the Docker library folders on a large second drive using XFS.
+
+### Kasm volume mapping
+
+Kasm workspaces can be deployed with a volume mapping on the workspace which maps a folder on the host to a folder in the workspace. An administrator can place files in the mapped folder on the host and these will become available in the workspace. For example, with the following volume mapping configured in a Kasm workspace:
+
+```json
+{
+  "/u/kasm_user_share": {
+   "bind":"/share",
+   "mode":"rw",
+   "uid": 1000,
+   "gid": 1000,
+   "required": true,
+   "skip_check": false
+  }
+}
+```
+
+Files on the host in `/u/kasm_user_share/` would be exposed in `/share/` in the workspace. Further, since the mapped folder is both readable and writeable (`"mode": "rw"`), the `kasm-user` workspace user can copy files in `/share/` as well as write to files in `/share/`. Volume mappings can ease the transfer of files to and from the Kasm workspace.
+
 
 ### Manual
 
