@@ -24,6 +24,7 @@ Index of security category
 - [Reverse shell](reverse_shell.md)
 - [Security](security.md)
 - [Shodan](shodan.md)
+- [SpiderFoot](spiderfoot.md)
 - [Sqlmap](sqlmap.md)
 - [Tcpdump](tcpdump.md)
 - [Wireshark](wireshark.md)
