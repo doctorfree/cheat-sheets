@@ -4,6 +4,7 @@ Index of projects category
 
 - [Asciiville](Asciiville.md)
 - [DriveCommandLine](DriveCommandLine.md)
+- [Lazyman Neovim Configuration Manager](Lazyman.md)
 - [MagicMirror](MagicMirror.md)
 - [MirrorCommand](MirrorCommand.md)
 - [MusicPlayerPlus](MusicPlayerPlus.md)
