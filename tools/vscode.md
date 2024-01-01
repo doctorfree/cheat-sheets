@@ -14,6 +14,8 @@ Visual Studio code is the most popular editor for Web Development, and  learning
 [Full Keybindings List Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 [Full Keybindings List Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
+![Linux Keyboard Shortcuts](assets/keyboard-shortcuts-linux.pdf)
+
 >  **ctrlCmd –** Control on Windows, Command on Mac*
 
 ### VS Code Layout
