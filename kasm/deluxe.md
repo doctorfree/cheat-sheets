@@ -15,9 +15,9 @@ The `Deluxe Desktop` Kasm workspace is designed to integrate many of the feature
 * [Asciiville](https://github.com/doctorfree/Asciiville#readme): Ascii art, utilities, games, more
 * [Ascii Games](https://github.com/doctorfree/asciigames#readme): Collection of Ascii games
 * `CloudStorage`: Utilizes [rclone](https://github.com/rclone/rclone), a command-line program to manage files on cloud storage
+  * Includes management of [rsync.net](https://www.rsync.net) remote backups with [borg](https://www.borgbackup.org)
 * [Neovim](https://github.com/doctorfree/nvim-lazyman#readme): Neovim, neovide, lazyman, much more
-* [Open-Source Intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence): Reconnaissance tool, forensics, link analyzer, ...
-* [Spiderfoot](https://github.com/smicallef/spiderfoot): A reconnaissance tool that automatically queries public data sources to gather intelligence
+* [Open-Source Intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence): Reconnaissance tools, forensics, link analyzer, SpiderFoot, ...
 * [Wing cloud programming language](https://www.winglang.io): Wing programming language, examples, and editors
 
 ## Help documents
