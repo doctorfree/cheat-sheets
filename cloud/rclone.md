@@ -79,7 +79,7 @@ This is free software under the terms of the MIT license
 
 ## See also
 
-- [Backup to rsync.net](bu2rsync.md)
+- [Borg Backups and rsync.net management](borgsync.md)
 - [Rclone Manual](rclone-manual.md)
 - [What-is-cloud-computing](what-is-cloud-computing.md)
 - [Provider/civo](provider/civo.md)
