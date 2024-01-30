@@ -1,0 +1,6 @@
+SHELL=/bin/bash
+#
+# m h  dom mon dow   command
+#
+# Remote backup daily with borg
+0 2 * * * /bin/bash -lc '/usr/local/bin/borgsync'

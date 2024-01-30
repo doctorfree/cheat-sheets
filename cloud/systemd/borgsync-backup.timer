@@ -1,0 +1,10 @@
+[Unit]
+Description=daily borgsync backup timer
+
+[Timer]
+OnCalendar=daily
+RandomizedDelaySec=6h
+Persistent=true
+
+[Install]
+WantedBy=multi-user.target

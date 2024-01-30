@@ -1,0 +1,81 @@
+# Only need to set variables that differ from the Base config
+# =================== Customize Remote Here ========================
+# Remote username and hostname if different than Base configuration
+# REMOTE_USER="<your_remote_user>"
+# REMOTE_HOST="<your_remote_host>"
+#
+## PATHS - which paths are included
+#
+# Paths for home folders backup
+PATHS=(
+    '/home'
+)
+
+## EXCLUDES - which files/folders to exclude from the corresponding PATHS
+#
+# Home folders borg backup excludes
+EXCLUDES=(
+    '/home/*/.cache'
+    '/home/*/.docker/desktop/vms'
+    '/home/*/.local/share/Daedalus'
+    '/home/*/.local/share/nvim-*'
+    '/home/*/Music/*'
+    '/home/*/transfers/*'
+    '*/.Trash-*'
+    '*/[Cc]ache/*'
+    '*/.bitcoin/blocks/*'
+    '*.vmdk'
+    '*.pyc'
+)
+
+## INCLUDES - patterns to include
+#
+# borg backup pattern includes
+INCLUDES=()
+
+# Arguments to the borg commands
+#
+# Home folders backup borg create ...
+BORG_CREATE_ARGS=(
+    --info
+    --list
+    --filter AME
+    --compression lz4
+    --exclude-caches
+    --one-file-system
+    --exclude-if-present '.nobackup'
+)
+
+# Absolute path to the remote installed borg command
+# BORG_REMOTE_PATH="/usr/local/bin/borg1/borg1"
+
+# Storage path on remote, default: <hostname>/backups
+# BACK_HOST="$(hostname)"
+BACK_DIR="home"
+# Remote borg repository to use
+# If using a non-standard SSH port ssh:// have to be specified (per borg v1.0.9)
+# BORG_REPO="ssh://${REMOTE_USER}@${REMOTE_HOST}:<ssh_port>/${BACK_HOST}/${BACK_DIR}"
+BORG_REPO="${REMOTE_USER}@${REMOTE_HOST}:${BACK_HOST}/${BACK_DIR}"
+
+# How many backups to keep
+# KEEP_HOURLY=0
+KEEP_DAILY=8
+KEEP_WEEKLY=6
+KEEP_MONTHLY=4
+KEEP_YEARLY=2
+
+# borg prune ...
+# BORG_PRUNE_ARGS=(
+#     --info
+#     --list
+# )
+
+# borg check ...
+# BORG_CHECK_ARGS=(
+#     --info
+# )
+
+# borg init ...
+# BORG_INIT_ARGS=(
+#    --encryption=keyfile
+# )

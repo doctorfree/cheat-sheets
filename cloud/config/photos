@@ -1,0 +1,74 @@
+# =================== Customize Remote Here ========================
+# REQUIRED: Set values for REMOTE_USER, REMOTE_HOST
+#
+# Remote username and hostname
+# REMOTE_USER="<your_remote_user>"
+# REMOTE_HOST="<your_remote_host>"
+
+# Set and export BORG_PASSPHRASE in the environment
+# export BORG_PASSPHRASE="longandcomplexpassphrase"
+# ================ End Required Customization=======================
+
+## PATHS - which paths are included
+#
+PATHS=(
+    '/mac/pictures/Immich'
+)
+
+## EXCLUDES - which files/folders to exclude from the corresponding PATHS
+#
+# Logs borg backup excludes
+EXCLUDES=()
+
+## INCLUDES - patterns to include
+#
+# borg backup pattern includes
+INCLUDES=()
+
+# Arguments to the borg commands
+#
+# Logs backup borg create ...
+BORG_CREATE_ARGS=(
+    --list
+    --filter AME
+    --compression lz4
+    --one-file-system
+    --exclude-if-present '.nobackup'
+)
+
+# Absolute path to the locally installed borg command
+# BORG="/usr/local/bin/borg"
+
+# Absolute path to the remote installed borg command
+# BORG_REMOTE_PATH="/usr/local/bin/borg1/borg1"
+
+# Storage path on remote, default: <hostname>/backups
+# BACK_HOST="$(hostname)"
+BACK_DIR="photos"
+# Remote borg repository to use
+# If using a non-standard SSH port ssh:// have to be specified (per borg v1.0.9)
+# BORG_REPO="ssh://${REMOTE_USER}@${REMOTE_HOST}:<ssh_port>/${BACK_HOST}/${BACK_DIR}"
+BORG_REPO="${REMOTE_USER}@${REMOTE_HOST}:${BACK_HOST}/${BACK_DIR}"
+
+# How many backups to keep
+# KEEP_HOURLY=0
+# KEEP_DAILY=7
+# KEEP_WEEKLY=4
+# KEEP_MONTHLY=3
+# KEEP_YEARLY=2
+
+# borg prune ...
+# BORG_PRUNE_ARGS=(
+#     --info
+#     --list
+# )
+
+# borg check ...
+# BORG_CHECK_ARGS=(
+#     --info
+# )
+
+# borg init ...
+# BORG_INIT_ARGS=(
+#    --encryption=keyfile
+# )

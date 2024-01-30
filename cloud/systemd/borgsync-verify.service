@@ -1,0 +1,10 @@
+[Unit]
+Description=borgsync backup verification
+After=network.target borgsync-backup.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/borgsync -b check
+Nice=10
+User=root
+Group=root

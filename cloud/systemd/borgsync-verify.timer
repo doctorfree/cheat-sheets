@@ -1,0 +1,10 @@
+[Unit]
+Description=monthly borgsync backup verification timer
+
+[Timer]
+OnCalendar=monthly
+RandomizedDelaySec=14d
+Persistent=true
+
+[Install]
+WantedBy=multi-user.target

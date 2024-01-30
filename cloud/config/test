@@ -1,0 +1,72 @@
+# Test BorgBase repository, limit 10GB
+# This config demonstrates how to use BorgBase rather than rsync.net
+# =================== Customize Remote Here ========================
+# REQUIRED: Set values for REMOTE_USER, REMOTE_HOST
+#
+# Remote username and hostname
+REMOTE_USER="<your_borgbase_remote_user>"
+REMOTE_HOST="<your_borgbase_remote_host>"
+
+# Storage path on remote, default: <hostname>/backups
+BACK_HOST="."
+BACK_DIR="repo"
+# Remote borg repository to use
+BORG_REPO="ssh://${REMOTE_USER}@${REMOTE_HOST}/${BACK_HOST}/${BACK_DIR}"
+
+# Set and export BORG_PASSPHRASE in the environment
+# export BORG_PASSPHRASE="longandcomplexpassphrase"
+# ================ End Required Customization=======================
+
+## PATHS - which paths are included
+#
+PATHS=( '/home' )
+
+## EXCLUDES - which files/folders to exclude from the corresponding PATHS
+#
+# borg backup excludes
+EXCLUDES=( '/home/*' )
+
+## INCLUDES - patterns to include
+#
+# borg backup pattern includes
+INCLUDES=( '/home/*/install' )
+
+# Arguments to the borg commands
+#
+# Logs backup borg create ...
+BORG_CREATE_ARGS=(
+    --list
+    --filter AME
+    --compression lz4
+    --one-file-system
+    --exclude-if-present '.nobackup'
+)
+
+# borg init ...
+BORG_INIT_ARGS=(
+   --encryption=repokey-blake2
+)
+
+# Absolute path to the locally installed borg command
+# BORG="/usr/local/bin/borg"
+
+# Absolute path to the remote installed borg command
+# BORG_REMOTE_PATH="/usr/local/bin/borg1/borg1"
+
+# How many backups to keep
+# KEEP_HOURLY=0
+# KEEP_DAILY=7
+# KEEP_WEEKLY=4
+# KEEP_MONTHLY=3
+# KEEP_YEARLY=2
+
+# borg prune ...
+# BORG_PRUNE_ARGS=(
+#     --info
+#     --list
+# )
+
+# borg check ...
+# BORG_CHECK_ARGS=(
+#     --info
+# )
