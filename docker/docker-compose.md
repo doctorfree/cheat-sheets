@@ -1,5 +1,8 @@
 # Docker-Compose
-...
+
+## Docker compose cheat sheet
+
+![docker compose cheat sheet](assets/docker-compose-cheat-sheet.pdf)
 
 ## Networking
 By default Docker-Compose will create a new network for the given compose file. You can change the behavior by defining custom networks in your compose file.
