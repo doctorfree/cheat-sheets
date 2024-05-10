@@ -14,7 +14,7 @@ tags: [excalidraw]
 # Text Elements
 [[README.md]] ^KmdLTmAl
 
-[[apps/apps_index.md]] ^oZ3wOv3C
+[[infra/infra_index.md]] ^oZ3wOv3C
 
 [[audio/audio_index.md]] ^i9guVJ8P
 
@@ -82,7 +82,7 @@ tags: [excalidraw]
 
 [[_config.yml]] ^JhLlA72Q
 
-[[folder:apps]] ^06JzfyWs
+[[folder:infra]] ^06JzfyWs
 
 [[folder:audio]] ^ivJrxYmK
 
@@ -5473,11 +5473,11 @@ tags: [excalidraw]
 					"id": "Vrzz2M9N"
 				}
 			],
-			"link": "[[apps/apps_index.md]]",
+			"link": "[[infra/infra_index.md]]",
 			"locked": false
 		},
 		{
-			"text": "apps_index",
+			"text": "infra_index",
 			"fontSize": 30,
 			"fontFamily": 3,
 			"textAlign": "center",
@@ -5510,8 +5510,8 @@ tags: [excalidraw]
 			"link": null,
 			"locked": false,
 			"containerId": "oZ3wOv3C",
-			"originalText": "apps_index",
-			"rawText": "apps_index"
+			"originalText": "infra_index",
+			"rawText": "infra_index"
 		},
 		{
 			"id": "0T8xDniW",
@@ -13757,11 +13757,11 @@ tags: [excalidraw]
 					"id": "GGYUImTK"
 				}
 			],
-			"link": "[[folder:apps]]",
+			"link": "[[folder:infra]]",
 			"locked": false
 		},
 		{
-			"text": "📂 apps",
+			"text": "📂 infra",
 			"fontSize": 15,
 			"fontFamily": 3,
 			"textAlign": "center",
@@ -13794,8 +13794,8 @@ tags: [excalidraw]
 			"link": null,
 			"locked": false,
 			"containerId": "06JzfyWs",
-			"originalText": "📂 apps",
-			"rawText": "📂 apps"
+			"originalText": "📂 infra",
+			"rawText": "📂 infra"
 		},
 		{
 			"id": "E33246FU",

@@ -6,3 +6,4 @@ Index of databases category
 - [Mysql](mysql.md)
 - [Postgres](postgres.md)
 - [Sqlite](sqlite.md)
+- [SQL](sql.md)

@@ -2,6 +2,7 @@
 
 Index of linux category
 
+- [Arp](arp.md)
 - [Awk](awk.md)
 - [Chmod](chmod.md)
 - [Cron](cron.md)
@@ -13,11 +14,13 @@ Index of linux category
   - [Ubuntu](distros/ubuntu.md)
 - [Du](du.md)
 - [Environment variables](environment-variables.md)
+- [Ethtool](ethtool.md)
 - [Flatpak](flatpak.md)
 - [Grep](grep.md)
 - [Iptables](iptables.md)
 - [Linuxbasics](linuxbasics.md)
 - [Linux](linux.md)
+- [Lspci](lspci.md)
 - [Mount](mount.md)
 - [Nfs](nfs.md)
 - [Package Manager](package-manager.md)

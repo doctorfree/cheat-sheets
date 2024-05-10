@@ -1,6 +1,6 @@
-# apps
+# infra
 
-Index of apps category
+Index of infrastructure category
 
 - [Argocd](argocd.md)
 - [Cert-manager](cert-manager.md)
@@ -23,3 +23,4 @@ Index of apps category
 - [Teleport](teleport.md)
 - [Traefik](traefik.md)
 - [Wireguard](wireguard.md)
+- [ZFS](zfs.md)

@@ -3,9 +3,10 @@
 Index of windows category
 
 - [Chocolatey](chocolatey.md)
-- [Environment-variables](environment-variables.md)
+- [Environment variables](environment-variables.md)
 - [Powershell](powershell.md)
-- [Powershell-remote](powershell-remote.md)
-- [Windows-dns-server](windows-dns-server.md)
-- [Windows-terminal](windows-terminal.md)
-- [Windows-updates](windows-updates.md)
+- [Powershell Remote](powershell-remote.md)
+- [Windows DNS Server](windows-dns-server.md)
+- [Windows Terminal](windows-terminal.md)
+- [Windows Updates](windows-updates.md)
+- [Windows Server](windows-server.md)
